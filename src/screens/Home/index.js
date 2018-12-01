@@ -6,9 +6,13 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import withWidth from '@material-ui/core/withWidth';
 import { ToastContainer } from 'react-toastify';
-import ErrorBoundary from 'components/ErrorBoundary';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import {
+  ErrorBoundary,
+  withStyles,
+  Footer,
+  Button,
+  withStylesProps,
+} from '@kudoo/components';
 import Header from './Header';
 import Gradient from './Gradient';
 import ProductBlock from './ProductBlock';
@@ -19,7 +23,6 @@ import PricingPeriod, { PricingPeriodType } from './PricingPeriod';
 import PricingBlock from './PricingBlock';
 import SupportForm from './SupportForm';
 import NewsLetter from './NewsLetter';
-import Footer from 'components/Footer';
 import JustinImage from 'images/justin.jpg';
 import JadeImage from 'images/jade.jpg';
 import TomImage from 'images/tom.png';
@@ -31,7 +34,6 @@ import approvalsImage from 'images/approvals.png';
 import invoicingImage from 'images/invoicing.png';
 import projectsImage from 'images/projects.png';
 import timesheetsImage from 'images/timesheets.png';
-import Button from 'components/Button';
 
 const screenshotMap = {
   dashboard: dashboardImage,
@@ -43,7 +45,7 @@ const screenshotMap = {
 };
 
 type Props = {
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class Home extends Component<Props> {

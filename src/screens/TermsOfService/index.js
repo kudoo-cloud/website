@@ -1,13 +1,15 @@
 import React from 'react';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import {
+  withStyles,
+  Footer,
+  TermsOfService,
+  withStylesProps,
+} from '@kudoo/components';
 import Header from '../Home/Header';
-import Footer from 'components/Footer';
-import TermsOfService from 'components/TermsOfService';
 import styles from './styles';
 
 type Props = {
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class TermsOfServicePage extends React.Component<Props, any> {

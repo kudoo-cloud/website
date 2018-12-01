@@ -2,12 +2,12 @@
 
 import '@babel/polyfill';
 import 'normalize.css';
-import 'webapp/src/css/kudoo-fonts.css';
+import '@kudoo/components/build/config/theme/css/kudoo-fonts.css';
 import 'whatwg-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import KudooThemeProvider, { theme } from 'src/config/theme';
+import { theme, KudooThemeProvider } from '@kudoo/components';
 import { jss, JssProvider } from 'react-jss';
 jss.options.insertionPoint = document.getElementById('jss-insertion-point');
 import Screens from './screens';

@@ -1,17 +1,19 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import withStyles from 'components/withStyles';
+import {
+  withStyles,
+  Button,
+  TextField,
+  withStylesProps,
+} from '@kudoo/components';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import Button from 'components/Button';
-import TextField from 'components/TextField';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
 import Gradient from './Gradient';
 import { toast } from 'react-toastify';
 import { NewsLetterStyles as styles } from './styles';
 
 type Props = {
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 type State = {

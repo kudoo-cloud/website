@@ -1,15 +1,17 @@
 import React from 'react';
-import withStyles from 'components/withStyles';
+import {
+  withStyles,
+  TextField,
+  Button,
+  withStylesProps,
+} from '@kudoo/components';
 import { Formik } from 'formik';
-import TextField from 'components/TextField';
-import Button from 'components/Button';
 import { toast } from 'react-toastify';
 import * as Yup from 'yup';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
 import { SupportFormStyles as styles } from './styles';
 
 type Props = {
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class SupportForm extends React.Component<Props, any> {

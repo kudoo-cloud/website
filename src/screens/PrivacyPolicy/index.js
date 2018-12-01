@@ -1,13 +1,11 @@
 import React from 'react';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import { withStyles, Footer, withStylesProps } from '@kudoo/components';
 import Header from '../Home/Header';
-import Footer from 'components/Footer';
 import PrivacyHTML from './privacy.md';
 import styles from './styles';
 
 type Props = {
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class PrivacyPolicy extends React.Component<Props, any> {

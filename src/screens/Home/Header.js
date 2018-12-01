@@ -5,17 +5,12 @@ import { compose } from 'recompose';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import scrollToElement from 'scroll-to-element';
-import withStyles from 'components/withStyles';
-import Button from 'components/Button';
-import {
-  type withStylesFlowType,
-  withStylesProps,
-} from 'webapp/src/config/types';
+import { withStyles, Button, withStylesProps } from '@kudoo/components';
 import { HeaderStyles as styles } from './styles';
 
 type Props = {
   showLinks: boolean,
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>
 };
 
 class Header extends React.Component<Props, any> {
@@ -80,7 +75,7 @@ class Header extends React.Component<Props, any> {
       <div className={classes.bigHeader}>
         <a className={classes.logoWrapper} href="https://kudoo.io/">
           <img
-            src={require('images/logo.png')}
+            src={require('@kudoo/components/build/assets/images/logo.png')}
             alt="Kudoo logo"
             className={classes.logo}
           />

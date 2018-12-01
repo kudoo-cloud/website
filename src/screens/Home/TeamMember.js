@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import { withStyles, withStylesProps } from '@kudoo/components';
 import { TeamMemberStyles as styles } from './styles';
 
 type Props = {
@@ -9,7 +8,7 @@ type Props = {
   name: string,
   title: string,
   description: string,
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class TeamMember extends React.Component<Props, any> {

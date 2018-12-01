@@ -4,11 +4,7 @@
     "module": "commonjs",
     "baseUrl": ".",
     "paths": {
-      "webapp/*": ["../../app/webapp/*"],
-      "src/*": ["../../app/webapp/src/*"],
-      "shared/*": ["../../shared/*"],
-      "components/*": ["../../shared/components/src/*"],
-      "images/*": ["../../shared/assets/images/*"]
+      "images/*": ["./node_modules/@kudoo/components/build/assets/images"]
     }
   },
   "exclude": ["node_modules"],

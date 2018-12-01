@@ -1,10 +1,9 @@
 import React from 'react';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import { withStyles, withStylesProps } from '@kudoo/components';
 import { GradientStyles as styles } from './styles';
 
 type Props = {
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class Gradient extends React.Component<Props, any> {
@@ -13,7 +12,7 @@ class Gradient extends React.Component<Props, any> {
   };
 
   render() {
-		const { classes, children, theme, ...rest } = this.props; //eslint-disable-line
+    const { classes, children, theme, ...rest } = this.props; //eslint-disable-line
     return (
       <div className={classes.component} {...rest}>
         {children}

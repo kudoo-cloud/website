@@ -1,14 +1,13 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import { withStyles, withStylesProps } from '@kudoo/components';
 import { ProductBlockStyles as styles } from './styles';
 
 type Props = {
   icon: any,
   title: any,
   description: any,
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class ProductBlock extends React.Component<Props, any> {

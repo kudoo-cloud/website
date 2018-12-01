@@ -1,15 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import withStyles from 'components/withStyles';
+import { withStyles, withStylesProps } from '@kudoo/components';
 import ButtonBase from '@material-ui/core/ButtonBase';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
 import Gradient from './Gradient';
 import { PricingPeriodStyles as styles } from './styles';
 
 type Props = {
   onChange: Function,
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 export const PricingPeriodType = {

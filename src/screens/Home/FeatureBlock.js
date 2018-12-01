@@ -1,7 +1,6 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import withStyles from 'components/withStyles';
-import { type withStylesFlowType, withStylesProps } from 'src/config/types';
+import { withStyles, withStylesProps } from '@kudoo/components';
 import Gradient from './Gradient';
 import { FeatureBlockStyles as styles } from './styles';
 
@@ -10,7 +9,7 @@ type Props = {
   title: any,
   description: any,
   iconPosition: string,
-  ...$Exact<withStylesFlowType>,
+  // ...$Exact<withStylesFlowType>,
 };
 
 class FeatureBlock extends React.Component<Props, any> {
