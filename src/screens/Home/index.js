@@ -1,6 +1,5 @@
 /* @flow */
 import React, { Component } from 'react';
-import axios from 'axios';
 import cx from 'classnames';
 import { compose } from 'recompose';
 import Grid from '@material-ui/core/Grid';
@@ -58,9 +57,6 @@ class Home extends Component<Props> {
     selectedPricingPeriod: 0,
     selectedFeatureBlock: 'dashboard',
     selectedCurrency: 'USD',
-    subscriptionPrice: [0, 500],
-    subscriptionRange: [100000],
-    convertedAmount: 0,
   };
 
   _handleFreeTrialButtonClick = () => {
@@ -70,17 +66,6 @@ class Home extends Component<Props> {
       });
     }
     window.location.href = 'https://app.kudoo.io/';
-  };
-
-  _gettargetCurrencyBaseAmount = async (source, target) => {
-    return await axios
-      .get(`https://api.exchangeratesapi.io/latest?base=${source}`)
-      .then(response => {
-        return response.data.rates[target];
-      })
-      .catch(() => {
-        return 0;
-      });
   };
 
   _renderBanner() {
@@ -310,36 +295,12 @@ class Home extends Component<Props> {
   }
 
   _onConvertCurrencyDDChange = async value => {
-    let {
-      subscriptionRange,
-      subscriptionPrice,
-      selectedCurrency,
-      convertedAmount,
-    } = this.state;
-    this._gettargetCurrencyBaseAmount(selectedCurrency, value).then(res => {
-      convertedAmount = res;
-      for (let i = 0; i < subscriptionRange.length; i++) {
-        subscriptionRange[i] = Math.round(subscriptionRange[i] * res);
-      }
-      for (let i = 0; i < subscriptionPrice.length; i++) {
-        subscriptionPrice[i] = Math.round(subscriptionPrice[i] * res);
-      }
-      this.setState({
-        convertedAmount,
-        subscriptionRange,
-        subscriptionPrice,
-        selectedCurrency: value,
-      });
-    });
+    this.setState({ selectedCurrency: value });
   };
 
   _renderPricing() {
     const { classes } = this.props;
-    const {
-      subscriptionPrice,
-      subscriptionRange,
-      selectedCurrency,
-    } = this.state;
+    const { selectedCurrency } = this.state;
     // const { selectedPricingPeriod } = this.state;
     // const isMonthly = selectedPricingPeriod === PricingPeriodType.MONTHLY;
     return (
@@ -356,12 +317,14 @@ class Home extends Component<Props> {
         <div className={classes.pricings}>
           <License
             {...this.props}
-            currency={selectedCurrency}
-            align={'center'}
-            lg={5}
-            subscriptionPrice={subscriptionPrice}
-            subscriptionRange={subscriptionRange}
-            isConvertCurrencyBtnVisible={true}
+            currency={selectedCurrency || 'USD'}
+            isVizierRepo={false}
+            isWebsite={true}
+            subscriptionPrice={[
+              Number(process.env.ONE_OF_FEE_FREE),
+              Number(process.env.ONE_OF_FEE_PAID),
+            ]}
+            subscriptionRange={Number(process.env.LICENSE_REVENUE)}
             onConvertCurrencyDDChange={this._onConvertCurrencyDDChange}
           />
         </div>
