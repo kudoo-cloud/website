@@ -24,9 +24,10 @@ class TeamMember extends React.Component<Props, any> {
     const { classes, avatar, name, title, description } = this.props;
     return (
       <div className={classes.component}>
-        <div className={classes.avatarWrapper}>
-          <img className={classes.avatar} src={avatar} alt="Team Member" />
-        </div>
+        <div
+          className={classes.avatarWrapper}
+          style={{ backgroundImage: `url(${avatar})` }}
+        />
         {name && <div className={classes.name}>{name}</div>}
         {title && <div className={classes.title}>{title}</div>}
         {description && (

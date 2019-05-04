@@ -407,6 +407,9 @@ export const TeamMemberStyles = (theme: Theme) => ({
     boxShadow: '0 0 15px 0 rgba(0,0,0,0.1)',
     marginBottom: 25,
     overflow: 'hidden',
+    backgroundPosition: 'top center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
   },
   avatar: {
     width: '100%',

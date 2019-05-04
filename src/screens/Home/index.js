@@ -25,8 +25,8 @@ import SupportForm from './SupportForm';
 import NewsLetter from './NewsLetter';
 import JustinImage from 'images/justin.jpg';
 import JadeImage from 'images/jade.jpg';
-import TomImage from 'images/tom.png';
 import SarjuImage from 'images/sarju.jpg';
+import SuhaniImage from 'images/suhani.jpg';
 import styles, { toastStyle } from './styles';
 import dashboardImage from 'images/dashboard.png';
 import attachmentsImage from 'images/attachments.png';
@@ -169,7 +169,7 @@ class Home extends Component<Props> {
                   }}
                   icon={<i className="icon icon-dashboard" />}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
-                  title={'Dashboard'}
+                  title={'Australian PBS'}
                   description={
                     'Beautiful dashboards give you an immediate overview of your businesses health.'
                   }
@@ -179,7 +179,7 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('timesheets');
                   }}
                   icon={<i className="icon icon-timesheets" />}
-                  title={'Timesheets'}
+                  title={'Inventory'}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
                   description={
                     'Simple, flexible timesheets that allow advanced functionality for your staff.'
@@ -190,7 +190,7 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('invoicing');
                   }}
                   icon={<i className="icon icon-invoicing" />}
-                  title={'Invoicing'}
+                  title={'Purchase orders'}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
                   description={
                     'Improve your cash flow by easily converting timesheets to invoices.'
@@ -212,7 +212,7 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('approvals');
                   }}
                   icon={<i className="icon icon-tick" />}
-                  title={'Approvals'}
+                  title={'Warehousing'}
                   description={
                     'Reduce invoicing errors by enabling intuitive timesheet approvals.'
                   }
@@ -222,7 +222,7 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('attachments');
                   }}
                   icon={<i className="icon icon-sales" />}
-                  title={'Attachments'}
+                  title={'Sales orders'}
                   description={
                     'Attachments can be added to timesheets and invoicing for supporting documentation.'
                   }
@@ -232,7 +232,7 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('projects');
                   }}
                   icon={<i className="icon icon-projects" />}
-                  title={'Projects'}
+                  title={'EDI'}
                   description={
                     'Projects allow you to perform advanced invoicing and billing rules.'
                   }
@@ -386,10 +386,10 @@ class Home extends Component<Props> {
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <TeamMember
-                avatar={TomImage}
-                name="Tomasz Sulima"
-                title="BACK-END ENGINEER"
-                description="Our Elixir wizard. Creating lightning fast distributed back-ends."
+                avatar={SuhaniImage}
+                name="Suhani"
+                title="FULL STACK ENGINEER"
+                description="An incredibly talented developer, producing state of the art code."
               />
             </Grid>
           </Grid>
