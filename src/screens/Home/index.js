@@ -12,6 +12,7 @@ import {
   Footer,
   Button,
   withStylesProps,
+  License,
 } from '@kudoo/components';
 import Header from './Header';
 import Gradient from './Gradient';
@@ -19,8 +20,7 @@ import ProductBlock from './ProductBlock';
 import FeatureBlock from './FeatureBlock';
 import Tablet from './Tablet';
 import TeamMember from './TeamMember';
-import PricingPeriod, { PricingPeriodType } from './PricingPeriod';
-import PricingBlock from './PricingBlock';
+import PricingPeriod from './PricingPeriod';
 import SupportForm from './SupportForm';
 import NewsLetter from './NewsLetter';
 import JustinImage from 'images/justin.jpg';
@@ -56,6 +56,7 @@ class Home extends Component<Props> {
   state = {
     selectedPricingPeriod: 0,
     selectedFeatureBlock: 'dashboard',
+    selectedCurrency: 'USD',
   };
 
   _handleFreeTrialButtonClick = () => {
@@ -293,10 +294,15 @@ class Home extends Component<Props> {
     );
   }
 
+  _onConvertCurrencyDDChange = async value => {
+    this.setState({ selectedCurrency: value });
+  };
+
   _renderPricing() {
     const { classes } = this.props;
-    const { selectedPricingPeriod } = this.state;
-    const isMonthly = selectedPricingPeriod === PricingPeriodType.MONTHLY;
+    const { selectedCurrency } = this.state;
+    // const { selectedPricingPeriod } = this.state;
+    // const isMonthly = selectedPricingPeriod === PricingPeriodType.MONTHLY;
     return (
       <div className={classes.pricingWrapper} id="pricing">
         <h1 className={classes.sectionTitle}>Pricing</h1>
@@ -309,45 +315,18 @@ class Home extends Component<Props> {
           Sign up for our 30 days free trial
         </div>
         <div className={classes.pricings}>
-          <Grid container>
-            <Grid item xs={12} md={4} classes={{ item: classes.pricingItem }}>
-              <PricingBlock
-                title={`Individual or \n Open Source`}
-                price="$0"
-                user="1 User"
-                includedList={[
-                  'Free for one user and open source projects.',
-                  'Support via live chat and email.',
-                ]}
-              />
-            </Grid>
-            <Grid item xs={12} md={4} classes={{ item: classes.pricingItem }}>
-              <PricingBlock
-                title={`Startup`}
-                price={isMonthly ? '$7' : '$5'}
-                user="Up to 30 Users"
-                includedList={[
-                  `${isMonthly ? '$7' : '$5'} per user per month`,
-                  'Support via live chat, phone and email.',
-                  'Data migration included.',
-                  'Training included',
-                ]}
-              />
-            </Grid>
-            <Grid item xs={12} md={4} classes={{ item: classes.pricingItem }}>
-              <PricingBlock
-                title={`Enterprise`}
-                price={isMonthly ? '$10' : '$8'}
-                user="More than 30 Users"
-                includedList={[
-                  `${isMonthly ? '$10' : '$8'} per user per month`,
-                  'Support via live chat, phone and email.',
-                  'Data migration included.',
-                  'Training included',
-                ]}
-              />
-            </Grid>
-          </Grid>
+          <License
+            {...this.props}
+            currency={selectedCurrency || 'USD'}
+            isVizierRepo={false}
+            isWebsite={true}
+            subscriptionPrice={[
+              Number(process.env.ONE_OF_FEE_FREE),
+              Number(process.env.ONE_OF_FEE_PAID),
+            ]}
+            subscriptionRange={Number(process.env.LICENSE_REVENUE)}
+            onConvertCurrencyDDChange={this._onConvertCurrencyDDChange}
+          />
         </div>
       </div>
     );

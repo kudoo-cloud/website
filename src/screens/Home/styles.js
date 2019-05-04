@@ -115,10 +115,10 @@ export default (theme: Theme) => ({
     margin: [[30, 0]],
     textAlign: 'center',
   },
-  pricings: {
-    display: 'flex',
-    justifyContent: 'center',
-  },
+  // pricings: {
+  //   display: 'flex',
+  //   justifyContent: 'center',
+  // },
   pricingItem: {
     display: 'flex',
     justifyContent: 'center',
