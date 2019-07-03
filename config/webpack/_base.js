@@ -50,10 +50,6 @@ const webpackConfig = {
         from: path.resolve(aliasPaths.images, "./favicon.ico"),
         to: paths.project(config.get("dir_dist")) + "/images/favicon.ico"
       },
-      {
-        from: paths.project(config.get("path_project")) + "/netlify.toml",
-        to: paths.project(config.get("dir_dist")) + "/netlify.toml"
-      }
     ]),
     new Dotenv({
       path: "./.env",
