@@ -75,7 +75,7 @@ class Home extends Component<Props> {
         <div className={classes.banner}>
           <div className={classes.bannerTitle}>Disrupting Healthcare</div>
           <div className={classes.bannerSubtitle}>
-            Procurement, finance and patient mangement solutions
+            Procurement, finance and patient management solutions
           </div>
           <div>
             <Button
