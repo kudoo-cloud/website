@@ -65,7 +65,7 @@ class Home extends Component<Props> {
         'Page Name': 'Landing Page',
       });
     }
-    window.location.href = 'https://app.kudoo.io/';
+    window.location.href = 'https://docs.kudoo.io/';
   };
 
   _renderBanner() {
@@ -73,13 +73,13 @@ class Home extends Component<Props> {
     return (
       <Gradient>
         <div className={classes.banner}>
-          <div className={classes.bannerTitle}>Where big ideas grow</div>
+          <div className={classes.bannerTitle}>Disrupting Healthcare</div>
           <div className={classes.bannerSubtitle}>
-            Elegant timesheets, seamless invoicing.
+            Procurement, finance and patient mangement solutions
           </div>
           <div>
             <Button
-              title="Start your free trial"
+              title="Explore the documentation"
               classes={{ component: classes.freetrialButton }}
               applyBorderRadius
               width={250}
@@ -110,27 +110,27 @@ class Home extends Component<Props> {
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-retweet" />}
-                title={'24/7 Support'}
+                title={'Stock management'}
                 description={
-                  'Speak to a human anytime, either via a phone call or live chat.'
+                  'Inventory management, automated Procurement via AI'
                 }
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-desktop" />}
-                title={'Cross Platform'}
+                title={'Patient management'}
                 description={
-                  "It doesn't matter whether you're on Windows, Mac, iPhone or Android. Kudoo works everywhere."
+                  'Manage your patients, Invoice them and claim from Medicare'
                 }
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-comments-o" />}
-                title={'Request a Feature'}
+                title={'Financials'}
                 description={
-                  "Wish we had a feature? We'll develop custom features just for you."
+                  'Manage your banking, assets and Ledger. All fully integrated.'
                 }
               />
             </Grid>
@@ -170,7 +170,7 @@ class Home extends Component<Props> {
                   }}
                   icon={<i className="icon icon-dashboard" />}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
-                  title={'Australian PBS'}
+                  title={'Dashboards'}
                   description={
                     'Beautiful dashboards give you an immediate overview of your businesses health.'
                   }
@@ -183,7 +183,7 @@ class Home extends Component<Props> {
                   title={'Inventory'}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
                   description={
-                    'Simple, flexible timesheets that allow advanced functionality for your staff.'
+                    'Submit Purchase Orders, Receipt stock and manage warehouse levels.'
                   }
                 />
                 <FeatureBlock
@@ -191,11 +191,9 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('invoicing');
                   }}
                   icon={<i className="icon icon-invoicing" />}
-                  title={'Purchase orders'}
+                  title={'Financials'}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
-                  description={
-                    'Improve your cash flow by easily converting timesheets to invoices.'
-                  }
+                  description={'Invoice your customers, pay your SUppliers.'}
                 />
               </div>
             </Grid>
@@ -213,9 +211,9 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('approvals');
                   }}
                   icon={<i className="icon icon-tick" />}
-                  title={'Warehousing'}
+                  title={'Machine learning'}
                   description={
-                    'Reduce invoicing errors by enabling intuitive timesheet approvals.'
+                    'Automate your procurement, predict your budgets'
                   }
                 />
                 <FeatureBlock
@@ -223,9 +221,9 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('attachments');
                   }}
                   icon={<i className="icon icon-sales" />}
-                  title={'Sales orders'}
+                  title={'Australian features'}
                   description={
-                    'Attachments can be added to timesheets and invoicing for supporting documentation.'
+                    'PBS and Medicare integration to deliver a localised solution.'
                   }
                 />
                 <FeatureBlock
@@ -233,63 +231,15 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('projects');
                   }}
                   icon={<i className="icon icon-projects" />}
-                  title={'EDI'}
+                  title={'Request a feature'}
                   description={
-                    'Projects allow you to perform advanced invoicing and billing rules.'
+                    'We will build custom features specific to your organisation.'
                   }
                 />
               </div>
             </Grid>
           </Grid>
         </div>
-      </div>
-    );
-  }
-
-  _renderIntegration() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.integrationWrapper}>
-        <h1 className={classes.sectionTitle}>Integrations</h1>
-        <Grid container>
-          {/* <Grid item xs={12} sm={6} /> */}
-          <Grid item xs={12}>
-            <div className={classes.integrationTitle}>
-              Connect with your favourite apps
-            </div>
-            <div className={classes.integrations}>
-              <Grid container>
-                <Grid item xs={12} md={4}>
-                  <div className={classes.integrationIconWrapper}>
-                    <img
-                      src={require('images/slack_logo.png')}
-                      alt="Slack logo"
-                      className={classes.integrationIcon}
-                    />
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div className={classes.integrationIconWrapper}>
-                    <img
-                      src={require('images/microsoft_dynamics_logo.png')}
-                      alt="Microsoft D365 logo"
-                      className={classes.integrationIcon}
-                    />
-                  </div>
-                </Grid>
-                <Grid item xs={12} md={4}>
-                  <div className={classes.integrationIconWrapper}>
-                    <img
-                      src={require('images/zapier_logo.png')}
-                      alt="Zapier logo"
-                      className={classes.integrationIcon}
-                    />
-                  </div>
-                </Grid>
-              </Grid>
-            </div>
-          </Grid>
-        </Grid>
       </div>
     );
   }
@@ -311,9 +261,6 @@ class Home extends Component<Props> {
             this.setState({ selectedPricingPeriod: index });
           }}
         />
-        <div className={classes.thrityDayTrial}>
-          Sign up for our 30 days free trial
-        </div>
         <div className={classes.pricings}>
           <License
             {...this.props}
@@ -434,8 +381,7 @@ class Home extends Component<Props> {
           {this._renderProduct()}
           <NewsLetter />
           {this._renderFeatures()}
-          {this._renderIntegration()}
-          {this._renderPricing()}
+          {/* {this._renderPricing()} */}
           {this._renderTeam()}
           {this._renderSupport()}
           <Footer />
