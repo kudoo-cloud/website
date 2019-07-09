@@ -37,20 +37,17 @@ class NewsLetter extends React.Component<Props, State> {
 
   _submitForm = async (values, actions) => {
     try {
-      await fetch(
-        'https://hooks.slack.com/services/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',
-        {
-          method: 'POST',
-          body: JSON.stringify({
-            text: 'Subscription',
-            attachments: [
-              {
-                title: `${values.email}`,
-              },
-            ],
-          }),
-        }
-      );
+      await fetch(process.env.SLACK_URL, {
+        method: 'POST',
+        body: JSON.stringify({
+          text: 'Subscription',
+          attachments: [
+            {
+              title: `${values.email}`,
+            },
+          ],
+        }),
+      });
       this._form.resetForm({});
       actions.setSubmitting(false);
       toast.success('Subscribed Successfully');

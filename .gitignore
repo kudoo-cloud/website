@@ -12,6 +12,7 @@ coverage/
 .module-cache
 *.gem
 *.env
+.env.development
 docs/.bundle
 docs/code
 docs/_site
