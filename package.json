@@ -19,7 +19,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "@babel/runtime": "7.0.0-beta.46",
-    "@kudoo/components": "^2.1.17",
+    "@kudoo/components": "^2.1.19",
     "@lingui/react": "^2.4.2",
     "@material-ui/core": "3.1.2",
     "autoprefixer": "^9.5.1",
