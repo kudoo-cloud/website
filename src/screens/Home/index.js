@@ -250,7 +250,6 @@ class Home extends Component<Props> {
 
   _renderPricing() {
     const { classes } = this.props;
-    const { selectedCurrency } = this.state;
     // const { selectedPricingPeriod } = this.state;
     // const isMonthly = selectedPricingPeriod === PricingPeriodType.MONTHLY;
     return (
@@ -263,16 +262,20 @@ class Home extends Component<Props> {
         />
         <div className={classes.pricings}>
           <License
-            {...this.props}
-            currency={selectedCurrency || 'USD'}
-            isVizierRepo={false}
-            isWebsite={true}
-            subscriptionPrice={[
-              Number(process.env.ONE_OF_FEE_FREE),
-              Number(process.env.ONE_OF_FEE_PAID),
+            tiersPricing={[
+              {
+                pricing: 0,
+                currency: 'AUD',
+              },
+              {
+                pricing: 9.99,
+                currency: 'AUD',
+              },
+              {
+                pricing: 99,
+                currency: 'AUD',
+              },
             ]}
-            subscriptionRange={Number(process.env.LICENSE_REVENUE)}
-            onConvertCurrencyDDChange={this._onConvertCurrencyDDChange}
           />
         </div>
       </div>
