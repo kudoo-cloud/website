@@ -20,7 +20,6 @@ import ProductBlock from './ProductBlock';
 import FeatureBlock from './FeatureBlock';
 import Tablet from './Tablet';
 import TeamMember from './TeamMember';
-import PricingPeriod from './PricingPeriod';
 import SupportForm from './SupportForm';
 import NewsLetter from './NewsLetter';
 import JustinImage from 'images/justin.jpg';
@@ -255,11 +254,6 @@ class Home extends Component<Props> {
     return (
       <div className={classes.pricingWrapper} id="pricing">
         <h1 className={classes.sectionTitle}>Pricing</h1>
-        <PricingPeriod
-          onChange={index => {
-            this.setState({ selectedPricingPeriod: index });
-          }}
-        />
         <div className={classes.pricings}>
           <License
             tiersPricing={[
@@ -384,7 +378,7 @@ class Home extends Component<Props> {
           {this._renderProduct()}
           <NewsLetter />
           {this._renderFeatures()}
-          {/* {this._renderPricing()} */}
+          {this._renderPricing()}
           {this._renderTeam()}
           {this._renderSupport()}
           <Footer />
