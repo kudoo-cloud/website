@@ -21,24 +21,21 @@ class SupportForm extends React.Component<Props, any> {
 
   _sendMessage = async (values, actions) => {
     try {
-      await fetch(
-        'https://hooks.slack.com/services/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',
-        {
-          method: 'POST',
-          body: JSON.stringify({
-            text: 'Contact Message',
-            attachments: [
-              {
-                author_name: `Name: ${values.fullName}\n Company name: ${
-                  values.companyName
-                }`,
-                title: `${values.email}\n${values.phoneNumber}`,
-                text: values.message,
-              },
-            ],
-          }),
-        }
-      );
+      await fetch(process.env.SLACK_URL, {
+        method: 'POST',
+        body: JSON.stringify({
+          text: 'Contact Message',
+          attachments: [
+            {
+              author_name: `Name: ${values.fullName}\n Company name: ${
+                values.companyName
+              }`,
+              title: `${values.email}\n${values.phoneNumber}`,
+              text: values.message,
+            },
+          ],
+        }),
+      });
       this._form.resetForm({});
       actions.setSubmitting(false);
       toast.success('Message Sent');

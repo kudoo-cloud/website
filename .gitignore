@@ -6,11 +6,13 @@ node_modules_bak
 .grunt
 _SpecRunner.html
 __benchmarks__
+.scannerwork
 build/
 coverage/
 .module-cache
 *.gem
 *.env
+.env.development
 docs/.bundle
 docs/code
 docs/_site

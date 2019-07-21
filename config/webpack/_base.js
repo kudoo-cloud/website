@@ -1,11 +1,9 @@
 import webpack from "webpack";
-import HtmlWebpackPlugin from "html-webpack-plugin";
 import config from "../../config";
 import ModernizrWebpackPlugin from "modernizr-webpack-plugin";
 import WebpackPwaManifest from "webpack-pwa-manifest";
 import ExtractTextPlugin from "extract-text-webpack-plugin";
 import path from "path";
-import glob from "glob";
 let CopyWebpackPlugin = require("copy-webpack-plugin");
 let Dotenv = require("dotenv-webpack");
 const paths = config.get("utils_paths");
@@ -50,10 +48,6 @@ const webpackConfig = {
         from: path.resolve(aliasPaths.images, "./favicon.ico"),
         to: paths.project(config.get("dir_dist")) + "/images/favicon.ico"
       },
-      {
-        from: paths.project(config.get("path_project")) + "/netlify.toml",
-        to: paths.project(config.get("dir_dist")) + "/netlify.toml"
-      }
     ]),
     new Dotenv({
       path: "./.env",
@@ -70,7 +64,7 @@ const webpackConfig = {
       jQuery: "jquery"
     }),
     new WebpackPwaManifest({
-      name: "Kudoo | Where big ideas grow",
+      name: "Kudoo | Disrupting Healthcare",
       short_name: "Kudoo",
       description:
         "Kudoo Cloud is an open source ERP system built to democratize enterprise business systems and bring them to everybody.",

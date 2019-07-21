@@ -6,7 +6,7 @@ body {
     display: block
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: robotomedium;
+    font-family: robotomedium, sans-serif;
     margin: 0
   }
   p {
@@ -20,7 +20,7 @@ body {
     text-transform: uppercase
   }
   .client_slider .heading h3, .contact_us .heading h3, .title h2 {
-    font-family: robotoblack
+    font-family: robotoblack, sans-serif
   }
   .banner_footer, .banner_txt, .banner_txt h2, .btn, .text-center, .title {
     text-align: center
@@ -90,13 +90,6 @@ body {
     width: 100%;
     font-size: 14px
   }
-  .form-control {
-    border-radius: 3px;
-    border: .5px solid #9b9b9b;
-    padding: 12px 20px;
-    width: 100%;
-    font-size: 14px
-  }
   .signup {
     margin: 0 auto;
     padding: 20px 0;
@@ -108,7 +101,7 @@ body {
       font-size: 18px;
       font-weight: 100;
       h3 {
-        font-family: robotoblack;
+        font-family: robotoblack, sans-serif;
         text-transform: uppercase;
         margin: 0;
       }
@@ -132,7 +125,7 @@ body {
           color: #fff;
           font-weight: 100;
           letter-spacing: 1px;
-          font-family: robotolight;
+          font-family: robotolight, sans-serif;
         }
       }
     }
@@ -173,7 +166,7 @@ body {
     h3 {
     color: #2cc88f;
     padding-bottom: 30px;
-    font-family: robotoblack;
+    font-family: robotoblack, sans-serif;
     letter-spacing: 1px;
     font-size: 20px;
   }
@@ -329,7 +322,9 @@ body {
     }
 
     .service_box {
-      margin: 10px !important
+      margin: 10px !important;
+      min-height: inherit;
+      margin-bottom: 20px;
     }
 
     .contact_tabs ul li a {
@@ -367,6 +362,7 @@ body {
 
     .home_banner {
       height: 420px;
+      background-position: 0 0 !important;
       .banner_txt {
         padding-top: 60px;
       }
@@ -394,10 +390,6 @@ body {
 
     .partner_section .title br {
       display: none
-    }
-
-    .home_banner {
-      background-position: 0 0 !important
     }
 
     .partner_benefits .benefits {
@@ -462,11 +454,6 @@ body {
     .cols .col {
       margin-left: 10%;
       margin-right: 10%
-    }
-
-    .service_box {
-      min-height: inherit;
-      margin-bottom: 20px
     }
 
     .signup .left_signup {
