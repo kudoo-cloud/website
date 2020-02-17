@@ -92,11 +92,6 @@ class Header extends React.Component<Props, any> {
               onClick={this._scrollTo('features')}>
               Features
             </a>
-            <a
-              className={classes.headerLink}
-              onClick={this._scrollTo('pricing')}>
-              Open source
-            </a>
             {/*}
             <a className={classes.headerLink} onClick={this._scrollTo('team')}>
               Team
@@ -112,15 +107,6 @@ class Header extends React.Component<Props, any> {
           <div className={classes.headerMiddle} />
         )}
         <div className={classes.headerRightPart}>
-          <Button
-            classes={{
-              component: classes.loginButton,
-              text: classes.loginButtonText,
-            }}
-            title="Login"
-            href="https://app.kudoo.io/#/login"
-            width={100}
-          />
           <Button
             title="Sign Up"
             href="https://app.kudoo.io/#/login"
