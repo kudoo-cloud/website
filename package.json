@@ -4,7 +4,7 @@
   "description": "Kudoo marketing website",
   "main": "index.js",
   "engines": {
-    "node": "^8.1.4"
+    "node": ">= 12"
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --mode development --devtool eval --hot --history-api-fallback --progress --colors --inline --host 127.0.0.1",

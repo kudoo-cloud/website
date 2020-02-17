@@ -1,2 +1,3 @@
-# website
-Kudoo's marketing website
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# Kudoo's website
