@@ -100,36 +100,36 @@ class Home extends Component<Props> {
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-cloud" />}
-                title={'Cloud Based'}
+                title={'Modern technologies'}
                 description={
-                  'No need to install anything. Get regular updates without upgrading.'
+                  'Built using Typescript, React, GraphQL and Apollo.'
                 }
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-retweet" />}
-                title={'Stock management'}
+                title={'Open source'}
                 description={
-                  'Inventory management, automated Procurement via AI'
+                  "Kudoo's codebase is open source and available on Github"
                 }
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-desktop" />}
-                title={'Patient management'}
+                title={'Fully featured'}
                 description={
-                  'Manage your patients, Invoice them and claim from Medicare'
+                  'A fully fledged business suite to run your business'
                 }
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-comments-o" />}
-                title={'Financials'}
+                title={'Cloud native'}
                 description={
-                  'Manage your banking, assets and Ledger. All fully integrated.'
+                  'Kudoo is easy to deploy and can run on any cloud.'
                 }
               />
             </Grid>
@@ -192,7 +192,9 @@ class Home extends Component<Props> {
                   icon={<i className="icon icon-invoicing" />}
                   title={'Financials'}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
-                  description={'Invoice your customers, pay your SUppliers.'}
+                  description={
+                    'Invoice your customers, pay your Suppliers, reconcile your bank statement.'
+                  }
                 />
               </div>
             </Grid>
@@ -210,9 +212,9 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('approvals');
                   }}
                   icon={<i className="icon icon-tick" />}
-                  title={'Machine learning'}
+                  title={'Projects'}
                   description={
-                    'Automate your procurement, predict your budgets'
+                    'Timesheets, projects and invoicing, in one seamless interface.'
                   }
                 />
                 <FeatureBlock
@@ -220,10 +222,8 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('attachments');
                   }}
                   icon={<i className="icon icon-sales" />}
-                  title={'Australian features'}
-                  description={
-                    'PBS and Medicare integration to deliver a localised solution.'
-                  }
+                  title={'Australian health'}
+                  description={'Australian Healthcare Identifiers integration.'}
                 />
                 <FeatureBlock
                   onClick={() => {
@@ -378,8 +378,8 @@ class Home extends Component<Props> {
           {this._renderProduct()}
           <NewsLetter />
           {this._renderFeatures()}
-          {this._renderPricing()}
-          {this._renderTeam()}
+          {/*this._renderPricing()*/}
+          {/*this._renderTeam()*/}
           {this._renderSupport()}
           <Footer />
         </div>
