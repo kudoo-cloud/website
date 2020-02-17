@@ -95,11 +95,13 @@ class Header extends React.Component<Props, any> {
             <a
               className={classes.headerLink}
               onClick={this._scrollTo('pricing')}>
-              Pricing
+              Open source
             </a>
+            {/*}
             <a className={classes.headerLink} onClick={this._scrollTo('team')}>
               Team
             </a>
+            */}
             <a
               className={classes.headerLink}
               onClick={this._scrollTo('support')}>

@@ -72,9 +72,9 @@ class Home extends Component<Props> {
     return (
       <Gradient>
         <div className={classes.banner}>
-          <div className={classes.bannerTitle}>Disrupting Healthcare</div>
+          <div className={classes.bannerTitle}>Open business systems</div>
           <div className={classes.bannerSubtitle}>
-            Procurement, finance and patient management solutions
+            Projects, Inventory, Finance, Health and Manufacturing
           </div>
           <div>
             <Button

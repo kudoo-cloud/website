@@ -64,7 +64,7 @@ const webpackConfig = {
       jQuery: "jquery"
     }),
     new WebpackPwaManifest({
-      name: "Kudoo | Disrupting Healthcare",
+      name: "Kudoo | Open business systems",
       short_name: "Kudoo",
       description:
         "Kudoo Cloud is an open source ERP system built to democratize enterprise business systems and bring them to everybody.",
