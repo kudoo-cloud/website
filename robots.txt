@@ -1,4 +1,0 @@
-# robots.txt for https://kudoo.io/
-
-User-agent: *
-Disallow:
