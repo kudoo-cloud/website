@@ -380,7 +380,7 @@ class Home extends Component<Props> {
           {this._renderFeatures()}
           {/*this._renderPricing()*/}
           {/*this._renderTeam()*/}
-          {this._renderSupport()}
+          {/*this._renderSupport()*/}
           <Footer />
         </div>
         <ToastContainer
