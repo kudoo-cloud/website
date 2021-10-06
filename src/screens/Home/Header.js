@@ -109,7 +109,7 @@ class Header extends React.Component<Props, any> {
         <div className={classes.headerRightPart}>
           <Button
             title="Sign Up"
-            href="https://app.kudoo.io/#/login"
+            href="https://www.app.kudoo.io/"
             buttonColor={theme.palette.primary.color2}
             applyBorderRadius
             width={200}
@@ -174,13 +174,13 @@ class Header extends React.Component<Props, any> {
             <ButtonBase
               component="a"
               className={classes.smallMenuItem}
-              href="https://app.kudoo.io/#/login">
+              href="https://www.app.kudoo.io/">
               Login
             </ButtonBase>
             <ButtonBase
               component="a"
               className={classes.smallMenuItem}
-              href="https://app.kudoo.io/#/login">
+              href="https://www,app.kudoo.io/">
               Sign Up
             </ButtonBase>
           </div>
