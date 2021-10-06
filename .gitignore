@@ -32,3 +32,6 @@ chrome-user-data
 .vscode
 dist
 yarn-error.log
+
+# Local Netlify folder
+.netlify
