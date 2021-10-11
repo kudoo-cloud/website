@@ -21,7 +21,7 @@ import FeatureBlock from './FeatureBlock';
 import Tablet from './Tablet';
 import TeamMember from './TeamMember';
 import SupportForm from './SupportForm';
-import NewsLetter from './NewsLetter';
+//import NewsLetter from './NewsLetter';
 import JustinImage from 'images/justin.jpg';
 import JadeImage from 'images/jade.jpg';
 import SarjuImage from 'images/sarju.jpg';
@@ -72,9 +72,10 @@ class Home extends Component<Props> {
     return (
       <Gradient>
         <div className={classes.banner}>
-          <div className={classes.bannerTitle}>Open DAO systems</div>
+          <div className={classes.bannerTitle}>Xero for DAOs</div>
           <div className={classes.bannerSubtitle}>
-            Projects, Inventory, Finance, Health and Manufacturing
+            Pay your community, report on your DAOs performance, manage your
+            Treasury
           </div>
           <div>
             <Button
@@ -100,9 +101,9 @@ class Home extends Component<Props> {
             <Grid item xs={12} sm={6} md={3}>
               <ProductBlock
                 icon={<i className="fa fa-cloud" />}
-                title={'Modern technologies'}
+                title={'Avalanche native'}
                 description={
-                  'Built using Typescript, React, GraphQL and Apollo.'
+                  'Built from the ground up to be compatible with blockchains.'
                 }
               />
             </Grid>
@@ -119,9 +120,7 @@ class Home extends Component<Props> {
               <ProductBlock
                 icon={<i className="fa fa-desktop" />}
                 title={'Fully featured'}
-                description={
-                  'A fully fledged business suite to run your business'
-                }
+                description={'A fully fledged business suite to run your DAO'}
               />
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
@@ -193,7 +192,7 @@ class Home extends Component<Props> {
                   title={'Financials'}
                   iconPosition={width === 'xs' ? 'left' : 'right'}
                   description={
-                    'Invoice your customers, pay your Suppliers, reconcile your bank statement.'
+                    'Invoice your customers, pay your Contributors, reconcile your multisig transactions.'
                   }
                 />
               </div>
@@ -222,8 +221,10 @@ class Home extends Component<Props> {
                     this._handleFeatureBlockClick('attachments');
                   }}
                   icon={<i className="icon icon-sales" />}
-                  title={'Australian health'}
-                  description={'Australian Healthcare Identifiers integration.'}
+                  title={'Treasury management'}
+                  description={
+                    'Manage your treasury with an embedded multisig interface.'
+                  }
                 />
                 <FeatureBlock
                   onClick={() => {
@@ -232,7 +233,7 @@ class Home extends Component<Props> {
                   icon={<i className="icon icon-projects" />}
                   title={'Request a feature'}
                   description={
-                    'We will build custom features specific to your organisation.'
+                    'We will build custom features specific to your DAO.'
                   }
                 />
               </div>
@@ -376,7 +377,7 @@ class Home extends Component<Props> {
           <Header />
           {this._renderBanner()}
           {this._renderProduct()}
-          <NewsLetter />
+
           {this._renderFeatures()}
           {/*this._renderPricing()*/}
           {/*this._renderTeam()*/}
