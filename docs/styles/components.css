@@ -1,0 +1,295 @@
+/* 
+ * Kudoo GRC Platform - Component Styles
+ * Contains styles for reusable UI components and elements
+ */
+
+/* 
+ * Feature Cards
+ * -------------
+ * Styles for feature highlight cards used throughout the site
+ */
+ .feature-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: var(--kudoo-radius-md);
+    transition: var(--kudoo-transition);
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--kudoo-shadow-sm);
+    color: var(--kudoo-light-text);
+}
+
+.feature-card:hover {
+    transform: translateY(-10px) scale(1.01);
+    box-shadow: var(--kudoo-shadow-md);
+    border-color: var(--kudoo-green);
+}
+
+.feature-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(42, 203, 143, 0.2), rgba(45, 156, 219, 0.2));
+    color: var(--kudoo-green);
+    font-size: 3rem;
+}
+
+.feature-card h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--kudoo-green);
+}
+
+.feature-card p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1.5rem;
+}
+
+/* 
+ * GRC Domain Cards
+ * ----------------
+ * Styles for domain-specific cards in the GRC framework section
+ */
+.grc-domain-card {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--kudoo-radius-md);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: var(--kudoo-transition);
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    height: 100%;
+    color: var(--kudoo-light-text);
+}
+
+.grc-domain-card:hover {
+    box-shadow: var(--kudoo-shadow-md);
+    border-color: var(--kudoo-green);
+    transform: translateY(-6px);
+}
+
+.grc-domain-card h3 {
+    color: var(--kudoo-green);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--kudoo-green);
+    padding-bottom: 0.5rem;
+}
+
+.grc-domain-card ul {
+    padding-left: 1.2rem;
+}
+
+.grc-domain-card li {
+    margin-bottom: 0.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* 
+ * Policy Document
+ * --------------
+ * Styles for policy document displays
+ */
+.policy-document {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--kudoo-green);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0 var(--kudoo-radius-md) var(--kudoo-radius-md) 0;
+}
+
+.policy-document h4 {
+    color: var(--kudoo-blue);
+    margin-bottom: 1rem;
+}
+
+/* 
+ * Control Tables
+ * -------------
+ * Styles for tables displaying ISO controls
+ */
+.grc-control-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    color: var(--kudoo-light-text);
+}
+
+.grc-control-table th {
+    background-color: var(--kudoo-blue);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.grc-control-table td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.grc-control-table tr:hover {
+    background-color: rgba(45, 156, 219, 0.2);
+}
+
+/* 
+ * Framework Diagram
+ * ----------------
+ * Styles for displaying architectural diagrams
+ */
+.framework-diagram {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: var(--kudoo-radius-md);
+    box-shadow: var(--kudoo-shadow-md);
+}
+
+/* 
+ * Microsoft Integration Highlight
+ * -----------------------------
+ * Styles for Microsoft-specific integrations
+ */
+.ms-integration {
+    background-color: rgba(0, 120, 212, 0.15);
+    border-radius: var(--kudoo-radius-md);
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(0, 120, 212, 0.3);
+}
+
+.ms-integration h3 {
+    color: #0078d4;
+    margin-bottom: 1rem;
+}
+
+.ms-icon {
+    color: #0078d4;
+    margin-right: 0.5rem;
+}
+
+/* 
+ * Testimonial Cards
+ * ----------------
+ * Styles for customer testimonials
+ */
+.testimonial-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: var(--kudoo-radius-md);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: var(--kudoo-light-text);
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-weight: 600;
+}
+
+.testimonial-company {
+    opacity: 0.8;
+}
+
+/* 
+ * Social Links
+ * -----------
+ * Styles for social media links
+ */
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.social-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: var(--kudoo-transition);
+}
+
+.social-icon:hover {
+    background-color: var(--kudoo-green);
+    transform: translateY(-2px);
+}
+
+/* 
+ * Badges and Status Indicators
+ * ---------------------------
+ * Styles for various status indicators
+ */
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: var(--kudoo-radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-primary {
+    background-color: var(--kudoo-blue);
+    color: white;
+}
+
+.badge-success {
+    background-color: var(--kudoo-green);
+    color: white;
+}
+
+.badge-warning {
+    background-color: #f9a825;
+    color: white;
+}
+
+.badge-danger {
+    background-color: #e53935;
+    color: white;
+}
+
+/* 
+ * Alert Components
+ * ---------------
+ * Styles for alert/notification boxes
+ */
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: var(--kudoo-radius-md);
+    border-left: 4px solid transparent;
+}
+
+.alert-info {
+    background-color: rgba(45, 156, 219, 0.15);
+    border-left-color: var(--kudoo-blue);
+}
+
+.alert-success {
+    background-color: rgba(42, 203, 143, 0.15);
+    border-left-color: var(--kudoo-green);
+}
+
+.alert-warning {
+    background-color: rgba(249, 168, 37, 0.15);
+    border-left-color: #f9a825;
+}
+
+.alert-danger {
+    background-color: rgba(229, 57, 53, 0.15);
+    border-left-color: #e53935;
+}

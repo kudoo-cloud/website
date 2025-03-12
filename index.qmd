@@ -1,0 +1,314 @@
+---
+title: "Kudoo Platform"
+---
+
+::: {.hero-container}
+::: {.hero-content}
+::: {.hero-text}
+# Governance, Risk, <span class="gradient-text">& Compliance</span>
+## Made Simple for Modern Organizations
+
+Streamline your ISO 27001 compliance journey with our Microsoft-integrated Governance, Risk and Compliance platform that works the way your team does.
+
+::: {.hero-buttons}
+[Explore Platform](#features-section){.hero-btn .primary-btn} [Request Demo](demo.qmd){.hero-btn .secondary-btn}
+:::
+:::
+
+::: {.hero-visual}
+<div class="hero-shape"></div>
+<div class="floating-element one"></div>
+<div class="floating-element two"></div>
+<div class="floating-element three"></div>
+:::
+:::
+:::
+
+::: {.container .py-5 id="about"}
+## What is Kudoo?
+
+<div style="color: var(--kudoo-light-text);">
+Kudoo is a comprehensive Governance, Risk, and Compliance platform built within the Microsoft ecosystem. Our solution transforms how organizations implement and maintain ISO 27001 compliance by integrating with the tools your team already uses daily. With Kudoo, you can simplify complex compliance processes, reduce implementation time, and ensure continuous adherence to information security standards.
+
+Our platform brings together all aspects of ISO 27001 compliance—from framework management and risk assessment to policy development and audit preparation—into a unified solution that leverages Microsoft Dataverse, Power Platform, Teams, and SharePoint. This seamless integration creates an intuitive experience that reduces the traditional barriers to effective compliance management.
+</div>
+:::
+
+::: {.features-section id="features-section"}
+::: {.container}
+## Why Choose Kudoo?
+
+::: {.row .g-4}
+::: {.col-md-4}
+::: {.feature-card}
+::: {.feature-icon}
+<i class="bi bi-microsoft"></i>
+:::
+### Microsoft Integrated
+Built on Microsoft Power Platform with seamless Teams and Copilot integration, our platform works within your existing technology ecosystem. Leverage familiar interfaces while gaining powerful compliance capabilities.
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card}
+::: {.feature-icon}
+<i class="bi bi-diagram-3"></i>
+:::
+### Complete ISO 27001 Framework
+Access the entire ISO 27001:2022 standard with all 93 controls pre-configured and organized across four domains. Each control includes implementation guidance, audit criteria, and policy requirements.
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card}
+::: {.feature-icon}
+<i class="bi bi-clock-history"></i>
+:::
+### Accelerated Implementation
+Our structured approach guides you through each phase of ISO 27001 implementation, from initial assessment to certification readiness. Clear task assignments and workflows keep your project on track.
+:::
+:::
+:::
+:::
+:::
+
+::: {.product-section}
+::: {.container}
+## End-to-End Compliance Solution
+
+::: {.row .align-items-center .mb-5}
+::: {.col-lg-6}
+### Structured Implementation Approach
+Our platform guides you through every phase of ISO 27001 implementation with a methodical approach that ensures nothing is overlooked:
+
+1. Initial Assessment and Planning
+2. Risk Assessment and Treatment
+3. Implementation of Controls
+4. Training and Awareness
+5. Internal Audit and Review
+6. Certification Preparation
+7. Certification Audit
+8. Continuous Improvement
+
+Each phase includes detailed tasks, templates, and guidance to streamline your compliance journey.
+:::
+::: {.col-lg-6}
+:::
+:::
+:::
+:::
+
+::: {.grc-framework}
+::: {.container}
+## Comprehensive Domain Coverage
+
+::: {.row}
+::: {.col-md-6 .col-lg-3 .mb-4}
+::: {.grc-domain-card}
+### Organization
+Structural controls covering policies, roles, responsibilities, and organizational security.
+
+::: {.mt-3}
+<small class="text-muted">37 Controls Including:</small>
+:::
+
+- Information Security Policies
+- Roles and Responsibilities
+- Asset Management
+- Access Control
+- Supplier Relationships
+:::
+:::
+:::
+:::
+
+::: {.col-md-6 .col-lg-3 .mb-4}
+::: {.grc-domain-card}
+### People
+Human-centered controls focused on personnel security and awareness.
+
+::: {.mt-3}
+<small class="text-muted">8 Controls Including:</small>
+:::
+
+- Screening and Onboarding
+- Security Awareness Training
+- Disciplinary Process
+- Remote Working Security
+:::
+:::
+:::
+:::
+
+::: {.col-md-6 .col-lg-3 .mb-4}
+::: {.grc-domain-card}
+### Physical
+Controls safeguarding physical assets, facilities, and equipment.
+
+::: {.mt-3}
+<small class="text-muted">14 Controls Including:</small>
+
+- Physical Security Perimeters
+- Physical Entry Controls
+- Equipment Security
+- Clear Desk Policy
+:::
+:::
+:::
+:::
+
+::: {.col-md-6 .col-lg-3 .mb-4}
+::: {.grc-domain-card}
+### Technology
+Technical controls securing systems, networks, and data.
+
+::: {.mt-3}
+<small class="text-muted">34 Controls Including:</small>
+
+- Access Management
+- Cryptography
+- Network Security
+- Secure Development
+:::
+:::
+:::
+:::
+:::
+:::
+:::
+
+::: {.features-section style="background-color: #f8f9fa;"}
+::: {.container}
+## Key Platform Features
+
+::: {.row .g-4}
+::: {.col-md-6 .col-lg-4}
+::: {.feature-card}
+### Policy Management
+Create, store, and manage all required ISO 27001 policies with version control, approval workflows, and distribution tracking. Pre-built templates for over 20 essential information security policies accelerate your documentation process.
+:::
+:::
+
+::: {.col-md-6 .col-lg-4}
+::: {.feature-card}
+### Risk Assessment & Treatment
+Conduct comprehensive risk assessments with structured methodologies for identifying, analyzing, and evaluating information security risks. Develop and track risk treatment plans with clear ownership and monitoring of effectiveness.
+:::
+:::
+
+::: {.col-md-6 .col-lg-4}
+::: {.feature-card}
+### Control Implementation
+Track the implementation status of all 93 ISO 27001 controls with detailed checklists, evidence repositories, and progress dashboards. Assign responsibilities and monitor deadlines to ensure timely completion.
+:::
+:::
+
+::: {.col-md-6 .col-lg-4}
+::: {.feature-card}
+### Audit Management
+Plan and conduct internal audits with customizable audit checklists, finding tracking, and corrective action management. Prepare confidently for certification audits with evidence organization and readiness assessments.
+:::
+:::
+
+::: {.col-md-6 .col-lg-4}
+::: {.feature-card}
+### Role-Based Implementation
+Assign clear responsibilities to team members with role-specific dashboards, task lists, and notifications. From Project Lead to Domain Owners and Internal Auditors, everyone knows exactly what they need to do.
+:::
+:::
+
+::: {.col-md-6 .col-lg-4}
+::: {.feature-card}
+### Reporting & Analytics
+Gain visibility into your compliance program with executive dashboards, operational reports, and custom report builders. Track implementation progress, risk status, and audit findings with comprehensive analytics.
+:::
+:::
+:::
+:::
+:::
+
+::: {.ms-integration .container}
+## Microsoft Ecosystem Integration
+
+Kudoo seamlessly integrates with your Microsoft environment to create a unified compliance experience:
+
+- **Built on Dataverse**: Secure, scalable data storage with built-in compliance features
+- **Teams Integration**: Approvals, notifications, and collaboration within Microsoft Teams
+- **Copilot Assistance**: AI-powered policy recommendations and compliance guidance
+- **Power Platform**: Custom workflows, dashboards, and automation capabilities
+- **SharePoint Integration**: Document management for policies and evidence
+- **Single Sign-On**: Seamless access using your Microsoft credentials
+
+This deep integration ensures that compliance activities become part of your team's daily workflow rather than a separate burden, increasing adoption and effectiveness.
+:::
+
+::: {.product-section}
+::: {.container}
+## Implementation Success
+
+::: {.row}
+::: {.col-md-6}
+::: {.feature-card}
+### For Security & Compliance Teams
+Kudoo provides security and compliance professionals with the tools they need to implement an effective information security management system:
+
+- Complete ISO 27001 framework with implementation guidance
+- Structured methodologies for risk assessment and treatment
+- Comprehensive policy templates and management tools
+- Evidence collection and organization capabilities
+- Audit preparation and management features
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### For IT & Operations Teams
+IT teams benefit from a platform that integrates seamlessly with existing Microsoft technologies:
+
+- Built on familiar Microsoft platforms
+- Integration with existing security tools and processes
+- Clear requirements for technical controls
+- Implementation guidance for security configurations
+- Evidence automation to reduce documentation burden
+:::
+:::
+:::
+
+::: {.row .mt-4}
+::: {.col-md-6}
+::: {.feature-card}
+### For Management Teams
+Leadership teams gain visibility and control over the compliance program:
+
+- Executive dashboards with implementation status
+- Resource allocation and planning tools
+- Risk visualization and prioritization
+- Progress tracking and reporting
+- Management review facilitation
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### For Certification Success
+Prepare confidently for your certification audit:
+
+- Gap analysis and readiness assessments
+- Evidence organization and presentation
+- Audit trail documentation
+- Response preparation for common audit questions
+- Ongoing compliance maintenance
+:::
+:::
+:::
+:::
+:::
+
+::: {.cta-section id="demo"}
+::: {.container}
+## Ready to Simplify Your Compliance Journey?
+Join organizations that have streamlined their ISO 27001 certification with Kudoo.
+
+[Request Demo](demo.qmd){.cta-btn} [Contact Sales](contact.qmd){.cta-btn .ms-3}
+:::
+:::

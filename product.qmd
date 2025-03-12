@@ -1,0 +1,362 @@
+---
+title: "Product"
+---
+
+::: {.hero style="padding: 4rem 2rem; background: var(--kudoo-gradient);"}
+# Kudoo GRC Platform
+### Your complete solution for ISO 27001 compliance
+:::
+
+::: {.container .py-5 style="background-color: rgba(30, 45, 70, 0.7); color: var(--kudoo-light-text);"}
+## Platform Overview
+
+Kudoo GRC transforms how organizations implement and maintain ISO 27001 compliance. Our platform brings together governance, risk, and compliance management into a unified solution built entirely within the Microsoft ecosystem, leveraging the tools your team already uses daily.
+
+By integrating with Microsoft Dataverse, Power Platform, Teams, and SharePoint, we create a seamless experience that reduces the traditional complexity of compliance management. Whether you're just beginning your ISO 27001 journey or looking to enhance your existing program, our platform provides the structure, guidance, and tools needed to achieve and maintain certification efficiently.
+:::
+
+::: {.product-section style="color: var(--kudoo-light-text);"}
+::: {.container}
+## Core Capabilities
+
+::: {.row}
+::: {.col-md-6}
+::: {.product-feature}
+::: {.product-text}
+### ISO 27001:2022 Framework
+
+Our platform includes the complete ISO 27001:2022 standard with all 93 controls organized across four domains:
+
+- Organization (37 controls)
+- People (8 controls)
+- Physical (14 controls)
+- Technology (34 controls)
+
+Each control comes with detailed descriptions, implementation guidance, and audit criteria to simplify your compliance journey.
+:::
+:::
+:::
+
+::: {.col-md-6}
+::: {.product-feature}
+::: {.product-text}
+### Structured Implementation Approach
+
+Our platform guides you through every phase of ISO 27001 implementation:
+
+1. Initial Assessment and Planning
+2. Risk Assessment and Treatment
+3. Implementation of Controls
+4. Training and Awareness
+5. Internal Audit and Review
+6. Certification Preparation
+7. Certification Audit
+8. Continuous Improvement
+
+This phased approach ensures methodical progress toward certification without overwhelming your team.
+:::
+:::
+:::
+:::
+
+::: {.row .mt-4}
+::: {.col-md-6}
+::: {.product-feature}
+::: {.product-text}
+### Role-Based Implementation
+
+Assign specific roles to team members with clear responsibilities:
+
+- Project Lead
+- Senior Management Representative
+- Domain Owners
+- Risk Owners
+- Internal Auditors
+
+Each role receives tailored tasks, workflows, and dashboards to ensure everyone knows exactly what they need to do and when.
+:::
+:::
+:::
+
+::: {.col-md-6}
+::: {.product-feature}
+::: {.product-text}
+### Policy Management
+
+Create, store, manage, and distribute all required information security policies:
+
+- Information Security Policy
+- Access Control Policy
+- Risk Management Policy
+- And 15+ additional policy templates
+
+All policies are mapped to specific ISO 27001 controls for complete traceability and compliance documentation.
+:::
+:::
+:::
+:::
+:::
+:::
+
+::: {.grc-framework style="color: var(--kudoo-light-text);"}
+::: {.container}
+## Microsoft-Powered Platform
+
+::: {.row}
+::: {.col-lg-6}
+### Built on Microsoft Technologies
+
+Kudoo GRC leverages the power of Microsoft's enterprise platforms:
+
+- **Dataverse:** Secure, scalable data storage with built-in compliance features
+- **Power Apps:** Intuitive canvas app interface for smooth user experience
+- **Power Automate:** Automated workflows for approvals and notifications
+- **SharePoint:** Integrated document management for policies and evidence
+- **Teams:** Collaboration tools and approval processes within your daily workflow
+- **Copilot:** AI-assisted policy development and compliance guidance
+:::
+
+::: {.col-lg-6}
+### Seamless Integration
+
+Our platform integrates with your existing Microsoft environment:
+
+- **Single Sign-On:** Use your Microsoft credentials for secure access
+- **Unified Experience:** Access compliance tools within familiar interfaces
+- **Data Security:** Leverage Microsoft's enterprise-grade security
+- **Centralized Management:** Administer users and permissions through Microsoft tools
+- **Consistent Updates:** Always stay current with Microsoft's cloud platform
+:::
+:::
+
+::: {.row .mt-4}
+::: {.col-12}
+::: {.ms-integration style="background-color: rgba(0, 120, 212, 0.15); border-radius: 8px; padding: 2rem; margin: 2rem 0; border: 1px solid rgba(0, 120, 212, 0.3); color: var(--kudoo-light-text);"}
+### Microsoft Teams Integration {#teams-integration}
+
+Experience deep integration with Microsoft Teams for streamlined collaboration:
+
+- **Approvals App:** Process compliance approvals without leaving Teams
+- **Task Management:** Assign and track compliance tasks within Teams
+- **Notifications:** Receive alerts about compliance activities
+- **Document Collaboration:** Review policies and evidence together
+- **Status Meetings:** Conduct implementation reviews with integrated meeting tools
+:::
+:::
+:::
+:::
+:::
+
+::: {.features-section style="color: var(--kudoo-light-text);"}
+::: {.container}
+## Risk Management Framework
+
+::: {.row .g-4}
+::: {.col-md-4}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Risk Assessment
+
+Our platform guides you through the complete risk assessment process for information security:
+
+- Asset identification and valuation
+- Threat and vulnerability analysis
+- Impact and likelihood determination
+- Risk scoring and prioritization
+- Comprehensive risk register
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Risk Treatment
+
+Develop structured risk treatment plans with multiple options:
+
+- Risk mitigation through controls
+- Risk transfer options
+- Risk avoidance strategies
+- Risk acceptance workflows
+- Treatment plan tracking
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Continuous Monitoring
+
+Maintain ongoing visibility into your risk landscape:
+
+- Risk dashboards and heat maps
+- Treatment effectiveness tracking
+- Residual risk monitoring
+- Risk status reporting
+- Regular review scheduling
+:::
+:::
+:::
+:::
+:::
+
+::: {.product-section style="color: var(--kudoo-light-text);"}
+::: {.container}
+## Comprehensive Audit Management
+
+::: {.row}
+::: {.col-lg-6}
+### Internal Audit Capabilities
+
+Our platform streamlines the internal audit process required by ISO 27001:
+
+- Audit planning and scheduling tools
+- Customizable audit checklists for all controls
+- Evidence collection and management
+- Finding and non-conformity tracking
+- Corrective action management
+- Audit report generation
+:::
+
+::: {.col-lg-6}
+### Certification Readiness
+
+Prepare confidently for your certification audit:
+
+- Pre-audit readiness assessments
+- Gap analysis tools
+- Evidence organization and presentation
+- Common audit question preparation
+- Audit trail documentation
+- Certification maintenance planning
+:::
+:::
+:::
+:::
+
+::: {.grc-framework style="color: var(--kudoo-light-text);"}
+::: {.container}
+## Powerful Reporting & Analytics
+
+::: {.row}
+::: {.col-md-6}
+::: {.grc-domain-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Executive Dashboards
+
+Give leadership clear visibility into your compliance program:
+
+- Overall compliance status
+- Implementation progress tracking
+- Key risk indicators and trends
+- Audit findings and resolution status
+- Resource allocation metrics
+:::
+:::
+
+::: {.col-md-6}
+::: {.grc-domain-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Operational Reports
+
+Detailed reporting for day-to-day management:
+
+- Control implementation status
+- Task assignments and deadlines
+- Evidence collection progress
+- Policy review schedules
+- Audit preparation status
+:::
+:::
+:::
+
+::: {.row .mt-4}
+::: {.col-12}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Custom Report Builder
+
+Create tailored reports for different stakeholders with our intuitive report builder:
+
+- Drag-and-drop interface
+- Multiple visualization options
+- Filtering and sorting capabilities
+- Export to multiple formats (PDF, Excel, PowerPoint)
+- Scheduled distribution options
+:::
+:::
+:::
+:::
+:::
+
+::: {.features-section style="color: var(--kudoo-light-text);"}
+::: {.container}
+## Data Model & Architecture
+
+Our platform is built on a structured data model that organizes all compliance elements in a logical, relational framework:
+
+::: {.row .g-4 .mt-2}
+::: {.col-md-3}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Governance Frameworks
+
+The foundation of our platform, starting with ISO 27001:2022 and expandable to include other standards and regulations.
+:::
+:::
+
+::: {.col-md-3}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Domains
+
+Logical groupings of controls by category (Organization, People, Physical, Technology) for better organization.
+:::
+:::
+
+::: {.col-md-3}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Controls
+
+Individual requirements with detailed descriptions, implementation guidance, and audit criteria.
+:::
+:::
+
+::: {.col-md-3}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Checklists
+
+Step-by-step implementation tasks for each control to guide the compliance process.
+:::
+:::
+:::
+
+::: {.row .g-4 .mt-3}
+::: {.col-md-4}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Policies
+
+Documentation requirements mapped to specific controls with version management.
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Roles
+
+Defined responsibilities within the system with tailored views and permissions.
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card style="background-color: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"}
+### Tasks
+
+Assigned activities with deadlines, descriptions, and linkage to specific controls.
+:::
+:::
+:::
+:::
+:::
+
+::: {.cta-section style="padding: 5rem 2rem; text-align: center; background-color: var(--kudoo-dark-blue); color: var(--kudoo-light-text);"}
+::: {.container}
+## Ready to Transform Your Compliance Program?
+
+Experience the power of Kudoo GRC with a personalized demonstration.
+
+[Request Demo](demo.qmd){.cta-btn}
+:::
+:::

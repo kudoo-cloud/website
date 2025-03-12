@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kudoo"
+  navbar:
+    background: "#1a2332"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: product.qmd
+        text: Product
+
+  page-footer:
+    background: "#1a2332"
+    foreground: "#ffffff"
+    left: "© 2025 Kudoo. All rights reserved."
+
+format:
+  html:
+    theme: cosmo
+    css: 
+      - styles/base.css
+      - styles/layout.css
+      - styles/components.css
+      - styles/responsive.css
