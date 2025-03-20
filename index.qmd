@@ -219,6 +219,6 @@ Prepare confidently for your certification audit:
 ## Ready to Simplify Your Compliance Journey?
 Join organizations that have streamlined their ISO 27001 certification with Kudoo.
 
-[Request Demo](demo.qmd){.cta-btn} [Contact Sales](contact.qmd){.cta-btn .ms-3}
+[Request Demo](./content/demo.qmd){.cta-btn} [Contact Sales](./content/sales.qmd){.cta-btn .ms-3}
 :::
 :::

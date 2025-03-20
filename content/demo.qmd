@@ -33,7 +33,7 @@ Our demonstrations are tailored to your specific requirements and compliance goa
 ::: {.demo-form-container}
 
 ```{=html}
-{{< include forms/demo.html >}}
+{{< include ../forms/demo.html >}}
 ```
 
 :::

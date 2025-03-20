@@ -263,7 +263,7 @@ Our team is ready to explore how Kudoo can support your ISO 27001 compliance jou
 ::: {.row .justify-content-center}
 ::: {.col-lg-8}
 ::: {.demo-form-container}
-{{< include forms/pricing.html >}}
+{{< include ../forms/pricing.html >}}
 :::
 :::
 :::

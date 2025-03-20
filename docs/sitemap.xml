@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kudoo.io/sales.html</loc>
-    <lastmod>2025-03-20T01:01:27.228Z</lastmod>
-  </url>
-  <url>
     <loc>https://kudoo.io/index.html</loc>
-    <lastmod>2025-03-20T00:27:37.948Z</lastmod>
+    <lastmod>2025-03-20T01:25:48.871Z</lastmod>
   </url>
   <url>
-    <loc>https://kudoo.io/content/terms.html</loc>
-    <lastmod>2025-03-20T00:32:48.378Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/blog.html</loc>
-    <lastmod>2025-03-14T02:08:01.710Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/blog/posts/2025-03-14-what-is-iso/index.html</loc>
-    <lastmod>2025-03-14T02:17:18.848Z</lastmod>
+    <loc>https://kudoo.io/content/sales.html</loc>
+    <lastmod>2025-03-20T01:26:48.597Z</lastmod>
   </url>
   <url>
     <loc>https://kudoo.io/content/privacy.html</loc>
     <lastmod>2025-03-14T01:25:50.813Z</lastmod>
   </url>
   <url>
-    <loc>https://kudoo.io/demo.html</loc>
-    <lastmod>2025-03-20T01:00:02.674Z</lastmod>
+    <loc>https://kudoo.io/blog/posts/2025-03-14-what-is-iso/index.html</loc>
+    <lastmod>2025-03-14T02:17:18.848Z</lastmod>
   </url>
   <url>
-    <loc>https://kudoo.io/product.html</loc>
+    <loc>https://kudoo.io/blog/index.html</loc>
+    <lastmod>2025-03-20T01:25:59.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/content/demo.html</loc>
+    <lastmod>2025-03-20T01:27:06.957Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/content/product.html</loc>
     <lastmod>2025-03-20T00:32:39.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/content/terms.html</loc>
+    <lastmod>2025-03-20T00:32:48.378Z</lastmod>
   </url>
 </urlset>
