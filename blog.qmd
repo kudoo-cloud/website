@@ -1,0 +1,205 @@
+## Browse by Topic
+
+::: {.row .g-4}
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-journal-text"></i>
+
+### Implementation Guidance
+12 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-shield-lock"></i>
+
+### Policy Development
+8 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-clipboard-check"></i>
+
+### Audit Preparation
+6 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-graph-up"></i>
+
+### Risk Management
+9 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-microsoft"></i>
+
+### Microsoft Integration
+10 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-building"></i>
+
+### Australian Case Studies
+7 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-laptop"></i>
+
+### Technology Controls
+11 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+
+::: {.col-lg-3 .col-md-6}
+::: {.feature-card}
+<i class="bi bi-people"></i>
+
+### People & Training
+5 Articles
+
+[View Articles →](#){.btn-secondary .mt-2}
+:::
+:::
+:::
+
+## Resources & Downloads
+
+::: {.row .g-4}
+::: {.col-md-6}
+::: {.grc-domain-card}
+### Free Templates & Checklists
+
+Download practical resources to assist with your ISO 27001 implementation:
+
+- ISO 27001:2022 Gap Assessment Template
+- Information Security Policy Template for Australian Organisations
+- Risk Assessment Worksheet
+- Australian-Specific Controls Implementation Checklist
+- ISO 27001 Audit Preparation Guide
+
+[Access Resources](#){.cta-btn .mt-3}
+:::
+:::
+
+::: {.col-md-6}
+::: {.grc-domain-card}
+### Webinars & Events
+
+Join our upcoming webinars and in-person events focused on ISO 27001 compliance in Australia:
+
+- **March 20, 2025:** Webinar - ISO 27001 Implementation Strategies for Australian SMEs
+- **April 8, 2025:** Live Workshop (Sydney) - Information Security Risk Assessment
+- **April 22, 2025:** Webinar - Preparing for Your Certification Audit
+- **May 15, 2025:** Live Workshop (Melbourne) - ISO 27001 Controls Implementation
+
+[Register Now](#){.cta-btn .mt-3}
+:::
+:::
+:::
+
+## The ISO 27001 Insider
+
+::: {.alert .alert-info}
+### Join Our Newsletter
+
+Subscribe to receive weekly insights, tools, and expert advice on ISO 27001 compliance.
+
+::: {.row}
+::: {.col-md-8 .mb-3}
+<form id="newsletter-form" action="#" method="POST" class="d-flex">
+  <input type="email" placeholder="Your email address" class="form-control me-2">
+  <button type="submit" class="cta-btn">Subscribe</button>
+</form>
+<small>We respect your privacy. Unsubscribe at any time.</small>
+:::
+
+::: {.col-md-4}
+**Benefits:**
+- Expert compliance tips delivered weekly
+- Exclusive content not published on our blog
+- Early access to new templates and tools
+- Australian regulatory updates and alerts
+:::
+:::
+:::
+
+## Connect With Us
+
+::: {.social-links .mb-4 style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem;"}
+<a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+<a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+<a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+<a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+:::
+:::
+
+::: {.cta-section style="padding: 5rem 2rem; text-align: center; background-color: var(--kudoo-dark-blue); color: var(--kudoo-light-text);"}
+::: {.container}
+## Contribute to Our Knowledge Base
+
+We're always looking for new content ideas and guest contributors to help Australian organisations with their ISO 27001 compliance journey.
+
+::: {.row .justify-content-center}
+::: {.col-md-4}
+::: {.feature-card}
+<i class="bi bi-lightbulb"></i>
+
+### Suggest a Topic
+Have a specific challenge or question you'd like us to address?
+
+[Submit Idea](#){.btn-secondary}
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card}
+<i class="bi bi-pencil-square"></i>
+
+### Become a Contributor
+Industry experts are invited to share their knowledge with our community.
+
+[Apply Now](#){.btn-secondary}
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card}
+<i class="bi bi-chat-dots"></i>
+
+### Contact Our Team
+Reach out directly to our content team with your ideas or feedback.
+
+[Contact Us](#){.btn-secondary}
+:::
+:::
+:::
+:::
+:::

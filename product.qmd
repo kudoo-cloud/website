@@ -3,7 +3,7 @@ title: "Product"
 ---
 
 ::: {.hero style="padding: 4rem 2rem; background: var(--kudoo-gradient);"}
-# Kudoo GRC Platform
+# Kudoo Platform
 ### Your complete solution for ISO 27001 compliance
 :::
 
