@@ -111,6 +111,6 @@ During the demo, we can discuss your specific Microsoft environment and how Kudo
 
 If you have urgent questions or prefer to speak with a representative directly:
 
-[Contact Sales](contact.qmd){.cta-btn}
+[Contact Sales](sales.qmd){.cta-btn}
 :::
 :::

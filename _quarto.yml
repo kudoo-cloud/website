@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - "*.qmd"
   resources:
+    - "*.html"
     - "images/"
     - "CNAME"
     - "robots.txt"
@@ -35,9 +38,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: product.qmd
+      - href: ./content/product.qmd
         text: Product
-      - href: blog.qmd
+      - href: ./content/pricing.qmd
+        text: Pricing
+      - href: ./blog/index.qmd
         text: Blog
 
   page-footer:

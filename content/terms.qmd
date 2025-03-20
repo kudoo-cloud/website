@@ -144,6 +144,6 @@ If you have questions about these Terms, please contact us at:
 
 Our team is ready to help clarify any aspects of our Terms of Service.
 
-[Contact Legal Team](contact.qmd){.cta-btn} [FAQs](legal-faq.qmd){.cta-btn .ms-3 .secondary-btn}
+[Contact Legal Team](sales.qmd){.cta-btn} [FAQs](legal-faq.qmd){.cta-btn .ms-3 .secondary-btn}
 :::
 :::
