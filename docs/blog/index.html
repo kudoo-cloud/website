@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Expert insights and guidance for ISO 27001 compliance in Australia">
 
-<title>index – Kudoo</title>
+<title>Kudoo Blog – Kudoo</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 
 <script type="text/javascript">
@@ -77,6 +109,35 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Kudoo | ISO 27001 Compliance for Australian Organisations">
 <meta property="og:description" content="Streamline ISO 27001 implementation with Kudoo’s Microsoft-integrated GRC platform designed for Australian businesses.">
@@ -89,7 +150,7 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -114,11 +175,15 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../product.qmd"> 
+    <a class="nav-link" href="../content/product.html"> 
 <span class="menu-text">Product</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.qmd"> 
+    <a class="nav-link" href="../content/pricing.html"> 
+<span class="menu-text">Pricing</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -132,197 +197,216 @@ gtag('config', 'G-XXXXXXXXXX', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Kudoo Blog</h1>
+</div>
+
+<div>
+  <div class="description">
+    Expert insights and guidance for ISO 27001 compliance in Australia
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="browse-by-topic" class="level2">
-<h2 class="anchored" data-anchor-id="browse-by-topic">Browse by Topic</h2>
-<div class="row g-4">
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-journal-text"></i></p>
-<section id="implementation-guidance" class="level3">
-<h3 class="anchored" data-anchor-id="implementation-guidance">Implementation Guidance</h3>
-<p>12 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
+</header>
+
+
+<div class="hero-container">
+<div class="container">
+<section id="iso-27001-insights" class="level1 hero-text">
+<h1>ISO 27001 <span class="gradient-text">Insights</span></h1>
+<section id="expert-guidance-for-australian-organizations" class="level2">
+<h2 class="anchored" data-anchor-id="expert-guidance-for-australian-organizations">Expert guidance for Australian organizations</h2>
+<p>Practical advice and insights to help you navigate ISO 27001 compliance in the Australian context.</p>
+</section>
 </section>
 </div>
 </div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-shield-lock"></i></p>
-<section id="policy-development" class="level3">
-<h3 class="anchored" data-anchor-id="policy-development">Policy Development</h3>
-<p>8 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
+<div class="container py-5">
+<section id="featured-article" class="level2">
+<h2 class="anchored" data-anchor-id="featured-article">Featured Article</h2>
+<div class="row align-items-center">
+<section id="iso-27001-understanding-the-standard-its-evolution-and-context-in-australian-compliance" class="level3 col-md-8">
+<h3 class="anchored" data-anchor-id="iso-27001-understanding-the-standard-its-evolution-and-context-in-australian-compliance"><a href="../blog/posts/2025-03-20-what-is-iso/index.html">ISO 27001: Understanding the Standard, Its Evolution, and Context in Australian Compliance</a></h3>
+<p><strong>March 15, 2025</strong></p>
+<p>ISO 27001 is the internationally recognized standard for information security management. In this comprehensive guide, we explore the fundamentals of the standard, the key differences in the 2022 update, and how it integrates with the Australian regulatory landscape.</p>
+<p>This article covers: - The core principles and structure of ISO 27001 - Key changes in the 2022 version and what they mean for your organization - How ISO 27001 relates to Australian standards like the ISM and Essential Eight - Implementation considerations specific to Australian organizations</p>
+<p><a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="cta-btn mt-3">Read the full article →</a></p>
 </section>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-clipboard-check"></i></p>
-<section id="audit-preparation" class="level3">
-<h3 class="anchored" data-anchor-id="audit-preparation">Audit Preparation</h3>
-<p>6 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
-</section>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-graph-up"></i></p>
-<section id="risk-management" class="level3">
-<h3 class="anchored" data-anchor-id="risk-management">Risk Management</h3>
-<p>9 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
-</section>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-microsoft"></i></p>
-<section id="microsoft-integration" class="level3">
-<h3 class="anchored" data-anchor-id="microsoft-integration">Microsoft Integration</h3>
-<p>10 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
-</section>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-building"></i></p>
-<section id="australian-case-studies" class="level3">
-<h3 class="anchored" data-anchor-id="australian-case-studies">Australian Case Studies</h3>
-<p>7 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
-</section>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-laptop"></i></p>
-<section id="technology-controls" class="level3">
-<h3 class="anchored" data-anchor-id="technology-controls">Technology Controls</h3>
-<p>11 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
-</section>
-</div>
-</div>
-<div class="col-lg-3 col-md-6">
-<div class="feature-card">
-<p><i class="bi bi-people"></i></p>
-<section id="people-training" class="level3">
-<h3 class="anchored" data-anchor-id="people-training">People &amp; Training</h3>
-<p>5 Articles</p>
-<p><a href="#" class="btn-secondary mt-2">View Articles →</a></p>
-</section>
-</div>
-</div>
-</div>
-</section>
-<section id="resources-downloads" class="level2">
-<h2 class="anchored" data-anchor-id="resources-downloads">Resources &amp; Downloads</h2>
-<div class="row g-4">
-<div class="col-md-6">
-<section id="free-templates-checklists" class="level3 grc-domain-card">
-<h3 class="anchored" data-anchor-id="free-templates-checklists">Free Templates &amp; Checklists</h3>
-<p>Download practical resources to assist with your ISO 27001 implementation:</p>
-<ul>
-<li>ISO 27001:2022 Gap Assessment Template</li>
-<li>Information Security Policy Template for Australian Organisations</li>
-<li>Risk Assessment Worksheet</li>
-<li>Australian-Specific Controls Implementation Checklist</li>
-<li>ISO 27001 Audit Preparation Guide</li>
-</ul>
-<p><a href="#" class="cta-btn mt-3">Access Resources</a></p>
-</section>
-</div>
-<div class="col-md-6">
-<section id="webinars-events" class="level3 grc-domain-card">
-<h3 class="anchored" data-anchor-id="webinars-events">Webinars &amp; Events</h3>
-<p>Join our upcoming webinars and in-person events focused on ISO 27001 compliance in Australia:</p>
-<ul>
-<li><strong>March 20, 2025:</strong> Webinar - ISO 27001 Implementation Strategies for Australian SMEs</li>
-<li><strong>April 8, 2025:</strong> Live Workshop (Sydney) - Information Security Risk Assessment</li>
-<li><strong>April 22, 2025:</strong> Webinar - Preparing for Your Certification Audit</li>
-<li><strong>May 15, 2025:</strong> Live Workshop (Melbourne) - ISO 27001 Controls Implementation</li>
-</ul>
-<p><a href="#" class="cta-btn mt-3">Register Now</a></p>
-</section>
-</div>
-</div>
-</section>
-<section id="the-iso-27001-insider" class="level2">
-<h2 class="anchored" data-anchor-id="the-iso-27001-insider">The ISO 27001 Insider</h2>
-<section id="join-our-newsletter" class="level3 alert alert-info">
-<h3 class="anchored" data-anchor-id="join-our-newsletter">Join Our Newsletter</h3>
-<p>Subscribe to receive weekly insights, tools, and expert advice on ISO 27001 compliance.</p>
-<div class="row">
-<div class="col-md-8 mb-3">
-<form id="newsletter-form" action="#" method="POST" class="d-flex">
-<input type="email" placeholder="Your email address" class="form-control me-2"> <button type="submit" class="cta-btn">Subscribe</button>
-</form>
-<p><small>We respect your privacy. Unsubscribe at any time.</small></p>
-</div>
 <div class="col-md-4">
-<p><strong>Benefits:</strong> - Expert compliance tips delivered weekly - Exclusive content not published on our blog - Early access to new templates and tools - Australian regulatory updates and alerts</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/iso-27001-featured.jpg" class="img-fluid rounded shadow figure-img"></p>
+<figcaption>ISO 27001 Standard</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </section>
-</section>
-<section id="connect-with-us" class="level2">
-<h2 class="anchored" data-anchor-id="connect-with-us">Connect With Us</h2>
-<div class="social-links mb-4" style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem;">
-<p><a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a> <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a> <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a> <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a></p>
+<section id="recent-articles" class="level2">
+<h2 class="anchored" data-anchor-id="recent-articles">Recent Articles</h2>
+<div class="row g-4 mt-3">
+<div class="col-md-6 col-lg-4">
+<div class="feature-card h-100">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/placeholder-article.jpg" class="img-fluid rounded mb-3 figure-img"></p>
+<figcaption>Risk Assessment</figcaption>
+</figure>
 </div>
-<p>:::</p>
+<section id="risk-assessment-methodologies-for-iso-27001" class="level3">
+<h3 class="anchored" data-anchor-id="risk-assessment-methodologies-for-iso-27001"><a href="posts/coming-soon/index.qmd">Risk Assessment Methodologies for ISO 27001</a></h3>
+<p><strong>Coming Soon</strong></p>
+<p>A comparison of risk assessment methodologies suitable for ISO 27001 implementation, with practical guidance for Australian organizations.</p>
+<p><a href="#" class="btn-secondary">Read More →</a></p>
 </section>
-<div class="cta-section" style="padding: 5rem 2rem; text-align: center; background-color: var(--kudoo-dark-blue); color: var(--kudoo-light-text);">
-<section id="contribute-to-our-knowledge-base" class="level2 container">
-<h2 class="anchored" data-anchor-id="contribute-to-our-knowledge-base">Contribute to Our Knowledge Base</h2>
-<p>We’re always looking for new content ideas and guest contributors to help Australian organisations with their ISO 27001 compliance journey.</p>
+</div>
+</div>
+<div class="col-md-6 col-lg-4">
+<div class="feature-card h-100">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/placeholder-article.jpg" class="img-fluid rounded mb-3 figure-img"></p>
+<figcaption>Policy Development</figcaption>
+</figure>
+</div>
+<section id="developing-effective-information-security-policies" class="level3">
+<h3 class="anchored" data-anchor-id="developing-effective-information-security-policies"><a href="posts/coming-soon/index.qmd">Developing Effective Information Security Policies</a></h3>
+<p><strong>Coming Soon</strong></p>
+<p>Learn how to create clear, effective information security policies that meet ISO 27001 requirements and engage your entire organization.</p>
+<p><a href="#" class="btn-secondary">Read More →</a></p>
+</section>
+</div>
+</div>
+<div class="col-md-6 col-lg-4">
+<div class="feature-card h-100">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/placeholder-article.jpg" class="img-fluid rounded mb-3 figure-img"></p>
+<figcaption>Azure Security</figcaption>
+</figure>
+</div>
+<section id="microsoft-azure-security-controls-for-iso-27001" class="level3">
+<h3 class="anchored" data-anchor-id="microsoft-azure-security-controls-for-iso-27001"><a href="posts/coming-soon/index.qmd">Microsoft Azure Security Controls for ISO 27001</a></h3>
+<p><strong>Coming Soon</strong></p>
+<p>How to leverage Microsoft Azure security features to implement and demonstrate ISO 27001 compliance effectively.</p>
+<p><a href="#" class="btn-secondary">Read More →</a></p>
+</section>
+</div>
+</div>
+</div>
+</section>
+<section id="browse-by-category" class="level2">
+<h2 class="anchored" data-anchor-id="browse-by-category">Browse by Category</h2>
+<div class="row g-4 mt-3">
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Implementation Guidance</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Risk Management</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Policy Development</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Audit Preparation</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Technology Controls</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">People &amp; Training</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Microsoft Integration</a></p>
+</div>
+<div class="col-6 col-md-3">
+<p><a href="#" class="btn-secondary w-100">Australian Compliance</a></p>
+</div>
+</div>
+</section>
+</div>
+<section class="cta-section py-5">
+<section id="stay-updated-with-iso-27001-insights" class="level2 container">
+<h2 class="anchored" data-anchor-id="stay-updated-with-iso-27001-insights">Stay Updated with ISO 27001 Insights</h2>
+<p>Subscribe to our newsletter to receive the latest articles, tips, and ISO 27001 updates directly in your inbox.</p>
 <div class="row justify-content-center">
-<div class="col-md-4">
-<div class="feature-card">
-<p><i class="bi bi-lightbulb"></i></p>
-<section id="suggest-a-topic" class="level3">
-<h3 class="anchored" data-anchor-id="suggest-a-topic">Suggest a Topic</h3>
-<p>Have a specific challenge or question you’d like us to address?</p>
-<p><a href="#" class="btn-secondary">Submit Idea</a></p>
-</section>
-</div>
-</div>
-<div class="col-md-4">
-<div class="feature-card">
-<p><i class="bi bi-pencil-square"></i></p>
-<section id="become-a-contributor" class="level3">
-<h3 class="anchored" data-anchor-id="become-a-contributor">Become a Contributor</h3>
-<p>Industry experts are invited to share their knowledge with our community.</p>
-<p><a href="#" class="btn-secondary">Apply Now</a></p>
-</section>
-</div>
-</div>
-<div class="col-md-4">
-<div class="feature-card">
-<p><i class="bi bi-chat-dots"></i></p>
-<section id="contact-our-team" class="level3">
-<h3 class="anchored" data-anchor-id="contact-our-team">Contact Our Team</h3>
-<p>Reach out directly to our content team with your ideas or feedback.</p>
-<p><a href="#" class="btn-secondary">Contact Us</a></p>
-</section>
-</div>
+<div class="col-md-8 col-lg-6">
+<form id="newsletter-form" class="d-flex gap-2">
+<input type="email" class="form-control" placeholder="Your email address" required=""> <button type="submit" class="cta-btn">Subscribe</button>
+</form>
+<p><small class="text-light">We respect your privacy and will never share your information. Unsubscribe at any time.</small></p>
 </div>
 </div>
 </section>
-</div>
+</section>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1742435615069" data-listing-reading-time-sort="7" data-listing-word-count-sort="1307">
+<div class="thumbnail">
+<p><a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external"></a></p><a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external">ISO 27001: Understanding the Standard, Its Evolution, and Context in Australian Compliance</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external">ISO/IEC 27001 is an internationally recognized standard that provides a framework for establishing, implementing, maintaining, and continually improving an Information…</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external"></a></p><a href="../blog/posts/2025-03-20-what-is-iso/index.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
