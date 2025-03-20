@@ -3,14 +3,14 @@ title: "Product"
 ---
 
 ::: {.hero style="padding: 4rem 2rem; background: var(--kudoo-gradient);"}
-# Kudoo GRC Platform
+# Kudoo Platform
 ### Your complete solution for ISO 27001 compliance
 :::
 
 ::: {.container .py-5 style="background-color: rgba(30, 45, 70, 0.7); color: var(--kudoo-light-text);"}
 ## Platform Overview
 
-Kudoo GRC transforms how organizations implement and maintain ISO 27001 compliance. Our platform brings together governance, risk, and compliance management into a unified solution built entirely within the Microsoft ecosystem, leveraging the tools your team already uses daily.
+Kudoo transforms how organizations implement and maintain ISO 27001 compliance. Our platform brings together governance, risk, and compliance management into a unified solution built entirely within the Microsoft ecosystem, leveraging the tools your team already uses daily.
 
 By integrating with Microsoft Dataverse, Power Platform, Teams, and SharePoint, we create a seamless experience that reduces the traditional complexity of compliance management. Whether you're just beginning your ISO 27001 journey or looking to enhance your existing program, our platform provides the structure, guidance, and tools needed to achieve and maintain certification efficiently.
 :::
@@ -106,7 +106,7 @@ All policies are mapped to specific ISO 27001 controls for complete traceability
 ::: {.col-lg-6}
 ### Built on Microsoft Technologies
 
-Kudoo GRC leverages the power of Microsoft's enterprise platforms:
+Kudoo leverages the power of Microsoft's enterprise platforms:
 
 - **Dataverse:** Secure, scalable data storage with built-in compliance features
 - **Power Apps:** Intuitive canvas app interface for smooth user experience
@@ -355,7 +355,7 @@ Assigned activities with deadlines, descriptions, and linkage to specific contro
 ::: {.container}
 ## Ready to Transform Your Compliance Program?
 
-Experience the power of Kudoo GRC with a personalized demonstration.
+Experience the power of Kudoo with a personalized demonstration.
 
 [Request Demo](demo.qmd){.cta-btn}
 :::

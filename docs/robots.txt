@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /drafts/
+Disallow: /_site/
+Disallow: /_quarto/
+
+Sitemap: https://kudoo.io/sitemap.xml

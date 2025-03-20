@@ -1,0 +1,116 @@
+---
+title: "Request a Demo"
+format: 
+  html:
+    toc: false
+---
+
+::: {.hero-container}
+# Experience Kudoo in Action
+### Schedule a personalized demonstration of our ISO 27001 compliance platform
+:::
+
+::: {.container .py-5}
+## Why Request a Demo?
+
+A personalized demonstration is the best way to see how Kudoo can transform your ISO 27001 compliance journey. During your demo session, one of our compliance experts will:
+
+- Showcase the complete platform with all key features and capabilities
+- Demonstrate how Kudoo integrates with your Microsoft environment
+- Explore specific use cases relevant to your organization's compliance needs
+- Answer your questions about implementation, pricing, and support
+- Provide insights into how other organizations have succeeded with Kudoo
+
+Our demonstrations are tailored to your specific requirements and compliance goals, ensuring you get the most relevant information for your decision-making process.
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## Request Your Personalized Demo
+
+::: {.row .align-items-center}
+::: {.col-lg-6 .mb-4}
+::: {.demo-form-container}
+
+```{=html}
+{{< include ../forms/demo.html >}}
+```
+
+:::
+:::
+::: {.col-lg-6}
+<div>
+  <h3>What to Expect Next</h3>
+  <ol>
+    <li><strong>Confirmation Email:</strong> You'll receive an immediate confirmation of your demo request.</li>
+    <li><strong>Scheduling Call:</strong> A Kudoo representative will contact you within one business day to schedule your demo at a convenient time.</li>
+    <li><strong>Pre-Demo Questionnaire:</strong> We'll send a brief questionnaire to understand your specific needs and customize the demonstration accordingly.</li>
+    <li><strong>Personalized Demonstration:</strong> Attend a live, interactive demonstration of the Kudoo platform tailored to your requirements.</li>
+    <li><strong>Follow-Up Resources:</strong> After the demo, you'll receive additional materials and access to a trial environment to explore the platform further.</li>
+  </ol>
+</div>
+
+:::
+:::
+:::
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## Frequently Asked Questions
+
+::: {.row}
+::: {.col-md-6}
+::: {.feature-card}
+### How long does a typical demo last?
+Our standard demonstrations take approximately 60 minutes, including time for questions and discussion. We can adjust the length based on your availability and the depth of information you require.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Who should attend the demo?
+We recommend including representatives from your information security team, IT department, and compliance stakeholders. This ensures all relevant perspectives are considered during the demonstration.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Is there a cost for the demo?
+No, our product demonstrations are completely free of charge and come with no obligation to purchase. We're committed to helping you understand how Kudoo can benefit your organization.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Can we get a trial version after the demo?
+Yes, following the demonstration, we can provide access to a trial environment where you can explore the platform further with sample data or your own information.
+:::
+:::
+:::
+:::
+:::
+
+::: {.container .ms-integration .my-5}
+## Microsoft Environment Requirements
+
+For optimal use of Kudoo, your organization should have:
+
+- Microsoft 365 Business or Enterprise subscription
+- Microsoft Teams for collaboration features
+- SharePoint Online for document management
+- Power Platform access for customization (optional)
+- Microsoft Dataverse environment (we can help set this up)
+
+During the demo, we can discuss your specific Microsoft environment and how Kudoo will integrate with your existing setup.
+:::
+
+::: {.section .cta-section}
+::: {.container}
+## Need Immediate Assistance?
+
+If you have urgent questions or prefer to speak with a representative directly:
+
+[Contact Sales](contact.qmd){.cta-btn}
+:::
+:::

@@ -1,0 +1,241 @@
+/*-- scss:functions --*/
+
+/*-- scss:defaults --*/
+
+// Kudoo brand colors
+$kudoo-dark-blue: #1a2332;
+$kudoo-green: #2acb8f;
+$kudoo-blue: #2d9cdb;
+$kudoo-purple: #6146b9;
+
+// Override Flatly variables with brand colors
+$primary: $kudoo-dark-blue;
+$secondary: $kudoo-blue;
+$success: $kudoo-green;
+$info: $kudoo-blue;
+$dark: $kudoo-dark-blue;
+
+// Body and text colors
+$body-bg: white;
+$body-color: #333333;
+$link-color: $kudoo-green;
+$link-hover-color: $kudoo-blue;
+
+// Font settings
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+$headings-font-weight: 700;
+
+// Border radius
+$border-radius: 8px;
+$border-radius-lg: 50px;
+
+// Box shadows
+$box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+$box-shadow-lg: 0 15px 30px rgba(0, 0, 0, 0.1);
+
+/*-- scss:rules --*/
+
+// Hero section styles
+.hero-container {
+  position: relative;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, $kudoo-dark-blue 0%, lighten($kudoo-dark-blue, 10%) 100%);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+}
+
+.hero-text h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+
+// Gradient text effect
+.gradient-text {
+  background: linear-gradient(90deg, $kudoo-green 0%, $kudoo-blue 50%, $kudoo-purple 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+// Feature cards
+.feature-card {
+  background-color: white;
+  border-radius: $border-radius;
+  padding: 2rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: $box-shadow-lg;
+  border-color: $kudoo-green;
+}
+
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  background: rgba($kudoo-green, 0.1);
+  color: $kudoo-green;
+  font-size: 2rem;
+}
+
+.feature-card h3 {
+  color: $kudoo-dark-blue;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+// CTA section
+.cta-section {
+  background-color: $kudoo-dark-blue;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+// CTA buttons
+.cta-btn {
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0.75rem 2rem;
+  border-radius: $border-radius-lg;
+  transition: all 0.3s ease;
+  background: linear-gradient(90deg, $kudoo-green 0%, $kudoo-blue 100%);
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: $box-shadow-lg;
+  color: white;
+}
+
+.hero-btn {
+  @extend .cta-btn;
+  margin: 0.5rem;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}
+
+// Product section
+.product-section {
+  padding: 4rem 0;
+}
+
+// GRC domain cards
+.grc-domain-card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: $border-radius;
+  padding: 2rem;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.grc-domain-card:hover {
+  transform: translateY(-6px);
+  box-shadow: $box-shadow-lg;
+  border-color: $kudoo-green;
+}
+
+.grc-domain-card h3 {
+  color: $kudoo-dark-blue;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid $kudoo-green;
+  padding-bottom: 0.5rem;
+}
+
+// MS integration section
+.ms-integration {
+  background-color: rgba($kudoo-blue, 0.1);
+  border-radius: $border-radius;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 1px solid rgba($kudoo-blue, 0.3);
+}
+
+// Responsive adjustments
+@media (max-width: 991px) {
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+  
+  .feature-card {
+    margin-bottom: 1rem;
+  }
+}
+
+// Demo form specific styles
+.demo-form-container {
+  background-color: white;
+  border-radius: 16px; // Increased from 8px for more rounded corners
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); // More spread out, softer shadow
+  transition: all 0.3s ease; // Optional: adds a subtle animation when hovering
+  
+  &:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); // Optional: enhanced shadow on hover
+  }
+}
+
+.form-control, .form-select {
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
