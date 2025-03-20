@@ -12,7 +12,7 @@ description: "The agreement governing your use of Kudoo's GRC platform and servi
 
 ## Introduction
 
-Welcome to Kudoo. These Terms of Service ("Terms") govern your access to and use of the Kudoo GRC platform, website, and services. By using Kudoo, you agree to these Terms in their entirety. If you are using Kudoo on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.
+Welcome to Kudoo. These Terms of Service ("Terms") govern your access to and use of the Kudoo platform, website, and services. By using Kudoo, you agree to these Terms in their entirety. If you are using Kudoo on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.
 
 ## Service Description
 

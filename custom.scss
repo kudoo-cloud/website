@@ -223,10 +223,15 @@ $box-shadow-lg: 0 15px 30px rgba(0, 0, 0, 0.1);
 // Demo form specific styles
 .demo-form-container {
   background-color: white;
-  border-radius: $border-radius;
+  border-radius: 16px; // Increased from 8px for more rounded corners
   padding: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: $box-shadow;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); // More spread out, softer shadow
+  transition: all 0.3s ease; // Optional: adds a subtle animation when hovering
+  
+  &:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); // Optional: enhanced shadow on hover
+  }
 }
 
 .form-control, .form-select {

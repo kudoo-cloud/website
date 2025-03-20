@@ -1,0 +1,283 @@
+I'd be happy to create a sales.qmd file for your Kudoo website. This page will focus on your sales approach and team information. Here's a comprehensive sales page that matches the style and branding of your other Quarto pages:
+
+---
+title: "Sales & Partnerships"
+format: 
+  html:
+    toc: false
+---
+
+::: {.hero-container}
+# Partner with Kudoo for Compliance Success
+### Explore how our team can support your ISO 27001 implementation journey
+:::
+
+::: {.container .py-5}
+## Our Approach to Customer Success
+
+At Kudoo, we believe that successful ISO 27001 implementation requires more than just great technology—it demands a partnership approach with knowledgeable experts who understand both information security and your business needs. Our dedicated sales and customer success teams work closely with you throughout your compliance journey, from initial exploration to certification and beyond.
+
+Our customer-centric approach focuses on:
+
+- Understanding your unique compliance objectives and challenges
+- Tailoring our platform and services to your specific organizational needs
+- Providing expert guidance at every step of your implementation journey
+- Ensuring you achieve maximum value from your investment
+- Supporting your long-term compliance success through continuous improvement
+
+We measure our success by your success—achieving and maintaining ISO 27001 certification efficiently while building a sustainable information security management system.
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## Our Sales Process
+
+::: {.row .align-items-center}
+::: {.col-lg-6}
+### A Consultative Partnership
+
+When you engage with Kudoo, you're not just buying software—you're partnering with compliance experts who care about your success. Our sales process is designed to be consultative, educational, and value-driven:
+
+1. **Initial Discovery**: We begin by understanding your organization's specific compliance goals, challenges, timeline, and current state.
+
+2. **Needs Assessment**: Our team conducts a detailed evaluation of your requirements, identifying the optimal platform configuration and implementation approach.
+
+3. **Tailored Demonstration**: We provide a personalized walkthrough of the Kudoo platform, focusing on the capabilities most relevant to your specific needs.
+
+4. **Solution Design**: We develop a comprehensive implementation plan, including timelines, resource requirements, and key milestones.
+
+5. **Investment Proposal**: We provide transparent pricing and ROI projections that align with your business objectives and compliance requirements.
+
+6. **Onboarding Plan**: Upon agreement, we outline a detailed onboarding process to ensure a smooth transition to the Kudoo platform.
+:::
+
+::: {.col-lg-6}
+<div class="ms-integration">
+  <h3>Our Commitment to You</h3>
+  <ul>
+    <li><strong>No High-Pressure Tactics</strong>: We believe in building relationships, not just closing deals.</li>
+    <li><strong>True Expertise</strong>: Our sales team includes certified information security professionals who understand the nuances of ISO 27001.</li>
+    <li><strong>Transparent Communication</strong>: We're upfront about capabilities, limitations, and what it takes to succeed.</li>
+    <li><strong>Long-Term Partnership</strong>: We're invested in your continued compliance success beyond the initial implementation.</li>
+    <li><strong>Value-Based Solutions</strong>: We focus on delivering genuine business value through effective compliance management.</li>
+  </ul>
+</div>
+:::
+:::
+:::
+:::
+
+::: {.section .product-section .py-5}
+::: {.container}
+## Flexible Engagement Models
+
+::: {.row}
+::: {.col-md-6}
+::: {.feature-card}
+### Standard Package
+
+Our core offering provides everything you need to implement and maintain ISO 27001 compliance:
+
+- Full access to the Kudoo platform
+- Complete ISO 27001:2022 framework and controls
+- All implementation tools and templates
+- Standard onboarding and training
+- Email support during business hours
+- Quarterly platform updates and improvements
+- Up to 25 user accounts
+
+**Ideal for**: Organizations with in-house information security expertise seeking a powerful platform to streamline their compliance efforts.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Premium Package
+
+Our enhanced offering provides additional support and services for organizations seeking more guidance:
+
+- Everything in the Standard Package
+- Dedicated Customer Success Manager
+- Extended onboarding and implementation support
+- Regular compliance check-ins and progress reviews
+- Priority support with guaranteed response times
+- Custom policy development assistance
+- Integration with existing security tools
+- Up to 100 user accounts
+
+**Ideal for**: Organizations with limited internal compliance resources seeking a more guided implementation experience.
+:::
+:::
+:::
+
+::: {.row .mt-4}
+::: {.col-md-6}
+::: {.feature-card}
+### Enterprise Solution
+
+Our comprehensive offering for large organizations with complex compliance requirements:
+
+- Everything in the Premium Package
+- Enterprise-grade security and authentication
+- Custom controls and framework mappings
+- Multiple ISMS scope configurations
+- Advanced reporting and analytics
+- Integration with enterprise risk management systems
+- Executive dashboard customization
+- Unlimited user accounts
+
+**Ideal for**: Large organizations, regulated industries, or businesses with complex compliance ecosystems requiring maximum flexibility and support.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Implementation Services
+
+For organizations seeking hands-on expert assistance:
+
+- Gap assessment and implementation planning
+- Policy development and customization
+- Risk assessment facilitation
+- Control implementation guidance
+- Internal audit preparation and execution
+- Certification readiness assessment
+- Ongoing compliance management support
+- Staff awareness training delivery
+
+**Ideal for**: Organizations at any stage of ISO 27001 implementation seeking expert guidance and support to accelerate their compliance journey.
+:::
+:::
+:::
+:::
+:::
+
+::: {.container .ms-integration .my-5}
+## Industry Specializations
+
+Our sales team includes specialists with deep experience in key industries:
+
+- **Financial Services**: Addressing the unique compliance challenges of banks, credit unions, and fintech companies.
+- **Healthcare**: Aligning ISO 27001 with healthcare regulations and protecting sensitive patient information.
+- **Technology**: Streamlining compliance for SaaS providers, software developers, and technology consultancies.
+- **Professional Services**: Helping accounting, legal, and consulting firms protect client information effectively.
+- **Government & Education**: Supporting public sector organizations with their specific compliance requirements.
+
+Each industry specialist understands the unique regulatory landscape, common challenges, and implementation approaches most effective for organizations in their sector.
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## Meet Our Leadership Team
+
+::: {.row}
+::: {.col-md-4}
+::: {.feature-card}
+### Sarah Mitchell
+**Chief Revenue Officer**
+
+With over 15 years in cybersecurity and compliance solutions, Sarah leads our global sales strategy and customer success initiatives. Her background includes leadership roles at major GRC and security firms, where she developed a reputation for building customer-centric sales organizations focused on long-term client success.
+
+[Connect on LinkedIn](#){.btn-secondary}
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card}
+### Michael Zhang
+**Head of Sales, Asia-Pacific**
+
+Michael brings 10+ years of experience helping organizations across Australia, Singapore, and the broader APAC region implement effective governance and compliance programs. His deep understanding of regional regulatory requirements makes him an invaluable resource for APAC customers.
+
+[Connect on LinkedIn](#){.btn-secondary}
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card}
+### Alexandra Rivera
+**Director of Customer Success**
+
+Alexandra's team ensures that every Kudoo customer achieves their compliance objectives efficiently and effectively. With a background in information security consulting and ISMS implementation, she understands the practical challenges organizations face on their ISO 27001 journey.
+
+[Connect on LinkedIn](#){.btn-secondary}
+:::
+:::
+:::
+:::
+:::
+
+::: {.section .py-5}
+::: {.container}
+## Frequently Asked Questions
+
+::: {.row}
+::: {.col-md-6}
+::: {.feature-card}
+### What is your pricing model?
+
+Our pricing is based on your organization's size, complexity, and specific needs. We offer flexible annual subscription plans that include platform access, updates, and support. For detailed pricing information tailored to your organization, please [request a consultation](#pricing-inquiry){.cta-btn .mt-2}
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### How quickly can we implement ISO 27001 with Kudoo?
+
+Implementation timelines vary based on your organization's size, complexity, and starting point. Typically, our customers achieve certification readiness within 6-12 months. With our platform's structured approach, many organizations see a 30-40% reduction in implementation time compared to traditional methods.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Do you offer a free trial of the platform?
+
+While we don't offer a self-service free trial, we provide comprehensive demonstrations and guided platform tours that allow you to experience Kudoo's capabilities firsthand. Following your demonstration, we can create a limited test environment with your specific use cases to help evaluate the platform's fit for your needs.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Can Kudoo replace our existing GRC tools?
+
+Kudoo is specifically designed for ISO 27001 compliance, offering deeper functionality in this area than many general-purpose GRC tools. Many organizations use Kudoo alongside existing GRC platforms, while others choose to consolidate their compliance activities within our purpose-built solution. Our team can help assess your current toolset and identify the optimal approach.
+:::
+:::
+:::
+:::
+:::
+
+::: {.section .cta-section}
+::: {.container}
+## Ready to Discuss Your Compliance Needs?
+
+Our team is ready to explore how Kudoo can support your ISO 27001 compliance journey.
+
+[Request Consultation](demo.qmd){.cta-btn} [View Pricing](#pricing-inquiry){.cta-btn .secondary-btn .ms-3}
+:::
+:::
+
+::: {.container .py-5 id="pricing-inquiry"}
+## Request Pricing Information
+
+::: {.row .justify-content-center}
+::: {.col-lg-8}
+::: {.demo-form-container}
+{{< include forms/pricing.html >}}
+:::
+:::
+:::
+:::
+
+This sales.qmd file includes:
+
+1. A comprehensive overview of your sales approach and philosophy
+2. Clear explanation of your sales process
+3. Detailed information about different engagement models and packages
+4. Industry specialization information
+5. Leadership team profiles
+6. Sales-related FAQs
+7. Call-to-action sections
+8. A pricing inquiry form section (which would require creating a forms/pricing.html file similar to your demo form)
+
+The structure and styling match your existing pages while focusing specifically on the sales aspect of your business. You may need to adjust specific details like team member names, package details, and pricing models to match your actual offerings.

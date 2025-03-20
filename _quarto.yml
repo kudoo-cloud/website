@@ -6,23 +6,25 @@ project:
     - "CNAME"
     - "robots.txt"
     - "_static"
-
+    - "forms/"
+  preview:
+    port: 4096
 website:
-  title: "Kudoo Platform"
+  title: "Kudoo"
   description: "Streamline ISO 27001 implementation with Kudoo's Microsoft-integrated GRC platform designed for Australian businesses."
   site-url: https://kudoo.io
   google-analytics: "G-XXXXXXXXXX"  # Replace with actual Google Analytics ID when available
   favicon: "images/logo.png"
   
   open-graph:
-    site-name: "Kudoo GRC Platform"
-    title: "Kudoo GRC Platform | ISO 27001 Compliance for Australian Organisations"
+    site-name: "Kudoo"
+    title: "Kudoo | ISO 27001 Compliance for Australian Organisations"
     description: "Streamline ISO 27001 implementation with Kudoo's Microsoft-integrated GRC platform designed for Australian businesses."
     image: "images/kudoo-social-preview.jpg"
   
   twitter-card:
-    creator: "@KudooGRC"
-    title: "Kudoo GRC Platform | ISO 27001 Compliance for Australian Organisations"
+    creator: "@Kudoo"
+    title: "Kudoo | ISO 27001 Compliance for Australian Organisations"
     description: "Streamline ISO 27001 implementation with Kudoo's Microsoft-integrated GRC platform designed for Australian businesses."
     image: "images/kudoo-social-preview.jpg"
   
