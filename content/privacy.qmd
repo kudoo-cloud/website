@@ -100,9 +100,7 @@ We may update this Privacy Policy periodically. We will notify you of significan
 
 If you have questions about this Privacy Policy or our privacy practices, please contact us at:
 
-**Email:** privacy@kudoo.io  
-**Address:** 123 Business Street, Sydney, NSW 2000, Australia  
-**Phone:** +61-2-1234-5678
+**Email:** jtrollip@kudoo.io  
 
 :::
 
@@ -112,6 +110,6 @@ If you have questions about this Privacy Policy or our privacy practices, please
 
 We're committed to transparency and protecting your data.
 
-[Contact Us](contact.qmd){.cta-btn} [Request Data Access](data-request.qmd){.cta-btn .ms-3 .secondary-btn}
+ [Cookie Policy](cookie-policy.qmd){.cta-btn .ms-3 .secondary-btn}
 :::
 :::

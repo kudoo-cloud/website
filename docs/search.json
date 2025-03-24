@@ -18,7 +18,7 @@
     "href": "index.html#what-is-kudoo",
     "title": "Kudoo Platform",
     "section": "What is Kudoo?",
-    "text": "What is Kudoo?\nKudoo is a comprehensive Governance, Risk, and Compliance platform built within the Microsoft ecosystem. Our solution transforms how organizations implement and maintain ISO 27001 compliance by integrating with the tools your team already uses daily. With Kudoo, you can simplify complex compliance processes, reduce implementation time, and ensure continuous adherence to information security standards.\nOur platform brings together all aspects of ISO 27001 compliance—from framework management and risk assessment to policy development and audit preparation—into a unified solution that leverages Microsoft Dataverse, Power Platform, Teams, and SharePoint. This seamless integration creates an intuitive experience that reduces the traditional barriers to effective compliance management."
+    "text": "What is Kudoo?\nKudoo is a comprehensive Governance, Risk, and Compliance platform built within the Microsoft ecosystem. Our solution transforms how organizations implement and maintain ISO 27001 compliance by integrating with the tools your team already uses daily. With Kudoo, you can simplify complex compliance processes, reduce implementation time, and ensure continuous adherence to information security standards.\nOur platform brings together all aspects of ISO 27001 compliance—from framework management and risk assessment to policy development and audit preparation—into a unified solution that leverages Microsoft Copilot, Dataverse, Power Platform, Teams, and SharePoint. This seamless integration creates an intuitive experience that reduces the traditional barriers to effective compliance management."
   },
   {
     "objectID": "index.html#why-choose-kudoo",
@@ -186,14 +186,14 @@
     "href": "content/privacy.html#contact-us",
     "title": "Privacy Policy",
     "section": "Contact Us",
-    "text": "Contact Us\nIf you have questions about this Privacy Policy or our privacy practices, please contact us at:\nEmail: privacy@kudoo.io\nAddress: 123 Business Street, Sydney, NSW 2000, Australia\nPhone: +61-2-1234-5678"
+    "text": "Contact Us\nIf you have questions about this Privacy Policy or our privacy practices, please contact us at:\nEmail: jtrollip@kudoo.io"
   },
   {
     "objectID": "content/privacy.html#questions-about-our-privacy-practices",
     "href": "content/privacy.html#questions-about-our-privacy-practices",
     "title": "Privacy Policy",
     "section": "Questions About Our Privacy Practices?",
-    "text": "Questions About Our Privacy Practices?\nWe’re committed to transparency and protecting your data.\nContact Us Request Data Access"
+    "text": "Questions About Our Privacy Practices?\nWe’re committed to transparency and protecting your data.\nCookie Policy"
   },
   {
     "objectID": "content/demo.html#why-request-a-demo",
@@ -231,6 +231,62 @@
     "text": "Need Immediate Assistance?\nIf you have urgent questions or prefer to speak with a representative directly:\nContact Sales"
   },
   {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "",
+    "text": "Note\n\n\n\nThis article explores the intersection of information security, regulatory compliance, and cultural respect when managing Aboriginal and Torres Strait Islander health data. We acknowledge the Traditional Owners of Country throughout Australia and recognize their continuing connection to land, waters, and community."
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#understanding-the-dual-responsibility-information-security-and-cultural-respect",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#understanding-the-dual-responsibility-information-security-and-cultural-respect",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "Understanding the Dual Responsibility: Information Security and Cultural Respect",
+    "text": "Understanding the Dual Responsibility: Information Security and Cultural Respect\nOrganizations managing Aboriginal and Torres Strait Islander health data face a dual responsibility: implementing robust information security practices that comply with ISO 27001 standards while respecting and honoring the cultural significance of this information. This balance is not just a regulatory requirement but an ethical imperative.\nHealth information for Aboriginal and Torres Strait Islander peoples represents more than clinical data—it embodies cultural knowledge with deep connections to community, Country, and identity. Implementing information security for these data assets requires a thoughtful approach that goes beyond standard compliance frameworks."
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#aboriginal-data-sovereignty-a-foundation-for-respectful-information-security",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#aboriginal-data-sovereignty-a-foundation-for-respectful-information-security",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "Aboriginal Data Sovereignty: A Foundation for Respectful Information Security",
+    "text": "Aboriginal Data Sovereignty: A Foundation for Respectful Information Security\nAboriginal data sovereignty recognizes that Indigenous peoples have the right to maintain ownership of their data and determine how it is collected, stored, used, and shared. When implementing ISO 27001 controls for systems containing Aboriginal health information, this principle must guide your approach.\nKey aspects of data sovereignty include:\n\nCommunity Ownership: Health data belongs to the individuals and communities it represents, not just the organizations that collect or store it\nControl Over Usage: Communities have the right to determine how their collective health information is used and for what purposes\nAccess Governance: Cultural protocols may dictate who can access certain types of information based on factors including gender, kinship relationships, and community roles\nBenefit Sharing: The insights derived from health data should benefit the communities that contributed the information\n\nA culturally respectful ISO 27001 implementation acknowledges these principles and builds them into the Information Security Management System (ISMS)."
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#key-challenges-in-aligning-iso-27001-with-cultural-protocols",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#key-challenges-in-aligning-iso-27001-with-cultural-protocols",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "Key Challenges in Aligning ISO 27001 with Cultural Protocols",
+    "text": "Key Challenges in Aligning ISO 27001 with Cultural Protocols\n\nGovernance Structure Alignment\nChallenge: ISO 27001 requires clear roles and responsibilities for information security governance, but these structures may not align with Aboriginal decision-making processes and community authority.\nTraditional security governance typically follows organizational hierarchies, while Aboriginal communities may have distinct governance mechanisms based on cultural authority, Elders’ guidance, and collective decision-making. Bridging these different approaches requires thoughtful implementation of Clause 5 (Leadership) in the ISO 27001 standard.\n\n\nCulturally Appropriate Consent Models\nChallenge: Standard consent frameworks may not adequately address cultural considerations regarding how and when health information can be collected, stored, and used.\nISO 27001 control A.5.9 from the 2022 standard (Information security in supplier relationships) and controls related to information classification require well-defined rules for data handling. However, these controls must be implemented in ways that respect Aboriginal perspectives on consent, which may be:\n\nCollective rather than purely individual\nSpecific to particular uses rather than general\nRequiring ongoing engagement rather than one-time approval\n\n\n\nExpanding Risk Assessment Frameworks\nChallenge: Conventional risk assessment methodologies focused on confidentiality, integrity, and availability may miss cultural risks associated with improper handling of Aboriginal health data.\nWhen implementing ISO 27001 Clause 6 (Planning) and the related risk assessment controls, organizations need to consider additional risk dimensions:\n\nRisks to cultural safety\nPotential impacts on community trust\nConsequences of applying incorrect cultural protocols\nRisks of data being used in ways that reinforce stereotypes or cause community harm\n\n\n\nImplementing Culturally Appropriate Access Controls\nChallenge: Standard role-based access control mechanisms may not accommodate cultural considerations regarding who should access specific types of health information.\nAccess control implementation (Controls A.5.15 through A.5.18 in ISO 27001:2022) must be designed to respect cultural protocols that may determine:\n\nGender-based access restrictions for certain health information\nAge-based or role-based permissions aligned with cultural authority\nTemporal restrictions related to cultural practices or Sorry Business\nRequirements for proper cultural context when accessing sensitive information"
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#how-kudoo-helps-organizations-navigate-these-challenges",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#how-kudoo-helps-organizations-navigate-these-challenges",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "How Kudoo Helps Organizations Navigate These Challenges",
+    "text": "How Kudoo Helps Organizations Navigate These Challenges\nKudoo’s ISO 27001 compliance platform includes features specifically designed to help organizations implement culturally respectful information security practices while maintaining compliance standards.\n\nFlexible Control Framework Implementation\nKudoo enables organizations to adapt the ISO 27001 control framework to incorporate community-defined protocols and requirements:\n\nCustomizable control implementation guidance that can include cultural considerations\nThe ability to map cultural requirements to specific ISO 27001 controls\nDocumentation tools that capture both technical implementation and cultural context\nWorkflow capabilities that support community consultation during control implementation\n\n\n\nCollaborative Governance Model Support\nOur platform supports distributed governance models that respect Aboriginal decision-making processes:\n\nConfigurable approval workflows that can incorporate community representatives\nRole-based dashboards reflecting both organizational and community governance structures\nEvidence collection capabilities that document community consultation\nDelegation of review and approval rights to appropriate cultural authorities\n\n\n\nEnhanced Risk Assessment Capabilities\nKudoo’s risk assessment framework can be extended to include cultural considerations:\n\nCustom risk categories that encompass cultural impacts\nFlexible risk assessment methodologies that can incorporate community perspectives\nRisk treatment planning tools that document culturally appropriate mitigation strategies\nOngoing risk monitoring that includes community feedback mechanisms\n\n\n\nSophisticated Access Management\nThe platform supports nuanced access control implementation that respects cultural protocols:\n\nContext-based access permissions that consider cultural factors\nDetailed documentation of cultural protocols within access policies\nComprehensive audit trails to ensure adherence to defined protocols\nIntegration with identity management systems that can incorporate cultural roles"
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#implementation-best-practices-a-pathway-to-respectful-compliance",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#implementation-best-practices-a-pathway-to-respectful-compliance",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "Implementation Best Practices: A Pathway to Respectful Compliance",
+    "text": "Implementation Best Practices: A Pathway to Respectful Compliance\n\n1. Engage Early and Establish Partnerships\nBegin your ISO 27001 implementation journey by establishing genuine partnerships with Aboriginal communities whose health data you manage:\n\nInvolve community representatives in the initial scoping of your ISMS\nCo-design governance structures that respect cultural authority\nEstablish clear communication channels for ongoing consultation\nAllocate appropriate resources to support meaningful community participation\n\nKudoo’s implementation planning tools help document these engagement processes and incorporate them into your overall project plan.\n\n\n2. Develop a Shared Understanding\nBuild reciprocal understanding between your information security team and community representatives:\n\nProvide clear, accessible explanations of information security concepts and requirements\nAllocate time and resources for your team to learn about data sovereignty principles\nDocument cultural protocols and requirements in plain language\nEstablish a common vocabulary for discussing information security in a cultural context\n\nKudoo’s knowledge management capabilities help capture and share this understanding across your organization.\n\n\n3. Co-design Policies and Procedures\nDevelop information security policies and procedures collaboratively:\n\nDraft policies that explicitly acknowledge Aboriginal data sovereignty\nInclude community representatives in policy review processes\nEnsure procedures incorporate culturally appropriate steps\nDocument the rationale behind culturally specific security measures\n\nKudoo’s policy management module supports collaborative development and maintains version history to track how community input shapes your documentation.\n\n\n4. Implement Appropriate Access Controls\nDesign access control systems that honor cultural protocols:\n\nMap cultural roles and permissions to your technical access control mechanisms\nDocument the cultural basis for specific access restrictions\nEstablish processes for handling exceptions and special circumstances\nEnsure audit capabilities can verify compliance with cultural protocols\n\nKudoo’s control implementation guidance provides a structured framework for documenting these culturally specific access controls.\n\n\n5. Conduct Culturally Informed Risk Assessments\nExpand your risk assessment process to include cultural considerations:\n\nInclude community representatives in risk identification workshops\nConsider impacts beyond organizational boundaries\nDocument cultural contexts that influence risk evaluation\nDevelop risk treatment plans that respect community priorities\n\nKudoo’s risk assessment tools support these expanded assessments while maintaining alignment with ISO 27001 requirements.\n\n\n6. Establish Appropriate Incident Response Procedures\nDevelop incident management processes that consider cultural implications:\n\nDefine escalation pathways that include notification of appropriate cultural authorities\nEstablish culturally appropriate communication protocols for different types of incidents\nConsider community impacts in your incident severity classification\nInclude cultural restoration in recovery planning\n\nKudoo’s incident management module helps document these procedures and track their implementation.\n\n\n7. Maintain Ongoing Engagement\nTreat community engagement as an ongoing process, not a one-time activity:\n\nSchedule regular reviews of security controls with community representatives\nCreate feedback mechanisms for continuous improvement\nShare relevant audit results with appropriate community stakeholders\nAdapt your approach as relationships evolve and new insights emerge\n\nKudoo’s continuous improvement tools support this iterative approach to security management."
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#conclusion-balancing-compliance-and-cultural-respect",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#conclusion-balancing-compliance-and-cultural-respect",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "Conclusion: Balancing Compliance and Cultural Respect",
+    "text": "Conclusion: Balancing Compliance and Cultural Respect\nImplementing ISO 27001 for systems containing Aboriginal health data requires thoughtful navigation of both regulatory requirements and cultural responsibilities. By approaching this challenge with respect, openness, and a commitment to partnership, organizations can develop information security practices that protect sensitive health data while honoring Aboriginal data sovereignty.\nKudoo’s platform provides the flexibility, features, and guidance needed to implement culturally appropriate security practices within the ISO 27001 framework. Our approach helps organizations balance regulatory compliance with cultural respect, ensuring that information security enhances rather than hinders Aboriginal control over their health information.\nBy partnering with communities and implementing these best practices, your organization can establish security frameworks that not only meet ISO 27001 requirements but also support Aboriginal self-determination and data sovereignty—creating a foundation for respectful, secure management of health information.\n\n\n\n\n\n\nNeed Help Implementing Culturally Respectful ISO 27001 Controls?\n\n\n\nKudoo’s platform and implementation partners can help you develop an information security approach that respects Aboriginal data sovereignty while meeting compliance requirements. Request a demo to see how our tools support culturally appropriate information security practices."
+  },
+  {
+    "objectID": "blog/posts/2025-03-24-health-aboriginal/index.html#further-resources",
+    "href": "blog/posts/2025-03-24-health-aboriginal/index.html#further-resources",
+    "title": "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia",
+    "section": "Further Resources",
+    "text": "Further Resources\n\nAustralian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS) Code of Ethics\nNational Aboriginal and Torres Strait Islander Health Plan\nIndigenous Data Sovereignty Network\nISO 27001:2022 Standard Overview\nKudoo’s Approach to Australian Compliance Requirements"
+  },
+  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Kudoo Blog",
@@ -245,18 +301,11 @@
     "text": "Practical advice and insights to help you navigate ISO 27001 compliance in the Australian context."
   },
   {
-    "objectID": "blog/index.html#featured-article",
-    "href": "blog/index.html#featured-article",
+    "objectID": "blog/index.html#featured-articles",
+    "href": "blog/index.html#featured-articles",
     "title": "Kudoo Blog",
-    "section": "Featured Article",
-    "text": "Featured Article\n\n\nISO 27001: Understanding the Standard, Its Evolution, and Context in Australian Compliance\nMarch 15, 2025\nISO 27001 is the internationally recognized standard for information security management. In this comprehensive guide, we explore the fundamentals of the standard, the key differences in the 2022 update, and how it integrates with the Australian regulatory landscape.\nThis article covers: - The core principles and structure of ISO 27001 - Key changes in the 2022 version and what they mean for your organization - How ISO 27001 relates to Australian standards like the ISM and Essential Eight - Implementation considerations specific to Australian organizations\nRead the full article →\n\n\n\n\n\nISO 27001 Standard"
-  },
-  {
-    "objectID": "blog/index.html#recent-articles",
-    "href": "blog/index.html#recent-articles",
-    "title": "Kudoo Blog",
-    "section": "Recent Articles",
-    "text": "Recent Articles\n\n\n\n\n\n\nRisk Assessment\n\n\n\nRisk Assessment Methodologies for ISO 27001\nComing Soon\nA comparison of risk assessment methodologies suitable for ISO 27001 implementation, with practical guidance for Australian organizations.\nRead More →\n\n\n\n\n\n\n\n\nPolicy Development\n\n\n\nDeveloping Effective Information Security Policies\nComing Soon\nLearn how to create clear, effective information security policies that meet ISO 27001 requirements and engage your entire organization.\nRead More →\n\n\n\n\n\n\n\n\nAzure Security\n\n\n\nMicrosoft Azure Security Controls for ISO 27001\nComing Soon\nHow to leverage Microsoft Azure security features to implement and demonstrate ISO 27001 compliance effectively.\nRead More →"
+    "section": "Featured Articles",
+    "text": "Featured Articles\n\n\nCulturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia\nMarch 24, 2025\nOrganizations managing Aboriginal and Torres Strait Islander health data face a dual responsibility: implementing robust information security practices that comply with ISO 27001 standards while respecting and honoring the cultural significance of this information.\nThis article explores:\n\nAboriginal data sovereignty as a foundation for information security\nChallenges in aligning ISO 27001 with cultural protocols\nImplementing culturally appropriate access controls\nBest practices for respectful compliance\n\nRead the full article →\n\n\n\n\n\nAboriginal Health Data Security\n\n\n\n\n\n\nISO 27001: Understanding the Standard, Its Evolution, and Context in Australian Compliance\nMarch 20, 2025\nISO 27001 is the internationally recognized standard for information security management. In this comprehensive guide, we explore the fundamentals of the standard, the key differences in the 2022 update, and how it integrates with the Australian regulatory landscape.\nThis article covers:\n\nThe core principles and structure of ISO 27001\nKey changes in the 2022 version and what they mean for your organization\nHow ISO 27001 relates to Australian standards like the ISM and Essential Eight\nImplementation considerations specific to Australian organizations\n\nRead the full article →\n\n\n\n\n\nISO 27001 Standard"
   },
   {
     "objectID": "blog/index.html#browse-by-category",
@@ -322,6 +371,55 @@
     "text": "When implementing ISO 27001 in an Australian context, organizations should consider:\n\nRegulatory Alignment: Map ISO 27001 controls to relevant Australian regulations (Privacy Act, APRA requirements, etc.) to ensure comprehensive compliance.\nRisk Assessment Scope: Ensure risk assessments consider Australia-specific threats, such as geographic isolation, climate considerations for business continuity, and the regulatory landscape.\nSupply Chain Considerations: Australia’s geographic position and reliance on international supply chains create unique security challenges that should be addressed in the ISMS.\nCultural Factors: Australian workplace culture may influence how security awareness and training programs should be designed for maximum effectiveness.\nRegional Threat Landscape: Consider Australia’s unique position in the Asia-Pacific region and the specific cyber threats that may target Australian organizations.\n\nBy understanding ISO 27001 in its Australian context and recognizing the differences between the 2022 version and previous iterations, organizations can develop a more effective and compliant information security management system that addresses both international standards and local regulatory requirements."
   },
   {
+    "objectID": "content/cookie-policy.html#what-are-cookies",
+    "href": "content/cookie-policy.html#what-are-cookies",
+    "title": "Cookie Policy",
+    "section": "What Are Cookies?",
+    "text": "What Are Cookies?\nCookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to the website owners."
+  },
+  {
+    "objectID": "content/cookie-policy.html#how-we-use-cookies",
+    "href": "content/cookie-policy.html#how-we-use-cookies",
+    "title": "Cookie Policy",
+    "section": "How We Use Cookies",
+    "text": "How We Use Cookies\nKudoo uses cookies for several purposes, including:\n\nEssential Cookies\nThese cookies are necessary for the website to function properly and cannot be disabled in our systems. They are usually set in response to actions you take such as setting your privacy preferences, logging in, or filling in forms.\n\n\nPerformance and Analytics Cookies\nThese cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us know which pages are the most and least popular and see how visitors move around the site.\nWe use Google Analytics to collect anonymous information about how you use our website. Google Analytics stores information about what pages you visit, how long you are on the site, how you got here, and what you click on. We do not collect or store your personal information (e.g., your name or address) so this information cannot be used to identify who you are.\n\n\nFunctional Cookies\nThese cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third-party providers whose services we have added to our pages.\n\n\nTargeting and Advertising Cookies\nThese cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant advertisements on other sites."
+  },
+  {
+    "objectID": "content/cookie-policy.html#managing-your-cookie-preferences",
+    "href": "content/cookie-policy.html#managing-your-cookie-preferences",
+    "title": "Cookie Policy",
+    "section": "Managing Your Cookie Preferences",
+    "text": "Managing Your Cookie Preferences\nMost web browsers allow some control of most cookies through the browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit www.allaboutcookies.org.\nYou can choose to reject or block all or specific types of cookies set by our website by clicking on the cookie settings at the bottom of any page.\nPlease note that by deleting our cookies or disabling future cookies, you may not be able to access certain areas or features of our site."
+  },
+  {
+    "objectID": "content/cookie-policy.html#google-analytics-opt-out",
+    "href": "content/cookie-policy.html#google-analytics-opt-out",
+    "title": "Cookie Policy",
+    "section": "Google Analytics Opt-Out",
+    "text": "Google Analytics Opt-Out\nTo provide website visitors with more choice on how their data is collected by Google Analytics, Google has developed the Google Analytics Opt-out Browser Add-on. The add-on communicates with the Google Analytics JavaScript (ga.js) to indicate that information about the website visit should not be sent to Google Analytics.\nIf you want to opt out, download and install the add-on for your web browser here: Google Analytics Opt-out Browser Add-on."
+  },
+  {
+    "objectID": "content/cookie-policy.html#changes-to-this-cookie-policy",
+    "href": "content/cookie-policy.html#changes-to-this-cookie-policy",
+    "title": "Cookie Policy",
+    "section": "Changes to This Cookie Policy",
+    "text": "Changes to This Cookie Policy\nWe may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the “Last Updated” date at the top of this page."
+  },
+  {
+    "objectID": "content/cookie-policy.html#contact-us",
+    "href": "content/cookie-policy.html#contact-us",
+    "title": "Cookie Policy",
+    "section": "Contact Us",
+    "text": "Contact Us\nIf you have any questions about our use of cookies, please contact us at:\nEmail: jtrollip@kudoo.io"
+  },
+  {
+    "objectID": "content/cookie-policy.html#questions-about-our-cookie-practices",
+    "href": "content/cookie-policy.html#questions-about-our-cookie-practices",
+    "title": "Cookie Policy",
+    "section": "Questions About Our Cookie Practices?",
+    "text": "Questions About Our Cookie Practices?\nWe’re committed to transparency regarding how we use cookies and your data.\nPrivacy Policy"
+  },
+  {
     "objectID": "content/pricing.html#find-the-right-plan-for-your-organization",
     "href": "content/pricing.html#find-the-right-plan-for-your-organization",
     "title": "Pricing",
@@ -368,7 +466,7 @@
     "href": "content/product.html#our-product-suite",
     "title": "Kudoo Platform",
     "section": "Our Product Suite",
-    "text": "Our Product Suite\nKudoo offers a comprehensive approach to ISO 27001 compliance with solutions designed to meet organizations at every stage of their compliance journey.\n\n\nKudoo Copilot App\nAvailable Now in Microsoft Store\nOur AI-powered Copilot app provides instant access to ISO 27001 expertise directly within your Microsoft Teams environment. Simplify policy creation, get implementation guidance, and access a comprehensive library of ISO 27001 templates with the power of AI.\n\nKey Features:\n\nComplete ISO 27001:2022 policy template library\nAI-assisted policy customization\nControl-specific implementation guidance\nNatural language compliance queries\nNo technical expertise required\n\n\nGet It Now See Demo\n\n\n\n\n\n\n\nKudoo Copilot App in Microsoft Teams\n\n\n\n\n\n\nKudoo Power Platform\nComing Soon\nTransform your compliance program with our comprehensive Microsoft Power Platform solution. Built on Dataverse, our platform provides end-to-end management of your Information Security Management System (ISMS) with powerful dashboards, automated workflows, and complete evidence management.\n\nKey Features:\n\nComplete ISO 27001:2022 framework implementation\nReal-time compliance dashboards\nSharePoint-integrated evidence management\nAutomated risk assessment tools\nSeamless Microsoft 365 integration\n\n\nJoin Waitlist Request Demo\n\n\n\n\n\n\n\nKudoo Power Platform Dashboard"
+    "text": "Our Product Suite\nKudoo offers a comprehensive approach to ISO 27001 compliance with solutions designed to meet organizations at every stage of their compliance journey.\n\n\nKudoo Copilot App\nComing soon in Microsoft Store\nOur AI-powered Copilot app provides instant access to ISO 27001 expertise directly within your Microsoft Teams environment. Simplify policy creation, get implementation guidance, and access a comprehensive library of ISO 27001 templates with the power of AI.\n\nKey Features:\n\nComplete ISO 27001:2022 policy template library\nAI-assisted policy customization\nControl-specific implementation guidance\nNatural language compliance queries\nNo technical expertise required\n\n\nGet It Now See Demo\n\n\n\n\n\n\n\n\n\nKudoo Power Platform\nComing Soon\nTransform your compliance program with our comprehensive Microsoft Power Platform solution. Built on Dataverse, our platform provides end-to-end management of your Information Security Management System (ISMS) with powerful dashboards, automated workflows, and complete evidence management.\n\nKey Features:\n\nComplete ISO 27001:2022 framework implementation\nReal-time compliance dashboards\nSharePoint-integrated evidence management\nAutomated risk assessment tools\nSeamless Microsoft 365 integration\n\n\nJoin Waitlist Request Demo\n\n\n\n\n\n\n\nKudoo Power Platform Dashboard"
   },
   {
     "objectID": "content/product.html#kudoo-copilot-app-1",

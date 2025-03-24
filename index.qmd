@@ -11,7 +11,7 @@ title: "Kudoo Platform"
 Streamline your ISO 27001 compliance journey with our Microsoft-integrated Governance, Risk and Compliance platform that works the way your team does.
 
 ::: {.hero-buttons}
-[Explore Platform](#features-section){.hero-btn} [Request Demo](demo.qmd){.hero-btn .secondary-btn}
+[Explore Platform](#features-section){.hero-btn} [Request Demo](./content/demo.qmd){.hero-btn .secondary-btn}
 :::
 :::
 :::
@@ -22,7 +22,7 @@ Streamline your ISO 27001 compliance journey with our Microsoft-integrated Gover
 
 Kudoo is a comprehensive Governance, Risk, and Compliance platform built within the Microsoft ecosystem. Our solution transforms how organizations implement and maintain ISO 27001 compliance by integrating with the tools your team already uses daily. With Kudoo, you can simplify complex compliance processes, reduce implementation time, and ensure continuous adherence to information security standards.
 
-Our platform brings together all aspects of ISO 27001 compliance—from framework management and risk assessment to policy development and audit preparation—into a unified solution that leverages Microsoft Dataverse, Power Platform, Teams, and SharePoint. This seamless integration creates an intuitive experience that reduces the traditional barriers to effective compliance management.
+Our platform brings together all aspects of ISO 27001 compliance—from framework management and risk assessment to policy development and audit preparation—into a unified solution that leverages Microsoft Copilot, Dataverse, Power Platform, Teams, and SharePoint. This seamless integration creates an intuitive experience that reduces the traditional barriers to effective compliance management.
 :::
 
 ::: {.section .py-5 id="features-section"}
