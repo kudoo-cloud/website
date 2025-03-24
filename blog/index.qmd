@@ -30,7 +30,7 @@ Practical advice and insights to help you navigate ISO 27001 compliance in the A
 
 ::: {.row .align-items-center}
 ::: {.col-md-8}
-### [Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia](posts/2025-03-24-aboriginal-health-data/index.qmd)
+### [Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia](posts/2025-03-24-health-aboriginal/index.qmd)
 
 **March 24, 2025**
 
@@ -43,7 +43,7 @@ This article explores:
 - Implementing culturally appropriate access controls
 - Best practices for respectful compliance
 
-[Read the full article →](posts/2025-03-24-aboriginal-health-data/index.qmd){.cta-btn .mt-3}
+[Read the full article →](posts/2025-03-24-health-aboriginal/index.qmd){.cta-btn .mt-3}
 :::
 
 ::: {.col-md-4}

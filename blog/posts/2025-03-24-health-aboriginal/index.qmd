@@ -203,7 +203,7 @@ By partnering with communities and implementing these best practices, your organ
 :::{.callout-tip}
 ## Need Help Implementing Culturally Respectful ISO 27001 Controls?
 
-Kudoo's platform and implementation partners can help you develop an information security approach that respects Aboriginal data sovereignty while meeting compliance requirements. [Request a demo](../demo.qmd) to see how our tools support culturally appropriate information security practices.
+Kudoo's platform and implementation partners can help you develop an information security approach that respects Aboriginal data sovereignty while meeting compliance requirements. [Request a demo](../../../content/demo.qmd) to see how our tools support culturally appropriate information security practices.
 :::
 
 ## Further Resources
