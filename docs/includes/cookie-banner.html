@@ -1,0 +1,38 @@
+<!-- Cookie consent banner -->
+<link rel="stylesheet" href="../css/cookie-banner.css">
+<script src="../js/cookie-consent.js"></script>
+
+<!-- Google Analytics with privacy-friendly configuration -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  // Check if user has given consent
+  function hasConsent() {
+    return document.cookie.split(';').some((item) => item.trim().startsWith('cookieConsent='));
+  }
+
+  // Only initialize Google Analytics if user has given consent
+  function initializeGA() {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    // Configure with anonymize_ip set to true for GDPR compliance
+    gtag('config', 'G-31NNPGK99Z', {
+      'anonymize_ip': true,
+      'cookie_expires': 365 * 24 * 60 * 60, // 1 year in seconds
+      'cookie_flags': 'SameSite=None;Secure'
+    });
+  }
+
+  // Initialize GA if consent is already given
+  if (hasConsent()) {
+    initializeGA();
+  }
+  
+  // Listen for the consent event
+  document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('cookieConsentAccepted', function() {
+      initializeGA();
+    });
+  });
+</script>

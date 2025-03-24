@@ -2,7 +2,7 @@
 title: "Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia"
 description: "Learn how to implement ISO 27001 information security standards while respecting Aboriginal data sovereignty and cultural protocols for health information."
 author: "Kudoo Team"
-date: "2025-03-23"
+date: "2025-03-24"
 categories: [ISO 27001, Healthcare, Cultural Sensitivity, Australian Compliance]
 image: "images/aboriginal-health-data-security.jpg"
 alt: "Digital representation of health data security with Aboriginal art symbolism"
