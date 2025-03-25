@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kudoo.io/index.html</loc>
-    <lastmod>2025-03-23T23:30:43.484Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/content/sales.html</loc>
-    <lastmod>2025-03-20T02:31:00.196Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/content/privacy.html</loc>
-    <lastmod>2025-03-23T23:47:30.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/content/demo.html</loc>
-    <lastmod>2025-03-20T01:58:41.726Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/blog/posts/2025-03-24-health-aboriginal/index.html</loc>
-    <lastmod>2025-03-24T00:18:15.767Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/blog/index.html</loc>
-    <lastmod>2025-03-24T00:17:16.436Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/blog/posts/2025-03-20-what-is-iso/index.html</loc>
-    <lastmod>2025-03-20T01:53:35.069Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/content/cookie-policy.html</loc>
-    <lastmod>2025-03-23T23:43:06.421Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/content/pricing.html</loc>
-    <lastmod>2025-03-20T02:15:55.299Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kudoo.io/content/product.html</loc>
+    <loc>https://kudoo.io/pages/product.html</loc>
     <lastmod>2025-03-24T00:03:18.840Z</lastmod>
   </url>
   <url>
-    <loc>https://kudoo.io/content/terms.html</loc>
+    <loc>https://kudoo.io/pages/marketing/sales.html</loc>
+    <lastmod>2025-03-25T02:14:59.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/marketing/demo.html</loc>
+    <lastmod>2025-03-25T02:14:39.811Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/legal/privacy.html</loc>
+    <lastmod>2025-03-23T23:47:30.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/blog/posts/2025/03/what-is-iso.html</loc>
+    <lastmod>2025-03-20T01:53:35.069Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/blog/index.html</loc>
+    <lastmod>2025-03-25T02:11:04.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/index.html</loc>
+    <lastmod>2025-03-25T02:13:00.901Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/blog/posts/2025/03/iso-aboriginal.html</loc>
+    <lastmod>2025-03-25T02:11:28.361Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/legal/cookie-policy.html</loc>
+    <lastmod>2025-03-23T23:43:06.421Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/legal/terms.html</loc>
     <lastmod>2025-03-20T01:58:53.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/marketing/pricing.html</loc>
+    <lastmod>2025-03-25T02:14:49.111Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kudoo.io/pages/marketing/special-offer.html</loc>
+    <lastmod>2025-03-25T02:08:24.409Z</lastmod>
   </url>
 </urlset>

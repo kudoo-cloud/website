@@ -1,0 +1,200 @@
+---
+title: "Sales & Partnerships"
+description: "Learn how Kudoo can support your ISO 27001 compliance journey"
+format: 
+  html:
+    toc: false
+---
+
+::: {.hero-container}
+::: {.container}
+::: {.hero-text}
+# Partner with <span class="gradient-text">Kudoo</span> for Compliance Success
+## Expert guidance for your ISO 27001 implementation journey
+:::
+:::
+:::
+
+::: {.container .py-5}
+## Our Approach to Customer Success
+
+At Kudoo, we believe that successful ISO 27001 implementation requires more than just great technology—it demands a partnership approach with knowledgeable experts who understand both information security and your business needs. Our dedicated sales and customer success teams work closely with you throughout your compliance journey, from initial exploration to certification and beyond.
+
+Our customer-centric approach focuses on:
+
+- Understanding your unique compliance objectives and challenges
+- Tailoring our platform and services to your specific organizational needs
+- Providing expert guidance at every step of your implementation journey
+- Ensuring you achieve maximum value from your investment
+- Supporting your long-term compliance success through continuous improvement
+
+We measure our success by your success—achieving and maintaining ISO 27001 certification efficiently while building a sustainable information security management system.
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## Our Sales Process
+
+::: {.row .align-items-center}
+::: {.col-lg-6}
+### A Consultative Partnership
+
+When you engage with Kudoo, you're not just buying software—you're partnering with compliance experts who care about your success. Our sales process is designed to be consultative, educational, and value-driven:
+
+1. **Initial Discovery**: We begin by understanding your organization's specific compliance goals, challenges, timeline, and current state.
+
+2. **Needs Assessment**: Our team conducts a detailed evaluation of your requirements, identifying the optimal platform configuration and implementation approach.
+
+3. **Tailored Demonstration**: We provide a personalized walkthrough of the Kudoo platform, focusing on the capabilities most relevant to your specific needs.
+
+4. **Solution Design**: We develop a comprehensive implementation plan, including timelines, resource requirements, and key milestones.
+
+5. **Investment Proposal**: We provide transparent pricing for both platform access and implementation services that align with your business objectives and compliance requirements.
+
+6. **Onboarding Plan**: Upon agreement, we outline a detailed onboarding process to ensure a smooth transition to the Kudoo platform.
+:::
+
+::: {.col-lg-6}
+<div class="ms-integration">
+  <h3>Our Commitment to You</h3>
+  <ul>
+    <li><strong>No High-Pressure Tactics</strong>: We believe in building relationships, not just closing deals.</li>
+    <li><strong>True Expertise</strong>: Our sales team includes certified information security professionals who understand the nuances of ISO 27001.</li>
+    <li><strong>Transparent Communication</strong>: We're upfront about capabilities, limitations, and what it takes to succeed.</li>
+    <li><strong>Long-Term Partnership</strong>: We're invested in your continued compliance success beyond the initial implementation.</li>
+    <li><strong>Value-Based Solutions</strong>: We focus on delivering genuine business value through effective compliance management.</li>
+  </ul>
+</div>
+:::
+:::
+:::
+:::
+
+::: {.section .product-section .py-5}
+::: {.container}
+## Product & Implementation Services
+
+::: {.row .align-items-center}
+::: {.col-lg-6}
+### Platform Pricing
+
+Our platform pricing is designed to be transparent and predictable:
+
+- **Free Tier**: Access our Kudoo Copilot app in Microsoft Teams at no cost, with full access to ISO 27001 policy templates and AI-assisted compliance guidance.
+
+- **Standard Package**: $299 per month (billed annually) includes our complete Power Platform solution with dashboards, risk assessment tools, and ISMS framework for up to 25 users.
+
+- **Enterprise Package**: Custom pricing based on your organization's size and requirements, including unlimited users, advanced features, and priority support.
+
+All packages include regular platform updates, security improvements, and access to our knowledge base.
+
+[View Full Pricing Details](pricing.qmd){.cta-btn .mt-3}
+:::
+
+::: {.col-lg-6}
+### Implementation Services
+
+While our platform is designed to be intuitive, many organizations benefit from expert implementation assistance. Our implementation services are delivered through certified partners and priced separately from platform access:
+
+- **Implementation Scope**: Tailored to your organization's specific needs, from initial gap assessment through certification preparation
+  
+- **Partner-Delivered**: Services provided by local partners with expertise in your industry and region
+  
+- **Custom Quoted**: Pricing based on organization size, complexity, current readiness, and implementation timeframe
+  
+- **Flexible Delivery**: Available on-site or remotely to accommodate your preferences and budget
+
+Implementation services complement our platform, ensuring you achieve certification efficiently while building internal capabilities for long-term compliance management.
+
+[Request Implementation Quote](#pricing-inquiry){.cta-btn .mt-3}
+:::
+:::
+:::
+:::
+
+::: {.container .ms-integration .my-5}
+## Industry Specializations
+
+Our sales team includes specialists with deep experience in key industries:
+
+- **Financial Services**: Addressing the unique compliance challenges of banks, credit unions, and fintech companies.
+- **Healthcare**: Aligning ISO 27001 with healthcare regulations and protecting sensitive patient information.
+- **Technology**: Streamlining compliance for SaaS providers, software developers, and technology consultancies.
+- **Professional Services**: Helping accounting, legal, and consulting firms protect client information effectively.
+- **Government & Education**: Supporting public sector organizations with their specific compliance requirements.
+
+Each industry specialist understands the unique regulatory landscape, common challenges, and implementation approaches most effective for organizations in their sector.
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## Frequently Asked Questions
+
+::: {.row}
+::: {.col-md-6}
+::: {.feature-card}
+### How do your platform and implementation services work together?
+
+Our platform provides the technology foundation for your ISO 27001 compliance, while implementation services deliver the expertise to configure, customize, and optimize that technology for your specific organization. You can purchase either independently or together, based on your internal capabilities and needs. Many organizations start with platform access and add implementation services for specific phases as needed.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### How quickly can we implement ISO 27001 with Kudoo?
+
+Implementation timelines vary based on your organization's size, complexity, and starting point. Typically, our customers achieve certification readiness within 6-12 months. With our platform's structured approach, many organizations see a 30-40% reduction in implementation time compared to traditional methods.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Do you offer a free trial of the platform?
+
+While we don't offer a self-service free trial of our paid plans, we provide comprehensive demonstrations and guided platform tours that allow you to experience Kudoo's capabilities firsthand. Following your demonstration, we can create a limited test environment with your specific use cases to help evaluate the platform's fit for your needs. Our free Copilot app also provides immediate value while you evaluate the full platform.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### How do you determine implementation costs?
+
+Implementation costs are determined based on several factors:
+
+- Your organization's size and operational complexity
+- The current state of your information security program
+- The scope of your ISO 27001 implementation
+- The level of support and guidance required
+- Your desired timeline to certification
+- Whether you need remote or on-site support
+
+After an initial consultation, our implementation partners will provide a detailed quote tailored to your specific requirements.
+:::
+:::
+:::
+:::
+:::
+
+::: {.section .cta-section}
+::: {.container}
+## Ready to Discuss Your Compliance Needs?
+
+Our team is ready to explore how Kudoo can support your ISO 27001 compliance journey.
+
+[Request Demo](demo.qmd){.cta-btn} [View Pricing](pricing.qmd){.cta-btn .secondary-btn .ms-3}
+:::
+:::
+
+::: {.container .py-5 id="pricing-inquiry"}
+## Request Pricing Information
+
+::: {.row .justify-content-center}
+::: {.col-lg-8}
+::: {.demo-form-container}
+```{=html}
+{{< include ../../forms/pricing.html >}}
+```
+:::
+:::
+:::
+:::
