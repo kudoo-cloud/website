@@ -1,12 +1,12 @@
-<form id="demo-request-form" action="https://formsubmit.co/jtrollip@kudoo.io" method="POST" class="needs-validation" novalidate>
+<form id="demo-request-form" class="needs-validation" novalidate>
     <div class="mb-3">
-        <label for="fullName" class="form-label">Full Name*</label>
+        <label for="fullName" class="form-label">Name*</label>
         <input type="text" class="form-control" id="fullName" name="fullName" required>
-        <div class="invalid-feedback">Please provide your full name.</div>
+        <div class="invalid-feedback">Please provide your name.</div>
     </div>
 
     <div class="mb-3">
-        <label for="email" class="form-label">Business Email*</label>
+        <label for="email" class="form-label">Email*</label>
         <input type="email" class="form-control" id="email" name="email" required>
         <div class="invalid-feedback">Please provide a valid email address.</div>
     </div>
@@ -23,40 +23,8 @@
     </div>
 
     <div class="mb-3">
-        <label for="jobTitle" class="form-label">Job Title*</label>
-        <input type="text" class="form-control" id="jobTitle" name="jobTitle" required>
-        <div class="invalid-feedback">Please provide your job title.</div>
-    </div>
-
-    <div class="mb-3">
-        <label for="companySize" class="form-label">Company Size*</label>
-        <select class="form-select" id="companySize" name="companySize" required>
-            <option value="" selected disabled>Select company size</option>
-            <option value="1-50">1-50 employees</option>
-            <option value="51-200">51-200 employees</option>
-            <option value="201-500">201-500 employees</option>
-            <option value="501-1000">501-1000 employees</option>
-            <option value="1001+">1001+ employees</option>
-        </select>
-        <div class="invalid-feedback">Please select your company size.</div>
-    </div>
-
-    <div class="mb-3">
-        <label for="iso27001Status" class="form-label">ISO 27001 Status*</label>
-        <select class="form-select" id="iso27001Status" name="iso27001Status" required>
-            <option value="" selected disabled>Select your status</option>
-            <option value="Not started">Not started yet</option>
-            <option value="Planning">Planning phase</option>
-            <option value="Implementation">Implementation in progress</option>
-            <option value="Pre-certification">Preparing for certification</option>
-            <option value="Certified">Already certified</option>
-        </select>
-        <div class="invalid-feedback">Please select your ISO 27001 status.</div>
-    </div>
-
-    <div class="mb-4">
-        <label for="message" class="form-label">Additional Information</label>
-        <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+        <label for="message" class="form-label">How can we help you?</label>
+        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Tell us about your needs or questions"></textarea>
     </div>
 
     <div class="mb-3 form-check">
@@ -66,32 +34,75 @@
         <div class="invalid-feedback">You must agree to our Privacy Policy.</div>
     </div>
 
-    <input type="hidden" name="_subject" value="New Demo Request from Kudoo Website">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="%{absolute_base_url}">
-
     <button type="submit" class="cta-btn" style="width: 100%;">Request Demo</button>
-</form>
-<script>
-    // Form validation script
-    (function () {
-        'use strict';
 
-        // Fetch all forms that need validation
-        var forms = document.querySelectorAll('.needs-validation');
-
-        // Loop over them and prevent submission
-        Array.prototype.slice.call(forms).forEach(function (form) {
-            form.addEventListener('submit', function (event) {
-                if (!form.checkValidity()) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                } 
-
-                form.classList.add('was-validated');
-            }, false);
-        });
-    })();
-
+    <!-- Success message will be shown after form submission -->
+    <div id="success-message" class="alert alert-success mt-3" style="display: none;">
+        Thank you for your request! We'll contact you shortly to schedule your demo.
+    </div>
     
+    <!-- Error message for failed submissions -->
+    <div id="error-message" class="alert alert-danger mt-3" style="display: none;">
+        There was an error submitting the form. Please try again or contact us directly.
+    </div>
+</form>
+
+<script>
+    // Form submission handler
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get the form element
+        const form = document.getElementById('demo-request-form');
+        const successMessage = document.getElementById('success-message');
+        const errorMessage = document.getElementById('error-message');
+        
+        // Add submit event listener
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Validate form
+            if (!form.checkValidity()) {
+                event.stopPropagation();
+                form.classList.add('was-validated');
+                return;
+            }
+            
+            // Create form data object
+            const formData = {
+                form_type: "Demo Request",
+                fullName: document.getElementById('fullName').value,
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                phone: document.getElementById('phone').value || "Not provided",
+                message: document.getElementById('message').value || "No specific message provided"
+            };
+            
+            // Send data to Azure function
+            fetch('https://kudoo-forms-function.azurewebsites.net/api/formNotifier?code=sf9bMuuQQkt7BR6ntqhojVCNAPGNSwUPvnNN411PRialAzFuwypM6g%3D%3D', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Show success message
+                form.reset();
+                form.style.display = 'none';
+                successMessage.style.display = 'block';
+            })
+            .catch(error => {
+                // Show error message
+                console.error('Error:', error);
+                errorMessage.style.display = 'block';
+            });
+            
+            form.classList.add('was-validated');
+        });
+    });
 </script>

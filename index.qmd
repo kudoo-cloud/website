@@ -11,7 +11,7 @@ title: "Kudoo Platform"
 Streamline your ISO 27001 compliance journey with our Microsoft-integrated Governance, Risk and Compliance platform that works the way your team does.
 
 ::: {.hero-buttons}
-[Explore Platform](#features-section){.hero-btn} [Request Demo](./content/demo.qmd){.hero-btn .secondary-btn}
+[Explore Platform](#features-section){.hero-btn} [Request Demo](./pages/marketing/demo.qmd){.hero-btn .secondary-btn}
 :::
 :::
 :::
@@ -219,6 +219,6 @@ Prepare confidently for your certification audit:
 ## Ready to Simplify Your Compliance Journey?
 Join organizations that have streamlined their ISO 27001 certification with Kudoo.
 
-[Request Demo](./content/demo.qmd){.cta-btn} [Contact Sales](./content/sales.qmd){.cta-btn .ms-3}
+[Request Demo](./pages/marketing/demo.qmd){.cta-btn} [Contact Sales](./pages/marketing/sales.qmd){.cta-btn .ms-3}
 :::
 :::

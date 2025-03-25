@@ -1,0 +1,205 @@
+<form id="accelerator-form" action="https://kudoo-forms-function.azurewebsites.net/api/formNotifier?code=sf9bMuuQQkt7BR6ntqhojVCNAPGNSwUPvnNN411PRialAzFuwypM6g%3D%3D" method="POST" class="needs-validation" novalidate>
+    <div class="mb-3">
+        <label for="fullName" class="form-label">Full Name*</label>
+        <input type="text" class="form-control" id="fullName" name="fullName" required>
+        <div class="invalid-feedback">Please provide your full name.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Business Email*</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+        <div class="invalid-feedback">Please provide a valid email address.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="company" class="form-label">Company Name*</label>
+        <input type="text" class="form-control" id="company" name="company" required>
+        <div class="invalid-feedback">Please provide your company name.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number*</label>
+        <input type="tel" class="form-control" id="phone" name="phone" required>
+        <div class="invalid-feedback">Please provide your phone number.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="jobTitle" class="form-label">Job Title*</label>
+        <input type="text" class="form-control" id="jobTitle" name="jobTitle" required>
+        <div class="invalid-feedback">Please provide your job title.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="companySize" class="form-label">Company Size*</label>
+        <select class="form-select" id="companySize" name="companySize" required>
+            <option value="" selected disabled>Select company size</option>
+            <option value="1-50">1-50 employees</option>
+            <option value="51-200">51-200 employees</option>
+            <option value="201-500">201-500 employees</option>
+            <option value="501-1000">501-1000 employees</option>
+            <option value="1001+">1001+ employees</option>
+        </select>
+        <div class="invalid-feedback">Please select your company size.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="iso27001Status" class="form-label">ISO 27001 Status*</label>
+        <select class="form-select" id="iso27001Status" name="iso27001Status" required>
+            <option value="" selected disabled>Select your status</option>
+            <option value="Not started">Not started yet</option>
+            <option value="Planning">Planning phase</option>
+            <option value="Implementation">Implementation in progress</option>
+            <option value="Pre-certification">Preparing for certification</option>
+            <option value="Certified">Already certified</option>
+        </select>
+        <div class="invalid-feedback">Please select your ISO 27001 status.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="timeframe" class="form-label">Desired Timeframe*</label>
+        <select class="form-select" id="timeframe" name="timeframe" required>
+            <option value="" selected disabled>Select timeframe</option>
+            <option value="Immediate">As soon as possible</option>
+            <option value="Within 2 weeks">Within 2 weeks</option>
+            <option value="Within 1 month">Within 1 month</option>
+            <option value="Next quarter">Next quarter</option>
+        </select>
+        <div class="invalid-feedback">Please select your desired timeframe.</div>
+    </div>
+
+    <div class="mb-4">
+        <label for="message" class="form-label">Additional Information</label>
+        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Please share any specific challenges or questions you have about ISO 27001 implementation"></textarea>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="privacy" required>
+        <label class="form-check-label" for="privacy">I agree to Kudoo's <a href="./content/privacy.qmd">Privacy Policy</a>*</label>
+        <div class="invalid-feedback">You must agree to our Privacy Policy.</div>
+    </div>
+
+    <!-- Hidden fields for tracking -->
+    <input type="hidden" id="source_channel" name="source_channel" value="unknown">
+    <input type="hidden" id="form_type" name="form_type" value="ISO27001_Accelerator">
+
+    <button type="submit" class="cta-btn" style="width: 100%;">Secure Your Accelerator Package</button>
+</form>
+
+<script>
+    // Form validation and submission script
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get UTM parameters from URL for tracking
+        const urlParams = new URLSearchParams(window.location.search);
+        const utmSource = urlParams.get('utm_source');
+        if (utmSource) {
+            document.getElementById('source_channel').value = utmSource;
+        } else {
+            // Check referrer as fallback
+            const referrer = document.referrer;
+            let referrerSource = 'unknown';
+            
+            if (referrer) {
+                try {
+                    const url = new URL(referrer);
+                    const domain = url.hostname;
+                    
+                    if (domain.includes('linkedin.com')) {
+                        referrerSource = 'linkedin';
+                    } else if (domain.includes('facebook.com')) {
+                        referrerSource = 'facebook';
+                    } else if (domain.includes('twitter.com') || domain.includes('x.com')) {
+                        referrerSource = 'twitter';
+                    } else if (domain.includes('google.com')) {
+                        referrerSource = 'google';
+                    } else if (domain.includes('bing.com')) {
+                        referrerSource = 'bing';
+                    } else if (domain.includes('kudoo.io')) {
+                        referrerSource = 'internal';
+                    } else if (domain.includes('mail.')) {
+                        referrerSource = 'email';
+                    } else {
+                        referrerSource = 'external';
+                    }
+                    
+                    document.getElementById('source_channel').value = referrerSource;
+                } catch (e) {
+                    console.error('Error parsing referrer', e);
+                }
+            }
+        }
+        
+        // Add visitor ID if available
+        let visitorId = localStorage.getItem('kudoo_visitor_id');
+        if (!visitorId) {
+            visitorId = 'visitor_' + Math.random().toString(36).substring(2, 15) + 
+                      Math.random().toString(36).substring(2, 15);
+            localStorage.setItem('kudoo_visitor_id', visitorId);
+        }
+        
+        const form = document.getElementById('accelerator-form');
+        const visitorField = document.createElement('input');
+        visitorField.type = 'hidden';
+        visitorField.name = 'visitor_id';
+        visitorField.value = visitorId;
+        form.appendChild(visitorField);
+        
+        // Form validation
+        form.addEventListener('submit', function(event) {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+                form.classList.add('was-validated');
+                return;
+            }
+            
+            // If form is valid, proceed with submission
+            event.preventDefault();
+            
+            // Gather form data
+            const formData = {
+                form_type: document.getElementById('form_type').value,
+                fullName: document.getElementById('fullName').value,
+                email: document.getElementById('email').value,
+                company: document.getElementById('company').value,
+                phone: document.getElementById('phone').value,
+                jobTitle: document.getElementById('jobTitle').value,
+                companySize: document.getElementById('companySize').value,
+                iso27001Status: document.getElementById('iso27001Status').value,
+                timeframe: document.getElementById('timeframe').value,
+                message: document.getElementById('message').value,
+                source_channel: document.getElementById('source_channel').value,
+                visitor_id: visitorId
+            };
+            
+            // Send data to Azure Function
+            fetch(form.action, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Success - show thank you message
+                form.innerHTML = '<div class="text-center py-5"><h3 class="text-success">Thank You!</h3><p>Your ISO 27001 Accelerator Package request has been received. One of our consultants will contact you within 24 hours to confirm your booking and discuss next steps.</p><p>Only 5 packages are available, so we\'ll process your request on a first-come, first-served basis.</p></div>';
+                
+                // Send conversion event to Google Analytics
+                if (typeof gtag === 'function') {
+                    gtag('event', 'accelerator_form_submission', {
+                        'source': formData.source_channel
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                form.innerHTML += '<div class="alert alert-danger mt-3">There was an error submitting your request. Please try again or contact us directly at sales@kudoo.io</div>';
+            });
+        });
+    });
+</script>

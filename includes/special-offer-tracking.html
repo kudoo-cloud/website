@@ -1,0 +1,178 @@
+<!-- Enhanced tracking for Special Offer page -->
+<!-- Additional Google Analytics events for offer tracking -->
+<script>
+    // Enhanced conversion tracking
+    document.addEventListener('DOMContentLoaded', function() {
+      // Track page scroll depth
+      let scrollDepthTracked = {
+        25: false,
+        50: false,
+        75: false,
+        100: false
+      };
+      
+      window.addEventListener('scroll', function() {
+        const scrollPosition = window.scrollY;
+        const totalHeight = document.body.scrollHeight - window.innerHeight;
+        const scrollPercentage = (scrollPosition / totalHeight) * 100;
+        
+        for (const depth in scrollDepthTracked) {
+          if (!scrollDepthTracked[depth] && scrollPercentage >= depth) {
+            scrollDepthTracked[depth] = true;
+            if (typeof gtag === 'function') {
+              gtag('event', 'scroll_depth', {
+                'depth': depth + '%',
+                'page': 'special_offer'
+              });
+            }
+          }
+        }
+      });
+      
+      // Track time spent on page
+      let timeTrackingStarted = Date.now();
+      let timeIntervals = [30, 60, 120, 300]; // in seconds
+      let trackedIntervals = {};
+      
+      timeIntervals.forEach(seconds => {
+        trackedIntervals[seconds] = false;
+      });
+      
+      const timeTrackingInterval = setInterval(function() {
+        const timeSpent = (Date.now() - timeTrackingStarted) / 1000;
+        
+        for (const seconds of timeIntervals) {
+          if (!trackedIntervals[seconds] && timeSpent >= seconds) {
+            trackedIntervals[seconds] = true;
+            if (typeof gtag === 'function') {
+              gtag('event', 'time_on_offer_page', {
+                'duration': seconds + 's'
+              });
+            }
+          }
+        }
+      }, 5000);
+      
+      // Clean up interval when user leaves page
+      window.addEventListener('beforeunload', function() {
+        clearInterval(timeTrackingInterval);
+        
+        // Send final time spent
+        const finalTimeSpent = Math.floor((Date.now() - timeTrackingStarted) / 1000);
+        if (typeof gtag === 'function') {
+          gtag('event', 'total_time_on_offer_page', {
+            'duration': finalTimeSpent + 's'
+          });
+        }
+      });
+      
+      // Track form field interactions
+      const formFields = document.querySelectorAll('#accelerator-form input, #accelerator-form select, #accelerator-form textarea');
+      formFields.forEach(field => {
+        field.addEventListener('focus', function() {
+          if (typeof gtag === 'function') {
+            gtag('event', 'form_field_focus', {
+              'field_id': field.id,
+              'form': 'accelerator_form'
+            });
+          }
+        });
+      });
+      
+      // Track clicks on CTA buttons
+      const ctaButtons = document.querySelectorAll('.cta-btn, .hero-btn');
+      ctaButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          if (typeof gtag === 'function') {
+            gtag('event', 'cta_click', {
+              'button_text': button.textContent.trim(),
+              'page': 'special_offer'
+            });
+          }
+        });
+      });
+    });
+    
+    // Track referral source when available
+    function trackReferralSource() {
+      const referrer = document.referrer;
+      let referrerSource = 'direct';
+      let referrerDomain = '';
+      
+      if (referrer) {
+        const url = new URL(referrer);
+        referrerDomain = url.hostname;
+        
+        // Identify common sources
+        if (referrerDomain.includes('linkedin.com')) {
+          referrerSource = 'linkedin';
+        } else if (referrerDomain.includes('facebook.com')) {
+          referrerSource = 'facebook';
+        } else if (referrerDomain.includes('twitter.com') || referrerDomain.includes('x.com')) {
+          referrerSource = 'twitter';
+        } else if (referrerDomain.includes('google.com')) {
+          referrerSource = 'google';
+        } else if (referrerDomain.includes('bing.com')) {
+          referrerSource = 'bing';
+        } else if (referrerDomain.includes('kudoo.io')) {
+          referrerSource = 'internal';
+        } else {
+          referrerSource = 'external';
+        }
+      }
+      
+      // Send to Google Analytics
+      if (typeof gtag === 'function') {
+        gtag('event', 'referral_source', {
+          'source': referrerSource,
+          'domain': referrerDomain
+        });
+      }
+      
+      // Store for form submission
+      if (document.getElementById('source_channel') && 
+          document.getElementById('source_channel').value === 'unknown') {
+        document.getElementById('source_channel').value = referrerSource;
+      }
+    }
+    
+    // Run on page load
+    window.addEventListener('load', trackReferralSource);
+  </script>
+  
+  <!-- Cross-device tracking support -->
+  <script>
+    // Generate or retrieve a unique visitor ID
+    function getVisitorId() {
+      let visitorId = localStorage.getItem('kudoo_visitor_id');
+      
+      if (!visitorId) {
+        visitorId = 'visitor_' + Math.random().toString(36).substring(2, 15) + 
+                   Math.random().toString(36).substring(2, 15);
+        localStorage.setItem('kudoo_visitor_id', visitorId);
+      }
+      
+      return visitorId;
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      const visitorId = getVisitorId();
+      
+      // Add to all analytics events
+      if (typeof gtag === 'function') {
+        gtag('set', 'user_properties', {
+          'visitor_id': visitorId
+        });
+      }
+      
+      // Add to form submissions
+      const form = document.getElementById('accelerator-form');
+      if (form) {
+        const hiddenField = document.createElement('input');
+        hiddenField.type = 'hidden';
+        hiddenField.name = 'visitor_id';
+        hiddenField.value = visitorId;
+        form.appendChild(hiddenField);
+      }
+    });
+  </script>

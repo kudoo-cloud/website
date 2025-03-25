@@ -1,108 +1,120 @@
-<form id="pricing-inquiry-form" action="#" method="POST" class="needs-validation" novalidate>
-    <div class="mb-3">
-      <label for="fullName" class="form-label">Full Name*</label>
-      <input type="text" class="form-control" id="fullName" name="fullName" required>
-      <div class="invalid-feedback">Please provide your full name.</div>
-    </div>
-    
-    <div class="mb-3">
-      <label for="email" class="form-label">Business Email*</label>
-      <input type="email" class="form-control" id="email" name="email" required>
-      <div class="invalid-feedback">Please provide a valid email address.</div>
-    </div>
-    
-    <div class="mb-3">
-      <label for="company" class="form-label">Company Name*</label>
-      <input type="text" class="form-control" id="company" name="company" required>
-      <div class="invalid-feedback">Please provide your company name.</div>
-    </div>
-    
-    <div class="mb-3">
-      <label for="phone" class="form-label">Phone Number</label>
-      <input type="tel" class="form-control" id="phone" name="phone">
-    </div>
-    
-    <div class="mb-3">
-      <label for="jobTitle" class="form-label">Job Title*</label>
-      <input type="text" class="form-control" id="jobTitle" name="jobTitle" required>
-      <div class="invalid-feedback">Please provide your job title.</div>
-    </div>
-    
-    <div class="mb-3">
-      <label for="companySize" class="form-label">Company Size*</label>
-      <select class="form-select" id="companySize" name="companySize" required>
-        <option value="" selected disabled>Select company size</option>
-        <option value="1-50">1-50 employees</option>
-        <option value="51-200">51-200 employees</option>
-        <option value="201-500">201-500 employees</option>
-        <option value="501-1000">501-1000 employees</option>
-        <option value="1001+">1001+ employees</option>
-      </select>
-      <div class="invalid-feedback">Please select your company size.</div>
-    </div>
-    
-    <div class="mb-3">
-      <label for="package" class="form-label">Package of Interest*</label>
-      <select class="form-select" id="package" name="package" required>
-        <option value="" selected disabled>Select package</option>
-        <option value="Standard">Standard Package</option>
-        <option value="Premium">Premium Package</option>
-        <option value="Enterprise">Enterprise Solution</option>
-        <option value="Implementation">Implementation Services</option>
-        <option value="Unsure">Not sure yet</option>
-      </select>
-      <div class="invalid-feedback">Please select a package.</div>
-    </div>
-    
-    <div class="mb-3">
-      <label for="timeframe" class="form-label">Implementation Timeframe*</label>
-      <select class="form-select" id="timeframe" name="timeframe" required>
-        <option value="" selected disabled>Select timeframe</option>
-        <option value="Immediate">Within 1 month</option>
-        <option value="Soon">Within 3 months</option>
-        <option value="Planning">Within 6 months</option>
-        <option value="Exploring">Just exploring options</option>
-      </select>
-      <div class="invalid-feedback">Please select your implementation timeframe.</div>
-    </div>
-    
-    <div class="mb-4">
-      <label for="requirements" class="form-label">Specific Requirements or Questions</label>
-      <textarea class="form-control" id="requirements" name="requirements" rows="4" placeholder="Please share any specific requirements, questions, or details about your compliance needs that would help us provide accurate pricing information."></textarea>
-    </div>
-    
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="privacy" required>
-      <label class="form-check-label" for="privacy">I agree to Kudoo's <a href="privacy.qmd">Privacy Policy</a>*</label>
-      <div class="invalid-feedback">You must agree to our Privacy Policy.</div>
-    </div>
-    
-    <button type="submit" class="cta-btn" style="width: 100%;">Request Pricing Information</button>
-  </form>
+<form id="pricing-inquiry-form" class="needs-validation" novalidate>
+  <div class="mb-3">
+    <label for="fullName" class="form-label">Name*</label>
+    <input type="text" class="form-control" id="fullName" name="fullName" required>
+    <div class="invalid-feedback">Please provide your name.</div>
+  </div>
   
-  <script>
-  // Form validation script
-  (function() {
-    'use strict';
+  <div class="mb-3">
+    <label for="email" class="form-label">Email*</label>
+    <input type="email" class="form-control" id="email" name="email" required>
+    <div class="invalid-feedback">Please provide a valid email address.</div>
+  </div>
+  
+  <div class="mb-3">
+    <label for="company" class="form-label">Company Name*</label>
+    <input type="text" class="form-control" id="company" name="company" required>
+    <div class="invalid-feedback">Please provide your company name.</div>
+  </div>
+  
+  <div class="mb-3">
+    <label for="phone" class="form-label">Phone Number</label>
+    <input type="tel" class="form-control" id="phone" name="phone">
+  </div>
+  
+  <div class="mb-3">
+    <label for="package" class="form-label">I'm interested in:</label>
+    <select class="form-select" id="package" name="package">
+      <option value="Any" selected>Any package (discuss options)</option>
+      <option value="Standard">Standard Package</option>
+      <option value="Premium">Premium Package</option>
+      <option value="Enterprise">Enterprise Solution</option>
+      <option value="Implementation">Implementation Services</option>
+    </select>
+  </div>
+  
+  <div class="mb-4">
+    <label for="requirements" class="form-label">Questions or Comments</label>
+    <textarea class="form-control" id="requirements" name="requirements" rows="3" placeholder="Any specific questions or requirements?"></textarea>
+  </div>
+  
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="privacy" required>
+    <label class="form-check-label" for="privacy">I agree to Kudoo's <a href="privacy.qmd">Privacy Policy</a>*</label>
+    <div class="invalid-feedback">You must agree to our Privacy Policy.</div>
+  </div>
+  
+  <button type="submit" class="cta-btn" style="width: 100%;">Request Pricing Information</button>
+  
+  <!-- Success message will be shown after form submission -->
+  <div id="success-message" class="alert alert-success mt-3" style="display: none;">
+    <h3 class="text-success">Thank You!</h3>
+    <p>Your pricing request has been received. A Kudoo sales representative will contact you within one business day.</p>
+  </div>
+  
+  <!-- Error message for failed submissions -->
+  <div id="error-message" class="alert alert-danger mt-3" style="display: none;">
+    <h3>Submission Error</h3>
+    <p>There was an error submitting your request. Please try again or contact us directly at sales@kudoo.io.</p>
+  </div>
+</form>
+
+<script>
+// Form submission handler
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the form element
+  const form = document.getElementById('pricing-inquiry-form');
+  const successMessage = document.getElementById('success-message');
+  const errorMessage = document.getElementById('error-message');
+  
+  // Add submit event listener
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
     
-    // Fetch all forms that need validation
-    var forms = document.querySelectorAll('.needs-validation');
+    // Validate form
+    if (!form.checkValidity()) {
+      event.stopPropagation();
+      form.classList.add('was-validated');
+      return;
+    }
     
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms).forEach(function(form) {
-      form.addEventListener('submit', function(event) {
-        if (!form.checkValidity()) {
-          event.preventDefault();
-          event.stopPropagation();
-        } else {
-          // If form is valid, you would normally submit
-          // For demo purposes, we'll prevent actual submission and show a thank you message
-          event.preventDefault();
-          form.innerHTML = '<div class="text-center py-5"><h3 class="text-success">Thank You!</h3><p>Your pricing request has been received. A Kudoo sales representative will contact you within one business day with pricing information tailored to your specific needs.</p></div>';
-        }
-        
-        form.classList.add('was-validated');
-      }, false);
+    // Create form data object
+    const formData = {
+      form_type: "Pricing Inquiry",
+      fullName: document.getElementById('fullName').value,
+      email: document.getElementById('email').value,
+      company: document.getElementById('company').value,
+      phone: document.getElementById('phone').value || "Not provided",
+      package: document.getElementById('package').value,
+      requirements: document.getElementById('requirements').value || "No specific requirements provided"
+    };
+    
+    // Send data to Azure function
+    fetch('https://kudoo-forms-function.azurewebsites.net/api/formNotifier?code=sf9bMuuQQkt7BR6ntqhojVCNAPGNSwUPvnNN411PRialAzFuwypM6g%3D%3D', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      // Show success message
+      form.style.display = 'none';
+      successMessage.style.display = 'block';
+    })
+    .catch(error => {
+      // Show error message
+      console.error('Error:', error);
+      errorMessage.style.display = 'block';
     });
-  })();
-  </script>
+    
+    form.classList.add('was-validated');
+  });
+});
+</script>

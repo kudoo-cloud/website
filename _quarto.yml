@@ -3,12 +3,13 @@ project:
   output-dir: docs
   render: 
     - "*.qmd"
+    - "pages/**/*.qmd"
   resources:
     - "*.html"
     - "images/"
     - "CNAME"
     - "robots.txt"
-    - "_static"
+    - "assets"
     - "forms/"
     - "js/"
     - "css/"
@@ -40,11 +41,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: ./content/product.qmd
+      - href: ./pages/product.qmd
         text: Product
-      - href: ./content/pricing.qmd
+      - href: ./pages/marketing/pricing.qmd
         text: Pricing
-      - href: ./blog/index.qmd
+      - href: ./pages/blog/index.qmd
         text: Blog
 
   page-footer:
@@ -53,11 +54,11 @@ website:
     left: "© 2025 Kudoo. All rights reserved."
     center: 
       - text: "Privacy Policy"
-        href: content/privacy.qmd
+        href: pages/legal/privacy.qmd
       - text: "Terms of Service"
-        href: content/terms.qmd
+        href: pages/legal/terms.qmd
       - text: "Cookie Policy"
-        href: content/cookie-policy.qmd
+        href: pages/legal/cookie-policy.qmd
       - text: "Sitemap"
         href: sitemap.xml
     right:

@@ -1,0 +1,314 @@
+---
+title: "Limited Time Offer: ISO 27001 Compliance Accelerator"
+description: "Fast-track your ISO 27001 compliance with our special $2000 Accelerator Package"
+format: 
+  html:
+    toc: false
+    include-in-header:
+      - file: includes/special-offer-tracking.html
+---
+
+<!-- UTM Parameter JavaScript to capture and store source information -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get UTM parameters from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const utmSource = urlParams.get('utm_source') || 'unknown';
+    const utmMedium = urlParams.get('utm_medium') || '';
+    const utmCampaign = urlParams.get('utm_campaign') || '';
+    
+    // Store in sessionStorage for use across pages
+    sessionStorage.setItem('utm_source', utmSource);
+    sessionStorage.setItem('utm_medium', utmMedium);
+    sessionStorage.setItem('utm_campaign', utmCampaign);
+    
+    // Add to hidden form fields
+    const sourceField = document.getElementById('source_channel');
+    if (sourceField) {
+      sourceField.value = utmSource;
+    }
+    
+    // Send custom event to Google Analytics
+    if (typeof gtag === 'function') {
+      gtag('event', 'special_offer_view', {
+        'source': utmSource,
+        'medium': utmMedium,
+        'campaign': utmCampaign
+      });
+    }
+  });
+</script>
+
+::: {.hero-container}
+::: {.container}
+::: {.hero-text}
+# ISO 27001 <span class="gradient-text">Accelerator</span> Package
+## Limited Time Offer: $2,000 AUD (Only 5 Spots Available)
+
+Fast-track your ISO 27001 certification with our exclusive Accelerator Package that combines our AI-powered tools with hands-on expert guidance.
+
+::: {.hero-buttons}
+[Secure Your Spot](#offer-form){.hero-btn} [Learn More](#offer-details){.hero-btn .secondary-btn}
+:::
+:::
+:::
+:::
+
+::: {.container .py-5 id="offer-details"}
+## Exclusive Limited-Time Offer
+
+Is your organization struggling to get started with ISO 27001 compliance? Our special Accelerator Package gives you everything you need to jumpstart your certification journey with confidence and clarity.
+
+::: {.row .align-items-center .my-5}
+::: {.col-lg-6}
+
+### What You Get for $2,000 AUD:
+
+::: {.feature-card .p-4}
+
+<div class="text-center mb-4">
+  <i class="bi bi-clock-history feature-icon mb-3"></i>
+  <h4>8-Hour Expert Consultation</h4>
+</div>
+
+Work directly with our ISO 27001 certified consultants to:
+
+- Assess your current security posture
+- Define your ISMS scope and boundaries
+- Identify key stakeholders and responsibilities
+- Create a customized implementation roadmap
+- Address your specific compliance challenges
+:::
+
+::: {.feature-card .p-4 .mt-4}
+<div class="text-center mb-4">
+  <i class="bi bi-file-earmark-text feature-icon mb-3"></i>
+  <h4 class="mb-0">Comprehensive Gap Analysis Report</h4>
+</div>
+
+Receive a detailed report that:
+
+- Documents your current compliance status
+- Identifies critical gaps and vulnerabilities
+- Provides prioritized recommendations
+- Includes customized implementation timelines
+- Outlines resource requirements and cost projections
+:::
+
+::: {.feature-card .p-4 .mt-4}
+<div class="text-center mb-4">
+  <i class="bi bi-robot feature-icon mb-3"></i>
+  <h4 class="mb-0">Kudoo Copilot Premium Access</h4>
+</div>
+
+Get 12 months of premium access to:
+
+- AI-powered ISO 27001 policy generation
+- Complete policy template library
+- Implementation guidance for all 93 controls
+- Custom document generation capabilities
+- Priority support via Microsoft Teams
+:::
+:::
+
+::: {.col-lg-6}
+::: {.ms-integration .p-4}
+<h3 class="mb-4 pb-2 border-bottom border-success">Why This Offer Is Different</h3>
+
+<div class="mb-4">
+  <h5><i class="bi bi-check-circle-fill text-success me-2"></i> Immediate Value</h5>
+  <p>Traditional consultancy projects can cost $20,000+ and take months to complete. Our Accelerator Package delivers actionable insights in days, not months.</p>
+</div>
+
+<div class="mb-4">
+  <h5><i class="bi bi-check-circle-fill text-success me-2"></i> Microsoft-Integrated Approach</h5>
+  <p>Our solutions leverage your existing Microsoft environment, creating a seamless compliance experience that works the way your team does.</p>
+</div>
+
+<div class="mb-4">
+  <h5><i class="bi bi-check-circle-fill text-success me-2"></i> AI + Human Expertise</h5>
+  <p>Combine the efficiency of AI-powered tools with the nuanced guidance of experienced compliance consultants for optimal results.</p>
+</div>
+
+<div>
+  <h5><i class="bi bi-check-circle-fill text-success me-2"></i> Special Offer Bonuses</h5>
+  <ul class="list-unstyled ms-4">
+    <li><i class="bi bi-star-fill text-warning me-2"></i> 10% discount on future Kudoo platform subscriptions</li>
+    <li><i class="bi bi-star-fill text-warning me-2"></i> ISO 27001 executive briefing for leadership teams</li>
+    <li><i class="bi bi-star-fill text-warning me-2"></i> Priority scheduling for certification support</li>
+  </ul>
+</div>
+
+<div class="text-center mt-4">
+  <p class="badge bg-danger p-2">Only 5 Packages Available</p>
+</div>
+:::
+:::
+:::
+:::
+
+::: {.section .py-5 .bg-light}
+::: {.container}
+## How It Works
+
+::: {.row}
+::: {.col-md-4}
+::: {.feature-card .text-center}
+<div class="rounded-circle bg-light p-3 d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+  <h3 class="mb-0">1</h3>
+</div>
+
+### Book Your Package
+
+Complete the form below to secure one of the five available spots. Our team will contact you within 24 hours to confirm your booking.
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card .text-center}
+<div class="rounded-circle bg-light p-3 d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+  <h3 class="mb-0">2</h3>
+</div>
+
+### Schedule Your Sessions
+
+Work with our team to schedule your consultation sessions at times that work for your team (can be split across multiple days).
+:::
+:::
+
+::: {.col-md-4}
+::: {.feature-card .text-center}
+<div class="rounded-circle bg-light p-3 d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+  <h3 class="mb-0">3</h3>
+</div>
+
+### Accelerate Your Compliance
+
+Receive your gap analysis report, implementation plan, and Copilot access to fast-track your ISO 27001 journey.
+:::
+:::
+:::
+:::
+:::
+
+::: {.container .py-5}
+## Who This Is For
+
+This special offer is ideal for:
+
+::: {.row .g-4}
+::: {.col-md-6}
+::: {.feature-card}
+### Organizations Just Starting ISO 27001
+
+If you're in the planning phase of your ISO 27001 implementation and need expert guidance to ensure you're on the right track from day one.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Organizations Struggling with Implementation
+
+If you've started your ISO 27001 journey but have encountered obstacles, our package will help identify and overcome your specific challenges.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Organizations Facing Compliance Deadlines
+
+If you need to achieve certification within a specific timeframe to meet customer or regulatory requirements, our accelerator will help you optimize your approach.
+:::
+:::
+
+::: {.col-md-6}
+::: {.feature-card}
+### Organizations with Limited Internal Resources
+
+If you have a small team that needs expert support to complement their efforts and ensure nothing is overlooked in your compliance program.
+:::
+:::
+:::
+:::
+
+::: {.section .py-5 id="offer-form"}
+::: {.container}
+## Secure Your ISO 27001 Accelerator Package
+
+::: {.row .justify-content-center}
+::: {.col-lg-8}
+::: {.demo-form-container}
+
+```{=html}
+{{< include ../../forms/special-offer.html >}}
+```
+
+:::
+:::
+:::
+:::
+:::
+
+::: {.section .cta-section .py-5}
+::: {.container}
+## Don't Miss This Limited Time Opportunity
+
+With only 5 packages available, secure your spot today to accelerate your ISO 27001 compliance journey.
+
+[Secure Your Spot](#offer-form){.cta-btn}
+:::
+:::
+
+::: {.container .py-5}
+## Frequently Asked Questions
+
+::: {.row .g-4}
+::: {.col-lg-6}
+::: {.feature-card}
+### How is the consultation delivered?
+
+The 8-hour consultation can be delivered in-person (for Sydney and Brisbane-based organizations) or remotely via Microsoft Teams. Sessions can be split into multiple meetings based on your preference and availability.
+:::
+:::
+
+::: {.col-lg-6}
+::: {.feature-card}
+### When do I receive the gap analysis report?
+
+You will receive your comprehensive gap analysis report within 10 business days of completing your consultation sessions. The report includes actionable recommendations and a detailed implementation roadmap.
+:::
+:::
+
+::: {.col-lg-6}
+::: {.feature-card}
+### What if I'm already partway through implementation?
+
+The Accelerator Package is customizable to meet you where you are. For organizations already implementing ISO 27001, we'll focus on addressing specific challenges, reviewing your current progress, and optimizing your approach to certification.
+:::
+:::
+
+::: {.col-lg-6}
+::: {.feature-card}
+### How long does the Copilot Premium access last?
+
+Your Kudoo Copilot Premium access is valid for 12 months from activation. It includes unlimited policy templates, implementation guidance, and priority support.
+:::
+:::
+
+::: {.col-lg-6}
+::: {.feature-card}
+### What guarantee do you offer?
+
+While we can't guarantee certification (as this depends on your organization's implementation and the certification body's assessment), we do guarantee that if you're not satisfied with the quality of our consultation or deliverables, we'll provide additional support at no extra cost.
+:::
+:::
+
+::: {.col-lg-6}
+::: {.feature-card}
+### What payment methods do you accept?
+
+We accept credit card, direct bank transfer, and purchase orders. Payment is required to secure your spot, with invoicing available for corporate customers.
+:::
+:::
+:::
+:::

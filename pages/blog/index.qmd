@@ -1,0 +1,130 @@
+---
+title: "Kudoo Blog"
+description: "Expert insights and guidance for ISO 27001 compliance in Australia"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 10
+format:
+  html:
+    toc: false
+---
+
+::: {.hero-container}
+::: {.container}
+::: {.hero-text}
+# ISO 27001 <span class="gradient-text">Insights</span>
+## Expert guidance for Australian organizations
+
+Practical advice and insights to help you navigate ISO 27001 compliance in the Australian context.
+:::
+:::
+:::
+
+::: {.container .py-5}
+## Featured Articles
+
+::: {.row .align-items-center}
+::: {.col-md-8}
+### [Culturally Respectful ISO 27001 Compliance: Managing Aboriginal Health Data in Australia](posts/2025/03/iso-aboriginal.qmd)
+
+**March 24, 2025**
+
+Organizations managing Aboriginal and Torres Strait Islander health data face a dual responsibility: implementing robust information security practices that comply with ISO 27001 standards while respecting and honoring the cultural significance of this information.
+
+This article explores:
+
+- Aboriginal data sovereignty as a foundation for information security
+- Challenges in aligning ISO 27001 with cultural protocols
+- Implementing culturally appropriate access controls
+- Best practices for respectful compliance
+
+[Read the full article →](posts/2025/03/iso-aboriginal.qmd){.cta-btn .mt-3}
+:::
+
+::: {.col-md-4}
+![Aboriginal Health Data Security](images/aboriginal-health-data-security.jpg){.img-fluid .rounded .shadow}
+:::
+:::
+
+::: {.row .align-items-center .mt-5}
+::: {.col-md-8}
+### [ISO 27001: Understanding the Standard, Its Evolution, and Context in Australian Compliance](posts/2025/03/what-is-iso.qmd)
+
+**March 20, 2025**
+
+ISO 27001 is the internationally recognized standard for information security management. In this comprehensive guide, we explore the fundamentals of the standard, the key differences in the 2022 update, and how it integrates with the Australian regulatory landscape.
+
+This article covers:
+
+- The core principles and structure of ISO 27001
+- Key changes in the 2022 version and what they mean for your organization
+- How ISO 27001 relates to Australian standards like the ISM and Essential Eight
+- Implementation considerations specific to Australian organizations
+
+[Read the full article →](posts/2025/03/what-is-iso.qmd){.cta-btn .mt-3}
+:::
+
+::: {.col-md-4}
+![ISO 27001 Standard](images/iso-27001-featured.jpg){.img-fluid .rounded .shadow}
+:::
+:::
+
+## Browse by Category
+
+::: {.row .g-4 .mt-3}
+::: {.col-6 .col-md-3}
+[Implementation Guidance](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[Risk Management](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[Policy Development](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[Audit Preparation](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[Technology Controls](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[People & Training](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[Microsoft Integration](#){.btn-secondary .w-100}
+:::
+
+::: {.col-6 .col-md-3}
+[Australian Compliance](#){.btn-secondary .w-100}
+:::
+:::
+:::
+
+::: {.section .cta-section .py-5}
+::: {.container}
+## Stay Updated with ISO 27001 Insights
+
+Subscribe to our newsletter to receive the latest articles, tips, and ISO 27001 updates directly in your inbox.
+
+::: {.row .justify-content-center}
+::: {.col-md-8 .col-lg-6}
+<form id="newsletter-form" class="d-flex gap-2">
+  <input type="email" class="form-control" placeholder="Your email address" required>
+  <button type="submit" class="cta-btn">Subscribe</button>
+</form>
+<small class="text-light">We respect your privacy and will never share your information. Unsubscribe at any time.</small>
+:::
+:::
+:::
+:::
