@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../images/logo.png" rel="icon" type="image/png">
+<link href="../../images/logo/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -306,7 +306,7 @@ gtag('config', 'G-31NNPGK99Z', { 'anonymize_ip': true});
   });
 
 </script>
-<!-- Kudoo Copilot Chat Widget -->
+<!-- Kudoo Copilot Chat Widget using Microsoft Copilot Studio iframe embed -->
 
 <meta property="og:title" content="Kudoo | ISO 27001 Compliance for Australian Organisations">
 <meta property="og:description" content="Streamline ISO 27001 implementation with Kudoo’s Microsoft-integrated GRC platform designed for Australian businesses.">
@@ -319,165 +319,261 @@ gtag('config', 'G-31NNPGK99Z', { 'anonymize_ip': true});
 <meta name="twitter:card" content="summary_large_image">
 </head><body class="nav-fixed fullcontent"><div id="kudoo-copilot-container" class="kudoo-copilot-widget">
 
-    <button id="kudoo-copilot-toggle" aria-label="Open Kudoo Copilot">
+  <button id="kudoo-copilot-toggle" aria-label="Open Kudoo Copilot">
 
-      <i class="bi bi-robot"></i> Ask Kudoo
+    <i class="bi bi-robot"></i> Ask Kudoo
 
-    </button>
+  </button>
 
-    <div id="kudoo-copilot-chat" class="hidden">
+  <div id="kudoo-copilot-chat" class="hidden">
 
-      <div class="copilot-header">
+    <div class="copilot-header">
 
-        <h3>Kudoo Copilot</h3>
+      <h3>Kudoo Copilot</h3>
 
-        <button id="kudoo-copilot-close" aria-label="Close Copilot">
+      <button id="kudoo-copilot-close" aria-label="Close Copilot">
 
-          <i class="bi bi-x-lg"></i>
+        <i class="bi bi-x-lg"></i>
 
-        </button>
+      </button>
 
-      </div>
+    </div>
 
-      <div id="kudoo-copilot-messages"></div>
+    <div class="copilot-frame-container">
 
-      <div class="copilot-input">
+      <iframe src="https://copilotstudio.microsoft.com/environments/Default-18d30d63-fcc3-42b7-bfbf-c786a09e2415/bots/Default_kudooGrc/webchat?__version__=2" frameborder="0" id="kudoo-copilot-frame">
 
-        <input type="text" id="kudoo-copilot-input" placeholder="Ask about ISO 27001 compliance...">
-
-        <button id="kudoo-copilot-send">
-
-          <i class="bi bi-send"></i>
-
-        </button>
-
-      </div>
+      </iframe>
 
     </div>
 
   </div>
 
-  
+</div>
 
-  <script>
 
-    document.addEventListener('DOMContentLoaded', function() {
 
-      // Replace this with your actual Copilot integration code
+<script>
 
-      const toggle = document.getElementById('kudoo-copilot-toggle');
+  document.addEventListener('DOMContentLoaded', function() {
 
-      const close = document.getElementById('kudoo-copilot-close');
+    // UI Elements
 
-      const chat = document.getElementById('kudoo-copilot-chat');
+    const toggle = document.getElementById('kudoo-copilot-toggle');
 
-      const input = document.getElementById('kudoo-copilot-input');
+    const close = document.getElementById('kudoo-copilot-close');
 
-      const send = document.getElementById('kudoo-copilot-send');
+    const chat = document.getElementById('kudoo-copilot-chat');
 
-      const messages = document.getElementById('kudoo-copilot-messages');
+    
 
-      
+    // Toggle chat widget
 
-      // Toggle chat widget
+    toggle.addEventListener('click', function() {
 
-      toggle.addEventListener('click', function() {
+      chat.classList.toggle('hidden');
 
-        chat.classList.toggle('hidden');
+    });
 
-      });
+    
 
-      
+    // Close chat widget
 
-      // Close chat widget
-
-      close.addEventListener('click', function() {
-
-        chat.classList.add('hidden');
-
-      });
-
-      
-
-      // Send message functionality
-
-      send.addEventListener('click', sendMessage);
-
-      input.addEventListener('keypress', function(e) {
-
-        if (e.key === 'Enter') sendMessage();
-
-      });
-
-      
-
-      function sendMessage() {
-
-        const message = input.value.trim();
-
-        if (message) {
-
-          addMessage('user', message);
-
-          input.value = '';
-
-          
-
-          // This is where you'd integrate with your actual Copilot API
-
-          // For now, we'll just simulate a response
-
-          setTimeout(() => {
-
-            addMessage('copilot', 'Thank you for your question about ISO 27001. I can help with that!');
-
-          }, 1000);
-
-        }
-
-      }
-
-      
-
-      function addMessage(sender, text) {
-
-        const messageDiv = document.createElement('div');
-
-        messageDiv.className = `message ${sender}-message`;
-
-        messageDiv.textContent = text;
-
-        messages.appendChild(messageDiv);
-
-        messages.scrollTop = messages.scrollHeight;
-
-      }
-
-      
-
-      // Initialize the chat window state (closed by default)
+    close.addEventListener('click', function() {
 
       chat.classList.add('hidden');
 
     });
 
-  </script>
+    
+
+    // Initialize the chat window state (closed by default)
+
+    chat.classList.add('hidden');
+
+  });
+
+</script>
+
+
+
+<style>
+
+  .kudoo-copilot-widget {
+
+    position: fixed;
+
+    bottom: 20px;
+
+    right: 20px;
+
+    z-index: 1000;
+
+    font-family: var(--bs-body-font-family, 'Inter', sans-serif);
+
+  }
 
   
 
-  <style>
+  #kudoo-copilot-toggle {
 
-    .kudoo-copilot-widget {
+    background-color: var(--kudoo-green, #2acb8f);
 
-      position: fixed;
+    color: white;
 
-      bottom: 20px;
+    border: none;
 
-      right: 20px;
+    border-radius: 50px;
 
-      z-index: 1000;
+    padding: 12px 20px;
 
-      font-family: var(--bs-body-font-family, 'Inter', sans-serif);
+    cursor: pointer;
+
+    font-weight: 600;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    transition: all 0.3s ease;
+
+  }
+
+  
+
+  #kudoo-copilot-toggle:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+
+  }
+
+  
+
+  #kudoo-copilot-chat {
+
+    position: absolute;
+
+    bottom: 70px;
+
+    right: 0;
+
+    width: 400px;
+
+    height: 600px;
+
+    background: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+
+    flex-direction: column;
+
+    overflow: hidden;
+
+  }
+
+  
+
+  .copilot-header {
+
+    padding: 12px 16px;
+
+    background: var(--kudoo-dark-blue, #1a2332);
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+  }
+
+  
+
+  .copilot-header h3 {
+
+    margin: 0;
+
+    font-size: 16px;
+
+  }
+
+  
+
+  #kudoo-copilot-close {
+
+    background: transparent;
+
+    border: none;
+
+    color: white;
+
+    cursor: pointer;
+
+    padding: 4px;
+
+  }
+
+  
+
+  .copilot-frame-container {
+
+    flex-grow: 1;
+
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  
+
+  #kudoo-copilot-frame {
+
+    width: 100%;
+
+    height: 100%;
+
+    border: none;
+
+  }
+
+  
+
+  .hidden {
+
+    display: none !important;
+
+  }
+
+  
+
+  /* Responsive adjustments */
+
+  @media (max-width: 480px) {
+
+    #kudoo-copilot-chat {
+
+      width: 320px;
+
+      height: 500px;
+
+      right: 0;
+
+      bottom: 70px;
 
     }
 
@@ -485,257 +581,13 @@ gtag('config', 'G-31NNPGK99Z', { 'anonymize_ip': true});
 
     #kudoo-copilot-toggle {
 
-      background-color: var(--kudoo-green, #2acb8f);
-
-      color: white;
-
-      border: none;
-
-      border-radius: 50px;
-
-      padding: 12px 20px;
-
-      cursor: pointer;
-
-      font-weight: 600;
-
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
-      display: flex;
-
-      align-items: center;
-
-      gap: 8px;
-
-      transition: all 0.3s ease;
+      padding: 10px 16px;
 
     }
 
-    
+  }
 
-    #kudoo-copilot-toggle:hover {
-
-      transform: translateY(-2px);
-
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-
-    }
-
-    
-
-    #kudoo-copilot-chat {
-
-      position: absolute;
-
-      bottom: 70px;
-
-      right: 0;
-
-      width: 350px;
-
-      height: 500px;
-
-      background: white;
-
-      border-radius: 12px;
-
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-
-      display: flex;
-
-      flex-direction: column;
-
-      overflow: hidden;
-
-    }
-
-    
-
-    .copilot-header {
-
-      padding: 12px 16px;
-
-      background: var(--kudoo-dark-blue, #1a2332);
-
-      color: white;
-
-      display: flex;
-
-      justify-content: space-between;
-
-      align-items: center;
-
-    }
-
-    
-
-    .copilot-header h3 {
-
-      margin: 0;
-
-      font-size: 16px;
-
-    }
-
-    
-
-    #kudoo-copilot-close {
-
-      background: transparent;
-
-      border: none;
-
-      color: white;
-
-      cursor: pointer;
-
-      padding: 4px;
-
-    }
-
-    
-
-    #kudoo-copilot-messages {
-
-      flex-grow: 1;
-
-      padding: 16px;
-
-      overflow-y: auto;
-
-      display: flex;
-
-      flex-direction: column;
-
-      gap: 12px;
-
-    }
-
-    
-
-    .message {
-
-      padding: 10px 12px;
-
-      border-radius: 12px;
-
-      max-width: 85%;
-
-      word-wrap: break-word;
-
-    }
-
-    
-
-    .user-message {
-
-      background: #F0F0F0;
-
-      align-self: flex-end;
-
-    }
-
-    
-
-    .copilot-message {
-
-      background: #E1F5EA;
-
-      align-self: flex-start;
-
-    }
-
-    
-
-    .copilot-input {
-
-      padding: 12px;
-
-      border-top: 1px solid #EBEBEB;
-
-      display: flex;
-
-      gap: 8px;
-
-    }
-
-    
-
-    #kudoo-copilot-input {
-
-      flex-grow: 1;
-
-      padding: 10px 12px;
-
-      border: 1px solid #DEDEDE;
-
-      border-radius: 20px;
-
-      outline: none;
-
-    }
-
-    
-
-    #kudoo-copilot-send {
-
-      background: var(--kudoo-green, #2acb8f);
-
-      color: white;
-
-      border: none;
-
-      border-radius: 50%;
-
-      width: 36px;
-
-      height: 36px;
-
-      display: flex;
-
-      align-items: center;
-
-      justify-content: center;
-
-      cursor: pointer;
-
-    }
-
-    
-
-    .hidden {
-
-      display: none !important;
-
-    }
-
-    
-
-    /* Responsive adjustments */
-
-    @media (max-width: 480px) {
-
-      #kudoo-copilot-chat {
-
-        width: 300px;
-
-        right: 0;
-
-        bottom: 70px;
-
-      }
-
-      
-
-      #kudoo-copilot-toggle {
-
-        padding: 10px 16px;
-
-      }
-
-    }
-
-  </style>
+</style>
 
 
 
@@ -748,7 +600,7 @@ gtag('config', 'G-31NNPGK99Z', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo.png" alt="" class="navbar-logo">
+    <img src="../../images/logo/logo.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Kudoo</span>
