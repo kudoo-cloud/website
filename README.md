@@ -4,6 +4,51 @@
 
 This repository contains the source code for the Kudoo marketing website, a Quarto-based site showcasing our ISO 27001 compliance platform designed for Australian businesses. The website includes product information, pricing details, blog content, and lead generation forms.
 
+## Folder Structure
+WEBSITE
+├── _site
+├── .quarto
+├── assets
+│   ├── css
+│   ├── images
+│   │   └── logos
+│   │       ├── logo.jpg
+│   │       ├── logo.png
+│   │       └── logo2.png
+│   ├── docs
+│   ├── forms
+│   │   ├── demo.html
+│   │   ├── pricing.html
+│   │   └── special-offer.html
+│   └── includes
+│       ├── cookie-banner.html
+│       ├── cookie-consent.js
+│       ├── copilot.html
+│       ├── meta-tags.html
+│       ├── schema.html
+│       └── special-offer-tracking.html
+├── pages
+│   ├── blog
+│   │   ├── categories
+│   │   ├── posts
+│   │   └── index.qmd
+│   ├── legal
+│   │   ├── cookie-policy.qmd
+│   │   ├── privacy.qmd
+│   │   └── terms.qmd
+│   ├── marketing
+│   │   ├── demo.qmd
+│   │   ├── pricing.qmd
+│   │   ├── sales.qmd
+│   │   └── special-offer.qmd
+│   └── product.qmd
+├── _quarto.yml
+├── .gitignore
+├── custom.scss
+├── index.qmd
+├── README.md
+└── robots.txt
+
 ## Development Setup
 
 ### Prerequisites
