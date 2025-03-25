@@ -20,7 +20,7 @@ website:
   description: "Streamline ISO 27001 implementation with Kudoo's Microsoft-integrated GRC platform designed for Australian businesses."
   site-url: https://kudoo.io
   google-analytics: "G-31NNPGK99Z"  
-  favicon: "images/logo.png"
+  favicon: "images/logo/logo.png"
   
   open-graph:
     site-name: "Kudoo"
@@ -37,7 +37,7 @@ website:
   navbar:
     background: primary
     foreground: light
-    logo: "images/logo.png"
+    logo: "images/logo/logo.png"
     left:
       - href: index.qmd
         text: Home
