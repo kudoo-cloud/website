@@ -1,0 +1,143 @@
+---
+title: "Introducing Kudoo's SharePoint Integration for ISO Document Management"
+description: "Learn how Kudoo's new SharePoint integration streamlines ISO 27001 document management with automated workflows, template customization, and version control within your Microsoft environment."
+author: "Kudoo Team"
+date: "2025-04-23"
+categories: [ISO 27001, SharePoint, Microsoft Integration, Document Management, Compliance]
+image: "../../../../../assets/images/blog/posts/2025/04/sharepoint-integration-cover.jpeg"
+alt: "Visual representation of automated document workflow management for ISO 27001 compliance"
+toc: true
+toc-depth: 3
+keywords: [ISO 27001, SharePoint integration, document management, compliance automation, policy management, Microsoft 365 integration, document workflows, ISO compliance, Australian compliance]
+twitter-card:
+  creator: "@Kudoo"
+  title: "Streamline ISO 27001 Document Management with Kudoo's SharePoint Integration"
+  description: "Automate your ISO 27001 document management with Kudoo's new SharePoint integration featuring template customization, approval workflows, and version control."
+  image: "sharepoint-integration-cover.jpg"
+open-graph:
+  title: "Introducing Kudoo's SharePoint Integration for ISO Document Management"
+  description: "Automate your ISO 27001 document workflows with Kudoo's new SharePoint integration - Early Access Program now available."
+  image: "sharepoint-integration-cover.jpg"
+---
+
+:::{.callout-note appearance="simple"}
+**Early Access Feature Release: Streamline Your Policy Management with Automated Document Workflows**
+:::
+
+At Kudoo, we understand that implementing ISO 27001 involves more than just creating policies—it requires a systematic approach to document management, review, approval, and version control. Today, we're excited to announce a powerful new addition to our Microsoft-integrated compliance platform: **Automated SharePoint Document Management for ISO 27001**.
+
+## The Document Management Challenge
+
+If you're implementing ISO 27001, you're likely familiar with these challenges:
+
+- Creating consistent, compliant policy documents across your organization
+- Tracking which stakeholders need to review and approve each document
+- Managing the signature collection process across multiple departments
+- Maintaining proper version control for audit purposes
+- Ensuring the right people have access to the right documents
+
+Our existing Kudoo Copilot app has already transformed how organizations create ISO-compliant templates. Now, we're extending that capability with end-to-end document lifecycle management within your Microsoft environment.
+
+## Introducing Automated SharePoint Integration
+
+Our new SharePoint integration creates a seamless document workflow that takes your policies from creation to approval with minimal manual intervention:
+
+1. **Automated Site Creation** - Kudoo creates a dedicated SharePoint site with a structured folder system specifically designed for ISO 27001 documentation
+2. **Template Customization** - Your organization's details are automatically populated across all required ISO templates
+3. **Document Routing** - Policies are intelligently routed to the appropriate stakeholders for review
+4. **Digital Signatures** - Integrated DocuSign functionality streamlines the approval process
+5. **Automated Version Control** - Documents are systematically managed with proper versioning in SharePoint
+
+All of this happens within your existing Microsoft environment, eliminating the need to adopt yet another compliance platform.
+
+## How It Works
+
+The integration process is straightforward:
+
+1. **Simple Setup** - Deploy an Entra app with machine-to-machine access to Kudoo
+2. **One-Click Initialization** - Call our API endpoint with your organization's details
+3. **Automated Provisioning** - Kudoo creates your compliance SharePoint site with all required folders
+4. **Template Generation** - All required ISO policies are created and populated with your organization's information
+5. **Signature Workflow** - Documents are routed to appropriate stakeholders via DocuSign
+6. **Organized Storage** - Signed documents are automatically stored with proper version control
+
+This process transforms document management from a manual, error-prone task into a streamlined, automated workflow that enhances both efficiency and compliance.
+
+:::{.ms-integration .my-4}
+## Key Benefits for Your Organization
+
+This integration delivers significant advantages for organizations implementing ISO 27001:
+
+- **Reduced Administrative Overhead** - Eliminate manual document handling and email-based approval processes
+- **Enhanced Consistency** - Ensure all documents follow the same format and approval process
+- **Simplified Compliance** - Maintain audit-ready documentation with automatic versioning
+- **Microsoft Integration** - Leverage your existing Microsoft investment with no new platforms to learn
+- **Time Savings** - Reduce ISO implementation time by automating document workflows
+- **Improved Governance** - Maintain clear visibility of document status across your organization
+:::
+
+## Early Access Program
+
+We're excited to offer this functionality as part of our Early Access Program for select customers. During this phase, we're working closely with a limited group of organizations to refine the integration and ensure it delivers maximum value.
+
+### Who Can Participate
+
+The Early Access Program is currently available to:
+
+- Existing Kudoo platform customers
+- Organizations actively implementing ISO 27001
+- Microsoft 365 environments with SharePoint Online
+- Organizations willing to provide feedback on the integration
+
+### How to Join
+
+If you're interested in being among the first to use this powerful integration:
+
+1. Contact your Kudoo account manager
+2. Schedule an Early Access consultation
+3. Receive guided setup assistance from our implementation team
+4. Benefit from priority support throughout your implementation
+
+## Looking Ahead
+
+This SharePoint integration represents a significant step forward in our mission to simplify ISO 27001 compliance for Australian organizations. By connecting the AI-powered policy creation capabilities of our Copilot app with automated document workflows in SharePoint, we're creating a truly end-to-end compliance solution within the Microsoft ecosystem.
+
+:::{.cta-section .p-4 .text-center .my-5}
+## Ready to Transform Your ISO Document Management?
+
+Join our Early Access Program today and be among the first to experience seamless document workflows.
+
+[Contact Sales](../../../../marketing/sales.qmd){.cta-btn} [Learn More About Kudoo Platform](../../../../product.qmd){.cta-btn .secondary-btn .ms-3}
+:::
+
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Introducing Kudoo's SharePoint Integration for ISO Document Management",
+  "description": "Learn how Kudoo's new SharePoint integration streamlines ISO 27001 document management with automated workflows, template customization, and version control within your Microsoft environment.",
+  "image": "https://kudoo.io/assets/images/sharepoint-integration-cover.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Kudoo Team",
+    "url": "https://kudoo.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kudoo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kudoo.io/assets/images/logo/logo.png"
+    }
+  },
+  "datePublished": "2025-04-23",
+  "dateModified": "2025-04-23",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kudoo.io/pages/blog/posts/2025/04/sharepoint-integration.html"
+  },
+  "keywords": "ISO 27001, SharePoint integration, document management, compliance automation, policy management, Microsoft 365 integration"
+}
+</script>

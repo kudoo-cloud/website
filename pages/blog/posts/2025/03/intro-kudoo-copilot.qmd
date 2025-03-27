@@ -4,7 +4,7 @@ description: "Discover how Kudoo Copilot's AI-powered ISO 27001 guidance can hel
 author: "Kudoo Team"
 date: "2025-03-27"
 categories: [ISO 27001, Compliance, AI, Information Security]
-image: "images/kudoo-copilot-featured.jpg"
+image: "assets/images/kudoo-copilot-featured.jpg"
 alt: "Kudoo Copilot AI assistant interface showing a conversation about ISO 27001 compliance"
 toc: true
 toc-depth: 3
@@ -28,7 +28,7 @@ Watch our quick demo to see how Kudoo Copilot instantly answers important ISO 27
 ```{=html}
 <div class="video-demo-container my-5">
   <div class="responsive-video">
-    <video controls width="100%" poster="images/kudoo-copilot-thumbnail.jpg">
+    <video controls width="100%" poster="assets/images/kudoo-copilot-thumbnail.jpg">
       <source src="../../../../../assets/videos/kudoo-copilot-demo.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -259,7 +259,7 @@ Experience the benefits of AI-powered compliance guidance with Kudoo Copilot. [T
   "@type": "Article",
   "headline": "Introducing Kudoo Copilot: Your AI Assistant for ISO 27001 Compliance",
   "description": "Discover how Kudoo Copilot's AI-powered ISO 27001 guidance can help your organization achieve compliance with instant access to policy templates and security best practices.",
-  "image": "https://kudoo.io/images/kudoo-copilot-featured.jpg",
+  "image": "https://kudoo.io/assets/images/kudoo-copilot-featured.jpg",
   "datePublished": "2025-03-27",
   "dateModified": "2025-03-27",
   "author": {
