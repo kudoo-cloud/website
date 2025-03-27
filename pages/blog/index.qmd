@@ -47,7 +47,7 @@ This article explores:
 :::
 
 ::: {.col-md-4}
-![Aboriginal Health Data Security](images/aboriginal-health-data-security.jpg){.img-fluid .rounded .shadow}
+![Aboriginal Health Data Security](../../assets/images/blog/posts/2025/03/aboriginal-health-date-security.jpeg){.img-fluid .rounded .shadow}
 :::
 :::
 
@@ -70,7 +70,7 @@ This article covers:
 :::
 
 ::: {.col-md-4}
-![ISO 27001 Standard](images/iso-27001-featured.jpg){.img-fluid .rounded .shadow}
+![ISO 27001 Standard](../../../../../assets/images/blog/posts/2025/03/iso-27001-australian-compliance.jpeg){.img-fluid .rounded .shadow}
 :::
 :::
 
